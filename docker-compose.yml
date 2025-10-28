@@ -1,0 +1,51 @@
+services:
+  backend:
+    build: .
+    container_name: reactorx-backend
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://reactorx-db:5432/clean_reactorx_db
+      SPRING_DATASOURCE_USERNAME: fresh_user
+      SPRING_DATASOURCE_PASSWORD: FreshPass123
+
+
+      # Updated 512-bit Base64 key
+      JWT_SECRET: zL9zqFDpPHyqC-9_r8ZyxsrKkXiPYb6HvYz-IBBf2TrbXnFwJwf0pn_YbKmKxZQDxY5-h3JpL8X8QBh1q-8-Rg==
+
+      # === ADDED RAZORPAY TEST KEYS ===
+      RAZORPAY_KEY_ID: rzp_test_1DP5mmOlF5G5ag
+      RAZORPAY_KEY_SECRET: Binore@123
+      # ================================
+
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - reactorx-network
+
+  db:
+    image: postgres:15
+    container_name: reactorx-db
+    environment:
+      POSTGRES_DB: clean_reactorx_db
+      POSTGRES_USER: fresh_user
+      POSTGRES_PASSWORD: FreshPass123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - reactorx-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fresh_user -d clean_reactorx_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  reactorx-network:
+    driver: bridge
+
+volumes:
+  postgres_data:

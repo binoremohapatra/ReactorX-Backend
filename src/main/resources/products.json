@@ -1,0 +1,2159 @@
+[
+  {
+    "id": 3,
+    "name": "Razer Barracuda X Chroma",
+    "price": "4,999",
+    "mrp": "10,000",
+    "discountPercentage": 50,
+    "rating": 4.66,
+    "reviewCount": 36,
+    "info": "RAZER™ TRIFORCE 40 MM DRIVERS ,DETACHABLE RAZER™ HYPERCLEAR CARDIOID MIC,70-HOUR BATTERY LIFE Multi-Day Use",
+    "category": "audio",
+    "soldCount": "5K+",
+    "statusTags": [" 40 MM DRIVERS", "HYPERCLEAR CARDIOID MIC", "70-HOUR BATTERY LIFE"],
+    "media": [
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/0e77a90f295ae21e709247f8e3b4e76c/barracuda-x-chroma-hero---kv.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/X_2XIlGdMIgYBOIDJyPFDKbgzV4=/1199x799/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh39%2Fhde%2F9833326018590%2F241024-barracuda-x-chroma-white-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/E3BdZakYA34F8FF9b0VUDohXW8E=/1199x799/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fha3%2Fhde%2F9833326051358%2F241024-barracuda-x-chroma-white-1500x1000-5.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/eO0tg9VoR-LCiAeJYQ632av9UVs=/1199x799/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhfa%2Fhde%2F9833326084126%2F241024-barracuda-x-chroma-white-1500x1000-1.jpg" }
+    ],
+    "featureIconGrid": [
+      { "name": "Dual Connectivity", "icon": "DualConnectivityIcon" },
+      { "name": "Do Not Disturb Mode", "icon": "DoNotDisturbIcon" },
+      { "name": "Razer™ HyperClear Cardioid Mic", "icon": "MicIcon" },
+      { "name": "4000mAh Battery", "icon": "BatteryIcon" },
+      { "name": "Software Support", "icon": "SoftwareIcon" },
+      { "name": "Wireless, Bluetooth 5.3 & 2.4GHz", "icon": "ConnectivityIcon" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/0e77a90f295ae21e709247f8e3b4e76c/barracuda-x-chroma-chroma.mp4"
+    },
+    "featureStats": [
+      { "label": "Battery", "value": "70", "unit": "hours" },
+      { "label": "Weight", "value": "285", "unit": "g" },
+      { "label": "Drivers", "value": "40", "unit": "mm" }
+    ],
+    "featureSections": [
+      { "title": "HYBRID AUDIO FREEDOM.ILLUMINATED.", "description": "Whether you’re at home or on the go, experience true audio versatility and flair anywhere with the Razer Barracuda X Chroma. Featuring Razer SmartSwitch Dual Wireless, toggle between gaming and mobile use instantly with a lightweight wireless RGB gaming headset that offers the best of both worlds.", "image": "https://assets3.razerzone.com/xXtKZ0gdDs61s5PMi3xWDzJi8TA=/1199x799/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhee%2Fh85%2F9833325559838%2F241024-barracuda-x-chroma-white-1500x1000-6.jpg" },
+      { "title": "PERSONALIZE CHROMA EFFECTS", "description": "Via Razer Audio App & Razer Synapse", "image": "https://assets2.razerzone.com/images/pnx.assets/ae42778441d2049b042071ea4207fa59/razer-barracuda-x-chroma-chroma-effect-desktop-v3.webp" },
+      { "title": "RAZER™ SMARTSWITCH DUAL WIRELESS", "description": "Capable of connecting to a 2.4GHz and Bluetooth device at once, SmartSwitch enables seamless shifting between both for unrivalled convenience., Quick-Toggle Between Razer™ HyperSpeed & Bluetooth.", "video": "https://assets2.razerzone.com/images/pnx.assets/0e77a90f295ae21e709247f8e3b4e76c/barracuda-x-chroma-switch.mp4" },
+      { "title": "6-ZONE EARCUP LIGHTING", "description": "Enjoy new, stunning RGB lighting effects on a wireless gaming headset featuring 6-zone earcup lighting. With access to 16.8 million colors and a suite of lighting effects, apply your preferred settings and watch it work seamlessly with over 300 games and 500 devices across more than 50 partners.", "video": "https://assets2.razerzone.com/images/pnx.assets/0e77a90f295ae21e709247f8e3b4e76c/barracuda-x-chroma-chroma.mp4" }
+    ],
+    "specsV2": {
+      "Audio": [
+        { "key": "Driver Size", "value": "Razer™ TriForce 40 mm Drivers" },
+        { "key": "Technology", "value": "Dual Chamber" },
+        { "key": "Surround Sound", "value": "7.1 Virtual" }
+      ],
+      "Microphone": [
+        { "key": "Type", "value": "Upgraded Detachable Razer™ HyperClear Cardioid Mic" },
+        { "key": "Feature", "value": "Noise Cancelling" }
+      ],
+      "Build & Connectivity": [
+        { "key": "Frame", "value": "Lightweight Aluminum" },
+        { "key": "Connection", "value": "Wireless: Razer™ HyperSpeed Wireless Technology (2.4 GHz) + Bluetooth 5.3" },
+        { "key": "Compatibility", "value": "PC, Console, Mobile" }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Razer Basilisk V3 Pro 35K",
+    "price": "4,399",
+    "mrp": "12,999",
+    "discountPercentage": 66,
+    "rating": 4.27,
+    "reviewCount": 55,
+    "info": "Set your immersion to maximum with the Razer Basilisk V3 Pro 35K—a wireless ergonomic RGB gaming mouse that’s more advanced and customizable than ever. Featuring our most precise sensor and scroll wheel with deeper configuration options, playing your way just took on a whole new meaning.",
+    "category": "mouse",
+    "soldCount": "2K+",
+    "statusTags": ["Wireless", "55g Ultra-Light", "Pixart 3395", "4000Hz Polling"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/e_Wgt84QExereiAe4BgOEYV8IVs=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh8b%2Fhf1%2F9821719822366%2F241001-basilisk-v3-pro-35k-1500x1000-1.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/81c565a35558e954bdcf76a4276875cb/razer-basilisk-v3-pro-razer-hyperscroll-tilt-wheel.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/QVQVdgOY1H57jIq5IabOP6QQ6zU=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhdd%2Fhf0%2F9821719887902%2F241001-basilisk-v3-pro-35k-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/9SinWQjZhR4rgAyARdDfDKCsPZg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhc1%2Fhe1%2F9822093901854%2F241001-basilisk-v3-pro-35k-3-1500x1000-4.jpg" }
+    ],
+    "featureBannerText": [
+      { "label": "70", "highlight": "Max Acceleration" },
+      { "label": "750", "highlight": "Max Speed (IPS)" },
+      { "label": "99.8%", "highlight": "Resolution Accuracy" }
+    ],
+    "featureStats": [
+      { "label": "INDIVIDUALLY PROGRAMMABLE LEDS", "value": "12", "unit": "" },
+      { "label": "Max DPI", "value": "35,000", "unit": "" },
+      { "label": "Battery Life ", "value": " 210", "unit": "hours" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/81c565a35558e954bdcf76a4276875cb/razer-basilisk-v3-pro-razer-hyperscroll-tilt-wheel.mp4"
+    },
+    "featureSections": [
+      { "title": "TACTILE CYCLING MODE", "description": "For high-precision and distinct notched scrolling ideal for cycling through weapons or skills.", "video": "https://assets2.razerzone.com/pages/basilisk-v3-4D578898E8144Le8da21dde32b7a9f5f/tactile.mp4" },
+      { "title": "VIRTUAL ACCELERATION", "description": "By turning on this Razer Synapse 4 feature, you’ll be able to increase the mouse’s scroll speed the faster you scroll, allowing you to navigate through lengthy documents and articles at an even quicker rate.", "video": "https://assets2.razerzone.com/pages/basilisk-v3-4D578898E8144Le8da21dde32b7a9f5f/virtual-acceleration.mp4" },
+      { "title": "FREE-SPIN SCROLLING MODE", "description": "For smooth, high-speed scrolling perfect for covering content quickly or emulating repeated game commands.", "video": "https://assets2.razerzone.com/pages/basilisk-v3-4D578898E8144Le8da21dde32b7a9f5f/free-spin.mp4" },
+      { "title": "SMART-REEL MODE", "description": "Enable Smart-Reel mode to auto-switch from tactile to free-spin scrolling based on your scroll speed.", "video": "https://assets2.razerzone.com/pages/basilisk-v3-4D578898E8144Le8da21dde32b7a9f5f/smart-reel.mp4" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/6dfd03c6c941bcc496c55715a2602b79/razer-basilisk-v3-pro-35k-video-chrome-phantomwhite.mp4",
+      "title": "12-ZONE CHROMA LIGHTING WITH FULL UNDERGLOW",
+      "subtitle": "Customize each zone from over 16.8 million colors and countless lighting effects, and experience greater immersion as they react dynamically with hundreds of Chroma-integrated games."
+    },
+    "specsV2": {
+      "General": [{ "key": "Weight", "value": "50g" }, { "key": "Dimensions", "value": "121x59x37 mm" }],
+      "Sensor": [{ "key": "Model", "value": "Focus Pro 35K Optical Sensor Gen-2" }, { "key": "DPI", "value": "35000" }, { "key": "Polling Rate", "value": "10000 Hz" }],
+      "Connectivity": [{ "key": "Modes", "value": "2.4GHz, Bluetooth 5.3, Wireless" }],
+      "Battery": [{ "key": "Life", "value": "230+ hours" }, { "key": "Capacity", "value": "1000mAh" }]
+    }
+  },
+  {
+    "id": 106,
+    "name": "Razer DeathAdder V4 Pro",
+    "price": "5,999",
+    "mrp": "7,500",
+    "discountPercentage": 20,
+    "rating": 4.6,
+    "reviewCount": 3200,
+    "info": "Wired esports mouse (63g) featuring the Razer Focus Pro 30K Optical Sensor and a refined ergonomic shape for high-performance grip.",
+    "category": "mouse",
+    "soldCount": "50K+",
+    "statusTags": ["Wired", "Ergonomic", "30K DPI", "Esports"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/eWhWxKH71rCPE6HjU293nS7RNcA=/767x511/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh97%2Fh3a%2F9926513164318%2F250710-deathadder-v4-pro-black-1500x1000-6.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/ef336aea107a556c3cd293807ff57338/razer-deathadder-v4-pro-kv-768x500.mp4" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard8.png?v=1759904766&width=1000" },
+      { "type": "image", "src": "https://assets3.razerzone.com/EKq9d_3S6am-xOaOXHAOAUtphaI=/767x511/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhc1%2Fh89%2F9926512902174%2F250710-deathadder-v4-pro-black-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/SXbGqWA-SJYXVHDIDlRPkKXdXiI=/767x511/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh29%2Fh8d%2F9926512803870%2F250710-deathadder-v4-pro-black-1500x1000-4.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/ef336aea107a556c3cd293807ff57338/razer-deathadder-v4-pro-kv-768x500.mp4"
+    },
+    "featureStats": [
+      { "label": "Weight", "value": "63", "unit": "g" },
+      { "label": "Connection", "value": "Wired", "unit": "" },
+      { "label": "Max DPI", "value": "30000", "unit": "" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/6b27da45a9909af56b422e66772047aa/razer-deathadder-v4-pro-hyperspeed-wireless-gen-2-mobile.webp",
+      "title": "RAZER HYPERSPEED WIRELESS GEN-2 Industry-leading Speed and Reliability.",
+      "subtitle": "Feel the difference with an ultra-stable wireless system that’s over 63% more efficient*, and capable of true 8000 Hz polling rate with 37% lower latency than previous gen."
+    },
+    "featureSections": [
+      { "title": "56 G* ULTRA-LIGHTWEIGHT DESIGN", "description": "e-engineered with weight optimizations and a smooth-touch finish, our latest DeathAdder gaming mouse is now more than 10% lighter than its predecessor.", "video": "https://assets2.razerzone.com/images/pnx.assets/0b6aa489cca90eb6a4174f16cc36557c/razer-deathadder-v4-pro-lightweight-1920x700.mp4" },
+      { "title": "THE BIGGEST TECH LEAP IN A DECADE.", "description": "Powered by a new generation of technologies, the DeathAdder V4 Pro represents the culmination of over two decades of engineering excellence—a bold leap that once again sets a new benchmark for what a gaming mouse can and should be.", "image": "https://assets2.razerzone.com/images/pnx.assets/a1ed056e4f2211aa3c2802ef8d393207/razer-deathadder-v4-pro-biggest-tech-leap-mobile-v2.webp" },
+      { "title": "MADE WITH AND TRUSTED BY PROS", "description": "Retaining an award-winning ergonomic shape loved by pros and fans alike, the mouse internals have been overhauled for greater structural integrity through sustainable materials.", "video": "https://assets2.razerzone.com/images/pnx.assets/808bdcd85999e0bc68fb61ffc28036f9/razer-deathadder-v4-pro-ergonomics-1920x700.mp4" },
+      { "title": "HEMISPHERICAL DONGLE REDESIGN Greater Connectivity and Stability.", "description": "Designed to complement our fastest wireless technology, the larger dongle houses a longer antenna for greater signal strength, while a weighted base keeps it anchored to your desk. Check the status of your mouse at a glance with a set of convenient LED indicators.", "image": "https://assets2.razerzone.com/images/pnx.assets/6b27da45a9909af56b422e66772047aa/razer-deathadder-v4-pro-hyperspeed-wireless-gen-2-mobile.webp" }
+    ],
+    "galleryBanners": [
+      { "title": "RAZER™ OPTICAL SCROLL WHEEL", "subtitle": "3.3x More Reliable Than Mechanical Designs.", "image": "https://assets2.razerzone.com/images/pnx.assets/bcfdbd08ad5caf78e83964d530ed1d56/razer-deathadder-v4-pro-optical-scroll-wheel.webp" },
+      { "title": "RAZER™ FOCUS PRO 45K OPTICAL SENSOR GEN-2", "subtitle": "Aim true with an improved sensor with up to 45K DPI, 900 IPS, and 85 G. Supported by deep sensor customization options, enjoy flawless tracking on a variety of surfaces with 99.8% resolution accuracy.", "image": "https://assets2.razerzone.com/images/pnx.assets/bcfdbd08ad5caf78e83964d530ed1d56/razer-deathadder-v4-pro-focus-pro-sensor.webp" },
+      { "title": "RAZER™ OPTICAL MOUSE SWITCHES GEN-4", "subtitle": "Top-Tier Durability, Tactility, and Speed.", "image": "https://assets2.razerzone.com/images/pnx.assets/bcfdbd08ad5caf78e83964d530ed1d56/razer-deathadder-v4-pro-optical-mouse-switch.webp" }
+    ],
+    "specsV2": {
+      "Sensor": [
+        { "key": "Model", "value": "Focus Pro 30K Optical" },
+        { "key": "DPI", "value": "30000" },
+        { "key": "Polling Rate", "value": "8000 Hz" }
+      ],
+      "Design": [
+        { "key": "Weight", "value": "63g" },
+        { "key": "Connectivity", "value": "Wired Speedflex Cable" }
+      ],
+      "Connectivity": [
+        { "key": "Modes", "value": "2.4GHz, Bluetooth 5.3, Wireless" }
+      ],
+      "Battery": [{ "key": "Life", "value": "150+ hours" }, { "key": "Capacity", "value": "1000mAh" }]
+    }
+  },
+  {
+    "id": 108,
+    "name": "Razer Cobra Pro",
+    "price": "11,299",
+    "mrp": "13,999",
+    "discountPercentage": 19,
+    "rating": 4.4,
+    "reviewCount": 550,
+    "info": "Symmetrical, lightweight wireless mouse (77g) with 10 customizable controls, Focus Pro 30K Optical Sensor, and Razer Chroma RGB lighting.",
+    "category": "mouse",
+    "soldCount": "3K+",
+    "statusTags": ["Symmetrical", "Wireless", "10 Controls", "Chroma RGB"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/c_jTmqqqidNkxZLvSQ4RVNf0YV0=/767x511/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhd2%2Fh36%2F9592669503518%2F230629-cobra-pro-1500x1000-1.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/4448aaa7896a8672824e07077b56e779/cobra-pro-10-controls.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/hWI_8_3FL9B_FMFuaVx2W4zC7W8=/767x511/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh23%2Fh36%2F9592669569054%2F230629-cobra-pro-1500x1000-2.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/fPbYCkY-Et8c6CLoAJPfQ3j5pGg=/767x511/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh7b%2Fh36%2F9592669536286%2F230629-cobra-pro-1500x1000-6.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/CtapKePuxZ-21XqD_t0mT2Dn55Q=/767x511/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh79%2Fh39%2F9592669470750%2F230629-cobra-pro-1500x1000-5.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/0d36a3461f431cb0618069ee9b6b0d7b/cobra-pro-start-up-animation.mp4"
+    },
+    "featureIconGrid": [
+      { "name": "10 Customizable Controls", "icon": "ButtonsIcon" },
+      { "name": "Chroma RGB Underglow", "icon": "RGBIcon" },
+      { "name": "HyperSpeed Wireless", "icon": "ConnectivityIcon" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/d064bd27f5e021ca7b935436edf87135/razer-cobra-pro-available-in-mobile-v2.webp",
+      "title": "RAZER HYPERSPEED WIRELESS GEN-2 Industry-leading Speed and Reliability.",
+      "subtitle": "Feel the difference with an ultra-stable wireless system that’s over 63% more efficient*, and capable of true 8000 Hz polling rate with 37% lower latency than previous gen."
+    },
+    "featureSections": [
+      { "title": "PERFECTED FOR PLAY", "description": "Cut the competition down to size and dazzle them all with the Razer Cobra Pro—a wireless gaming mouse powered by Razer Chroma RGB. Featuring Razer HyperSpeed Wireless and 11 individually programmable lighting zones, color your play with an illuminating level of freedom and immersion.", "image": "https://assets2.razerzone.com/images/pnx.assets/608eb80ec16513e41c1a62caf1fb9b55/razer-cobra-pro-hero.webp" },
+      { "title": "10 Customizable Controls For Advanced Macros Across 5 Onboard Profiles", "description": "From essential commands to complex macros, enjoy a greater degree of control at your fingertips and be ready to game anywhere with 5 onboard memory profiles.", "video": "https://assets2.razerzone.com/images/pnx.assets/4448aaa7896a8672824e07077b56e779/cobra-pro-10-controls.mp4" },
+      { "title": "11-Zone Chroma Lighting with Full Underglow", "description": "Whether it’s enhancing your immersion through Chroma-integrated games, or designing your dream gaming room setup, we offer a level of RGB lighting customization that can’t be found anywhere else.", "video": "https://assets2.razerzone.com/images/pnx.assets/a9157cd2b53d94ab97ba7a48bd8a6c2f/razer-cobra-pro-chroma-lighting.mp4" },
+      { "title": "Compact Form Factor & Feature Packed For Easy Handling Across Multiple Grip Styles", "description": "Weighing just 77 g, the Razer Cobra Pro’s small, lightweight design feels great to hold and ensures a seamlessly immersive gaming experience for claw, palm, and fingertip grip styles.", "video": "https://assets2.razerzone.com/images/pnx.assets/0d36a3461f431cb0618069ee9b6b0d7b/cobra-pro-start-up-animation.mp4" }
+    ],
+    "galleryBanners": [
+      { "title": "RAZER HYPERFLUX V2 WIRELESS CHARGING SYSTEM", "subtitle": "Includes charging mouse mat with dedicated puck", "image": "https://assets2.razerzone.com/images/pnx.assets/8e02a577c6664956c12d3b59312d0d02/razer-cobra-pro-hyperflux-v2-wireless-charging-system.webp" },
+      { "title": "RAZER MOUSE DOCK PRO", "subtitle": "Includes Razer Wireless Charging Puck", "image": "https://assets2.razerzone.com/images/pnx.assets/3cddfb90c935089f526bb22f2d1d5760/nextgen-wireless-charging-mouse-dock-pro.webp" },
+      { "title": "RAZER WIRELESS CHARGING PUCK", "subtitle": "Wireless charging compatible with Razer wireless chargers and select inductive chargers", "image": "https://assets2.razerzone.com/images/pnx.assets/8e02a577c6664956c12d3b59312d0d02/razer-cobra-pro-wireless-charging-puck.webp" }
+    ],
+    "specsV2": {
+      "Sensor": [{ "key": "Model", "value": "Focus Pro 30K Optical" }],
+      "Design": [
+        { "key": "Weight", "value": "77g" },
+        { "key": "Form Factor", "value": "Symmetrical Right-handed" }
+      ],
+      "Features": [{ "key": "Controls", "value": "10 Programmable" }]
+    }
+  },
+  {
+    "id": 502,
+    "name": "Razer Kitsune",
+    "price": "24,999",
+    "mrp": "29,999",
+    "discountPercentage": 17,
+    "rating": 4.9,
+    "reviewCount": 110,
+    "info": "All-button optical arcade controller for PS5 and PC. Features ultra-responsive Razer Low-Profile Optical Switches and a slim, portable design.",
+    "category": "controller",
+    "soldCount": "1K+",
+    "statusTags": ["Arcade Controller", "Low-Profile Optical", "PS5/PC", "Chroma RGB"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/phQOehrLBqW07mFevEj18-iv6cc=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe8%2Fh18%2F9629816651806%2Fkitsune-1500x1000-1.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/f7b672693e925bd4550d2e5359f52b9e/superlessbeautyshot3.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/Nbkhn0zJfh3kyTNhxLpneeNX2Ts=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhc1%2Fh11%2F9629816422430%2Fkitsune-1500x1000-2.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/JsHmzdV8jUXH5k_FFUPMJ20wLuo=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh19%2Fh12%2F9629816455198%2Fkitsune-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/mMyHEtTfOih1Etg9zmGAQ3TffWU=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh6f%2Fh12%2F9629816487966%2Fkitsune-1500x1000-5.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/f7b672693e925bd4550d2e5359f52b9e/superlessbeautyshot3.mp4"
+    },
+    "featureStats": [
+      { "label": "Switches", "value": "Optical", "unit": "" },
+      { "label": "Layout", "value": "All-Button", "unit": "" },
+      { "label": "Weight", "value": "800", "unit": "g" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/f7b672693e925bd4550d2e5359f52b9e/superlessbeautyshot3.mp4",
+      "title": "RAZER KITSUNE OPTICAL + PRECISION! THE ULTRA COMBO!",
+      "subtitle": "Embrace a new fighting game meta with the Razer Kitsune—an all-button optical arcade controller that surpasses traditional fight sticks. With a precise quad movement button layout and lightning-fast optical switches, eliminate input errors from your game with the perfect competitive fighting companion for PS5™ and PC."
+    },
+    "featureSections": [
+      { "title": "PRECISE QUAD MOVEMENT BUTTON LAYOUT", "description": "By replacing a joystick with 4 movement buttons, enjoy clean, crisp play without the input errors of typical fight sticks—from instantly buffering a charge to flawlessly performing complex motions.", "video": "https://assets2.razerzone.com/images/pnx.assets/5b8e6e3662cb6749a11b85122bff5c1d/superlessquatmovement.mp4" },
+      { "title": "SLIM, PORTABLE FORM FACTOR", "description": "The Razer Kitsune’s leverless design can be easily stored in your backpack, while its detachable USB Type C cable removes the need for constant coiling or uncoiling when packing or setting up.", "video": "https://assets2.razerzone.com/images/pnx.assets/eeaea45a0830558c6f693d736caea029/kitsunebag.mp4" },
+      { "title": " TOURNAMENT LOCK SWITCH", "description": "a lock switch that disables non-essential buttons,", "video": "https://assets2.razerzone.com/images/pnx.assets/a35a9163ec0fdfb2ac75861119620607/superlesslock1.mp4" },
+      { "title": " CABLE SECURITY CLASP", "description": "With a built-in lock to fasten the cable secure your win in the heat of competition by eliminating accidental inputs and disconnections.", "video": "https://assets2.razerzone.com/images/pnx.assets/a35a9163ec0fdfb2ac75861119620607/superlesslock2.mp4" },
+      { "title": "REMOVABLE ALUMINIUM TOP PLATE Fit Your Style", "description": "From stunning Razer Customs vinyl wraps to creating your own via our downloadable template, simply unscrew the top plate and apply your desired design.", "video": "https://assets2.razerzone.com/images/pnx.assets/079ca55ecc9282403c9ed06221f062eb/superlessslimportable.mp4" }
+    ],
+    "galleryBanners": [
+      { "title": "POWERED BY RAZER CHROMA™ RGB", "subtitle": "Includes charging mouse mat with dedicated puck", "image": "https://assets2.razerzone.com/images/pnx.assets/34f38c1aec0f19f53738e7153bcf26ce/razer-kitsune-chroma-mobile.webp" },
+      { "title": "ALSO AVAILABLE ON RAZER CUSTOMS", "subtitle": "Street Fighter 6 Custom Mice > Street Fighter 6 Custom Mouse Mats >", "image": "https://assets2.razerzone.com/images/pnx.assets/a5ea3e6a993bc8a82b0fa90fd3697702/razer-customs-mobile.jpg" }
+    ],
+    "specsV2": {
+      "Core": [
+        { "key": "Type", "value": "Leverless Arcade" },
+        { "key": "Switches", "value": "Low-Profile Optical" }
+      ],
+      "Connectivity": [{ "key": "Modes", "value": "Wired (USB-C)" }, { "key": "Compatibility", "value": "PS5, PC" }]
+    }
+  },
+  {
+    "id": 503,
+    "name": "Razer Kishi V3 Pro XL",
+    "price": "12,999",
+    "mrp": "15,999",
+    "discountPercentage": 19,
+    "rating": 4.6,
+    "reviewCount": 320,
+    "info": "Full-sized mobile gaming controller with Sensa HD Haptics, TMR Thumbsticks, and full-sized ergonomics for Android, iPhone 15/16, and iPad mini.",
+    "category": "controller",
+    "soldCount": "5K+",
+    "statusTags": ["Mobile/Tablet", "HD Haptics", "Wired (USB-C)", "Full-Size Ergonomics"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/58FeODi6gFWP1fZYZG6Y2iz66k0=/300x300/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh13%2Fh44%2F9918940250142%2Fkishi-v3-pro-xl-500x500.png" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/f8e0757c8804a818bdac9a8483a296e8/kishi_v3_proxl_web_kv_1920x700.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/1zJHb8piAVY5rvk7q0gAsnagYDE=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh4b%2Fhd0%2F9918939332638%2F250612-kishi-v3-pro-xl-1500x1000-2.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/YlhbdT_WehyS6DgM4BOb4i3upc0=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh5b%2Fhd3%2F9918939267102%2F250612-kishi-v3-pro-xl-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/dih9CSOlCKk_mAtIEH4sDGaBYMQ=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh25%2Fhc6%2F9918939627550%2F250612-kishi-v3-pro-xl-1500x1000-6.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/f8e0757c8804a818bdac9a8483a296e8/kishi_v3_proxl_web_kv_1920x700.mp4"
+    },
+    "featureStats": [
+      { "label": "Haptics", "value": "Sensa HD", "unit": "" },
+      { "label": "Connection", "value": "USB-C", "unit": "" },
+      { "label": "Compatibility", "value": "Mobile/PC", "unit": "" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/815458871eceeddc858d95a579116570/kishi-v3-pro-xl-seamless-connectivity-mobile-768x500.webp",
+      "title": "RAZER KITSUNE OPTICAL + PRECISION! THE ULTRA COMBO!",
+      "subtitle": "Embrace a new fighting game meta with the Razer Kitsune—an all-button optical arcade controller that surpasses traditional fight sticks. With a precise quad movement button layout and lightning-fast optical switches, eliminate input errors from your game with the perfect competitive fighting companion for PS5™ and PC."
+    },
+    "featureSections": [
+      { "title": "FULL-SIZED CONTROLLER FORM FACTOR", "description": "Console performance meets mobile convenience. Play for extended periods in complete comfort and control with larger ergonomic handles that feel more natural to hold than standard mobile controllers.", "video": "https://assets2.razerzone.com/images/pnx.assets/b22012b259986e33c09840e4d3c442f6/kishi-usp1.mp4" },
+      { "title": "FITS IPADS & ANDROID TABLETS UP TO 13”", "description": "Experience larger than life mobile gaming. Get a viewing experience worthy of the best AAA games with an innovative telescopic bridge that fits iPads and Android tablets up to 13”.", "video": "https://assets2.razerzone.com/images/pnx.assets/a9f1ee5c9d81aa0ce2d04c8f36c6ce40/kishi-usp2.mp4" },
+      { "title": " FULL-SIZED TMR THUMBSTICKS WITH SWAPPABLE CAPS", "description": "Perfect your aim with high-precision, anti-drift thumbsticks that are superior to Hall Effect designs. Customize your mobile controller for more speed or precision with 2 swappable caps.", "image": "https://assets2.razerzone.com/images/pnx.assets/f3780cb14a9cb4699c5a54716faa2d66/kishi-v3-pro-xl-full-sized-thumbsticks-mobile-768x500.webp" },
+      { "title": " DUAL MOUSE CLICK BACK BUTTONS & CLAW GRIP BUMPERS", "description": "Enjoy the same ultra-responsive actuation found in our top gaming mice with 2 back buttons built into the controller’s ergonomic handles—topped with 2 claw grip bumpers for even more control.", "image": "https://assets2.razerzone.com/images/pnx.assets/d7b64fc09a2ecf6e8f6f5f865cd8a700/kishi-v3-pro-xl-dual-mouse-mobile-768x500.webp" },
+      { "title": "Discover Thousands of Games Across iOS and Android", "description": "Launch games, customize controls, record and share gameplay, and keep your game controller updated with a free* app that can be brought up at the touch of a dedicated button.", "video": "https://assets2.razerzone.com/images/pnx.assets/1de5ed14f6b928b37dccb7cc8c11a67d/kishi-v3-pro-xl-nexus-game-mobile-768x500.webp" }
+    ],
+    "galleryBanners": [
+      { "title": "SEAMLESS CONNECTIVITY AND CONVENIENCE", "subtitle": "Enjoy low-latency gaming and smooth audio with plug-and-play convenience. Power your device as you game with passthrough charging.", "image": "https://assets2.razerzone.com/images/pnx.assets/ef6856022dfcce4ae7e91cc8c3e436f6/kishi-v3-pro-xl-razer-sensa-hd-haptics-mobile-768x500.webp" },
+      { "title": "WIRED & REMOTE PLAY FOR PC", "subtitle": "Turn it into a haptic PC controller via a direct low-latency USB C connection (cable sold separately). Remote play your PC games from any launcher with Razer Nexus and enjoy AAA gaming anywhere.", "image": "https://assets2.razerzone.com/images/pnx.assets/a757d22bb11f77a9c57183313ead04a3/kishi-v3-pro-xl-wired-remote-mobile-768x500.webp" }
+    ],
+    "specsV2": {
+      "Core": [
+        { "key": "Haptics", "value": "Sensa HD Haptics" },
+        { "key": "Form Factor", "value": "Extendable Mobile Controller" }
+      ],
+      "Connectivity": [{ "key": "Modes", "value": "Wired (USB-C) for Low Latency" }, { "key": "Audio", "value": "3.5mm Passthrough Jack" }]
+    }
+  },
+  {
+    "id": 602,
+    "name": "Razer BlackWidow V4 Pro",
+    "price": "18,499",
+    "mrp": "36,299",
+    "discountPercentage": 49,
+    "rating": 4.7,
+    "reviewCount": 1400,
+    "info": "Full-size Mechanical keyboard with Command Dial, 8 dedicated macro keys, and immersive Chroma underglow. Up to 8000 Hz polling rate.",
+    "category": "keyboard",
+    "soldCount": "5K+",
+    "statusTags": ["Mechanical", "Command Dial", "Macros", "8000Hz Polling"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/95jqf71Z8CL3Ic9jUZU696uew8k=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh53%2Fh4e%2F9668729339934%2F230928-bw-v4-pro-1500x1000-1.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/9db3058a9498642c29c2e766a4c7b5d9/razer-blackwidow-v4-pro-immersive-underglow-video.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/vPa36OIJWlVZx7Hf2F3P4fKPTf0=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe9%2Fh4d%2F9668729372702%2F230928-bw-v4-pro-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/WgHim-i64hzA0jwL1VBJJ4U7aO8=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh80%2Fh4a%2F9668729471006%2F230928-bw-v4-pro-1500x1000-4.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/G6E2HqKCwvEfPacxe2QiakWdaQ4=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh42%2Fh4b%2F9668729405470%2F230928-bw-v4-pro-1500x1000-5.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/9db3058a9498642c29c2e766a4c7b5d9/razer-blackwidow-v4-pro-immersive-underglow-video.mp4"
+    },
+    "featureIconGrid": [
+      { "name": "Razer™ Command Dial", "icon": "VolumeKnobIcon" },
+      { "name": "Dedicated Macro Keys", "icon": "ButtonsIcon" },
+      { "name": "Chroma RGB Underglow", "icon": "RGBIcon" }
+    ],
+    "featureStats": [
+      { "label": "Polling Rate", "value": "8000", "unit": "Hz" },
+      { "label": "Macros", "value": "8", "unit": "Keys" },
+      { "label": "Keycaps", "value": "Doubleshot ABS", "unit": "" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/d493370b21999f3f6d72904ecff2b682/razer-blackwidow-v4-pro-wrist-rest-mobile-768x460.webp",
+      "title": "RAZER BLACKWIDOW V4 PRO!"
+    },
+    "featureSections": [
+      { "title": "RAZER™ COMMAND DIAL AND 8 DEDICATED MACRO KEYS", "description": "Assume greater control over your battlestation by assigning a custom function to the keyboard’s programmable dial. Game with greater command using a set of macro keys for essential keybinds.", "video": "https://assets2.razerzone.com/images/pnx.assets/1f06141441f47dfec242ad51ee46d9a6/razer-blackwidow-v4-pro-command-dial-video.mp4" },
+      { "title": "RAZER™ COMMAND DIAL”", "description": "Press the dial to toggle between each mode or hold SHIFT while pressing to return to the previous one. Easily identify which mode the dial is currently on with mode-specific backlight.”.", "video": "https://assets2.razerzone.com/images/pnx.assets/631071307a9c0782fe11ded4a57df69e/blackwidow-v4-pro-brightness_small.mp4" },
+      { "title": " RAZER™ MECHANICAL SWITCHES", "description": "Choose between three switches that offer their own distinct feel. Go for the Green Switch for clicky, tactile feedback, the Orange Switch for quiet, tactile keystrokes, or the Yellow Switch for smooth, silent actuation", "image": "https://assets2.razerzone.com/images/pnx.assets/9260c3bd711becc3e641d49c1251e494/razer-blackwidow-v4-pro-mechanical-switches_768x460.webp" },
+      { "title": " MAGNETIC PLUSH LEATHERETTE WRIST REST WITH UNDERGLOW", "description": "Designed to provide secure support for long hours of play, the soft, cushioned wrist rest also features Razer Chroma™ RGB—which perfectly lines up with the keyboard’s underglow.", "image": "https://assets2.razerzone.com/images/pnx.assets/d493370b21999f3f6d72904ecff2b682/razer-blackwidow-v4-pro-wrist-rest-mobile-768x460.webp" }
+    ],
+    "galleryBanners": [
+      { "title": "DOUBLESHOT ABS KEYCAPS", "subtitle": "Using a doubleshot molding process to ensure the labelling never wears off, the keycaps also have extra-thick walls which make them extremely tough to withstand intense gaming.", "image": "https://assets2.razerzone.com/images/pnx.assets/eed34831901629e9565d568649bb1921/razer-blackwidow-v4-pro-double-abs-keycap-768x460.webp" },
+      { "title": "MULTI-FUNCTION ROLLER AND 4 MEDIA KEYS", "subtitle": "Pause, play, skip and tweak everything from brightness to volume—the ultimate convenience as you enjoy your entertainment.", "image": "https://assets2.razerzone.com/images/pnx.assets/7c38aecd28ace33a82f4f17e0cef987e/razer-blackwidow-v4-pro-multi-function-roller-mobile-768x460.webp" }
+    ],
+    "specsV2": {
+      "Switches": [{ "key": "Type", "value": "Razer™ Mechanical Switches (Green/Yellow)" }],
+      "Connectivity": [{ "key": "Modes", "value": "Wired (Detachable USB-C)" }, { "key": "Passthrough", "value": "Yes" }],
+      "Design": [{ "key": "Dial", "value": "Razer™ Command Dial" }, { "key": "Size", "value": "Full Size" }]
+    }
+  },
+  {
+    "id": 603,
+    "name": "Razer BlackWidow V4 Pro 75%",
+    "price": "18,499",
+    "mrp": "36,299",
+    "discountPercentage": 49,
+    "rating": 4.7,
+    "reviewCount": 1400,
+    "info": "Full-size Mechanical keyboard with Command Dial, 8 dedicated macro keys, and immersive Chroma underglow. Up to 8000 Hz polling rate. ,75%",
+    "category": "keyboard",
+    "soldCount": "5K+",
+    "statusTags": ["Mechanical", "Command Dial", "Macros", "8000Hz Polling"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/Phi-ebFCOqT7oQSOjEgxxS6oayY=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fha6%2Fh59%2F9818561576990%2F240924-bw-v4-pro-75-black-1500x1000-1.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/4ce705d34e0d27542ded8824b412c307/razer-blackwidow-v4-pro-75-hero.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/Xc-9nJeiyGZQgzjKG-MCixr-2ic=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh3e%2Fh56%2F9818561675294%2F240924-bw-v4-pro-75-black-1500x1000-5.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/nl2ww2iIxF1FC_YdQeUYBkFWBZs=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh2d%2Fh53%2F9818561740830%2F240924-bw-v4-pro-75-black-1500x1000-6.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/H-WMwrFrnNbaagmrMbgc460W5bs=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh96%2Fh53%2F9818561708062%2F240924-bw-v4-pro-75-black-1500x1000-4.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/4ce705d34e0d27542ded8824b412c307/razer-blackwidow-v4-pro-75-hero.mp4"
+    },
+    "featureIconGrid": [
+      { "name": "Razer™ Command Dial", "icon": "VolumeKnobIcon" },
+      { "name": "Dedicated Macro Keys", "icon": "ButtonsIcon" },
+      { "name": "Chroma RGB Underglow", "icon": "RGBIcon" }
+    ],
+    "featureStats": [
+      { "label": "Polling Rate", "value": "8000", "unit": "Hz" },
+      { "label": "Macros", "value": "8", "unit": "Keys" },
+      { "label": "Keycaps", "value": "Doubleshot ABS", "unit": "" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets3.razerzone.com/8B56gcefj53F-AakF2sVQEeBBUA=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhff%2Fh56%2F9818561609758%2F240924-bw-v4-pro-75-black-1500x1000-3.jpg",
+      "title": "Razer BlackWidow V4 Pro 75%"
+    },
+    "featureSections": [
+      { "title": "TRUE 4K HZ WIRELESS & BLUETOOTH 5.1", "description": "Unlock a greater level of gaming response powered by Razer™ HyperSpeed and Razer™ HyperPolling technology. Gamers will be able to experience true 4000 Hz polling rate wirelessly on a gaming keyboard. Expand your control by connecting and toggling between 3 Bluetooth devices.", "video": "https://assets2.razerzone.com/images/pnx.assets/2c6fb50e24fc02e854310739a96dcde7/razer-blackwidow-v4-pro-75-4khz-hyperpolling.mp4" },
+      { "title": "HOT-SWAPPABLE DESIGN”", "description": "Compatible with 3 or 5-pin switches, the keyboard’s socketed PCB allows you to easily swap out its pre-loaded switches for custom ones to achieve your desired key feel.", "video": "https://assets2.razerzone.com/images/pnx.assets/1605528db1fd57ba2baef0eb5fe82ad6/razer-blackwidow-v4-pro-75-hot-swappable.mp4" },
+      { "title": "OLED DISPLAY WITH RAZER™ COMMAND DIAL", "description": "From checking your PC system metrics at a glance to customizing the display to show custom GIFs, expand your control with up to 100 customizable modes on the Razer Command Dial.", "video": "https://assets2.razerzone.com/images/pnx.assets/0ee5ef90dd6be17c8eb07991f93eb940/razer-blackwidow-v4-pro-75-oled-display.mp4" },
+      { "title": " RAZER COMMAND DIAL MODES", "description": "Designed to provide secure support for long hours of play, the soft, cushioned wrist rest also features Razer Chroma™ RGB—which perfectly lines up with the keyboard’s underglow.", "video": "https://assets2.razerzone.com/pages/blackwidow-v4-pro-75/animation-1-com.mp4" }
+    ],
+    "galleryBanners": [
+      { "title": "OPTIMIZED TYPING EXPERIENCE", "subtitle": "Enthusiast-Grade Typing Acoustics", "image": "https://assets2.razerzone.com/pages/blackwidow-v4-pro-75/keyboard-layers/layer3.jpg" },
+      { "title": "Gasket-mounted White FR4 Plate", "subtitle": "FR4 consists of woven fiberglass for a balance of rigidity and flexibility. Its white color was specifically chosen to further improve RGB illumination.", "image": "https://assets2.razerzone.com/pages/blackwidow-v4-pro-75/keyboard-layers/layer4.jpg" },
+      { "title": "Plate Foam", "subtitle": "The addition of foam between the plate and PCB helps remove unwanted resonance, achieving a cleaner sound profile.", "image": "https://assets2.razerzone.com/pages/blackwidow-v4-pro-75/keyboard-layers/layer5.jpg" },
+      { "title": "Tape-enhanced PCB with Hot-swap Sockets", "subtitle": "A fire-retardant tape helps absorb higher frequencies while boosting mid and low frequencies for a fuller, richer sound profile.", "image": "https://assets2.razerzone.com/pages/blackwidow-v4-pro-75/keyboard-layers/layer6-u.jpg" },
+      { "title": "UP TO 2100 HOURS OF BATTERY LIFE With Power Saving Mode", "subtitle": "Eliminate keyboard downtime with a power-efficient design that truly goes the distance. Max out your gaming sessions by toggling Power Saving Mode (Fn + Esc), or enjoy wired use while charging with an included Type C cable.", "image": "https://assets2.razerzone.com/images/pnx.assets/a9c99838e1c4969dfcc3593112ebc4bc/batterylife-mobile.webp" }
+    ],
+    "specsV2": {
+      "Switches": [{ "key": "Type", "value": "Razer™ Mechanical Switches (Green/Yellow)" }],
+      "Connectivity": [{ "key": "Modes", "value": "Wired (Detachable USB-C)" }, { "key": "Passthrough", "value": "Yes" }],
+      "Design": [{ "key": "Dial", "value": "Razer™ Command Dial" }, { "key": "Size", "value": "Full Size" }]
+    }
+  },
+  {
+    "id": 701,
+    "name": "Razer BlackShark V3 Pro",
+    "price": "19,399",
+    "mrp": "29,999",
+    "discountPercentage": 35,
+    "rating": 4.8,
+    "reviewCount": 1800,
+    "info": "Wireless Esports headset with Hybrid ANC, Razer TriForce Titanium 50mm Drivers, HyperClear Mic, and HyperSpeed Wireless/Bluetooth connectivity.",
+    "category": "audio",
+    "soldCount": "10K+",
+    "statusTags": ["Esports", "Hybrid ANC", "50mm Titanium Drivers", "HyperSpeed Wireless"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/5peFUeVg1MBX0XPOYsVt_2LSd0w=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhe3%2Fh5f%2F9939308380190%2Fbs-v3-pro-black-1500x1000-6.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/2b2992cb1df4542d05811355b291e4f2/razer-blackshark-v3-pro-kv-768x500.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/4UcuARbBWfUSktx8_OKbAQKmEg0=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh0c%2Fh64%2F9939308216350%2Fbs-v3-pro-black-1500x1000-2.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/mH11iEq5ZNo1_uzOEA8bOMNr_GQ=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh0a%2Fh67%2F9939308150814%2Fbs-v3-pro-black-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/H9GUDKI4hZI1w_-qvkuSoGsrX_Y=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh72%2Fh6a%2F9939308052510%2Fbs-v3-pro-black-1500x1000-4.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/2b2992cb1df4542d05811355b291e4f2/razer-blackshark-v3-pro-kv-768x500.mp4"
+    },
+    "featureStats": [
+      { "label": "Drivers", "value": "50", "unit": "mm" },
+      { "label": "Connectivity", "value": "Wireless + BT + 3.5mm", "unit": "" },
+      { "label": "Battery", "value": "44", "unit": "hrs" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/b6a0716cc10dbab05efc833feee6ec75/razer-blackshark-v3-pro-feature-3.webp",
+      "title": "RAZER BLACKSHARK V3 PRO"
+    },
+    "featureSections": [
+      { "title": "RAZER™ HYPERSPEED WIRELESS GEN-2", "description": "Outpace all competition with the fastest wireless technology optimized for ultra-low latency as low as 10 ms, delivering near-instantaneous audio. Perfect for clutch plays and split-second decisions.", "video": "https://assets2.razerzone.com/images/pnx.assets/5708429f6ebb20c00537eca660e74d85/razer-blackshark-v3-pro-hyperspeed-1920x700.mp4" },
+      { "title": "DETACHABLE RAZER™ HYPERCLEAR FULL BAND 12 MM MIC”", "description": "Armed with a large 12 mm capsule, this next-gen full band mic captures every detail of your shotcalls clearly and effectively suppresses background noise with a unidirectional pick-up pattern.", "video": "https://assets2.razerzone.com/images/pnx.assets/d8a20c845aaab4bf3c988ed485134ac2/razer-blackshark-v3-pro-hyperclear-mic-1920x700.mp4" },
+      { "title": "HYBRID ACTIVE NOISE CANCELLATION Extreme Focus with Zero Distractions", "description": "Stay in the zone and block out all distractions with advanced hybrid ANC on this esports gaming headset, backed by swiveling earcups and hybrid memory foam ear cushions that form a perfect seal for superior sound isolation. Customize your experience with 4 noise-canceling levels, adjustable via Razer Synapse or the Razer Audio app.", "video": "https://assets2.razerzone.com/images/blackshark-v3-pro/hybrid-anc-active-noise-cancelling-mobile.mp4" },
+      { "title": "RAZER™ TRIFORCE BIO-CELLULOSE 50 MM DRIVERS GEN-2", "description": "Tuned for improved clarity and positional performance, the Gen-2 drivers feature a unique bio-cellulose diaphragm to deliver natural, powerful sound—hear every footstep with absolute precision.", "video": "https://assets2.razerzone.com/images/pnx.assets/b75a2e964dd9af2af813bede93d0c3f7/razer-triforce-bio-cellulose-50mm-drivers-mobile.mp4" },
+      { "title": "THX SPATIAL AUDIO", "description": "Achieve ultimate competitive awareness through an expanded soundstage. Activate 7.1.4 surround sound* and enjoy precise overhead audio with an upgraded engine powered by the latest spatial algorithms.", "video": "https://assets2.razerzone.com/images/pnx.assets/fe64e46e51d18961939da962e731b9bb/thx-spatial-surround.mp4" }
+    ],
+    "galleryBanners": [
+      { "title": "RAZER™ DUAL-LAYERED FLOWKNIT MEMORY FOAM CUSHIONS", "subtitle": "Get the best of both worlds with the strong sound isolation of leatherette, layered with breathable, moisture-wicking fabric for long-lasting gaming comfort.", "image": "https://assets2.razerzone.com/images/pnx.assets/b6a0716cc10dbab05efc833feee6ec75/razer-blackshark-v3-pro-feature-1.webp" },
+      { "title": "ADAPTIVE 15° SWIVEL JOINTS", "subtitle": "Enjoy a snug fit and optimal seal with earcups that conform to the angle of your ears.", "image": "https://assets2.razerzone.com/images/pnx.assets/b6a0716cc10dbab05efc833feee6ec75/razer-blackshark-v3-pro-feature-2.webp" },
+      { "title": "Plate Foam", "subtitle": "The addition of foam between the plate and PCB helps remove unwanted resonance, achieving a cleaner sound profile.", "image": "https://assets2.razerzone.com/pages/blackwidow-v4-pro-75/keyboard-layers/layer5.jpg" },
+      { "title": "FLEXIBLE, DURABLE BUILD", "subtitle": "From the leatherette headband to swivel holders, the headset’s reinforced build is made to withstand and stay secure against any knocks and bumps when things heat up.", "image": "https://assets2.razerzone.com/images/pnx.assets/b6a0716cc10dbab05efc833feee6ec75/razer-blackshark-v3-pro-feature-3.webp" },
+      { "title": "70 HOURS OF BATTERY LIFE WITH TYPE C CHARGING", "subtitle": "Get 6 hours of play with just 15 minutes of charging", "image": "https://assets2.razerzone.com/images/pnx.assets/62645deab9f4fbbcba379bd7f240620a/razer-blackshark-v3-pro-battery-life-mobile.webp" }
+    ],
+    "specsV2": {
+      "Audio": [
+        { "key": "Drivers", "value": "Razer™ TriForce Titanium 50mm" },
+        { "key": "Surround", "value": "THX Spatial Audio" }
+      ],
+      "Mic": [
+        { "key": "Type", "value": "Detachable HyperClear SuperCardioid" },
+        { "key": "Noise Cancelling", "value": "Hybrid ANC" }
+      ],
+      "Connectivity": [{ "key": "Wireless", "value": "HyperSpeed (2.4GHz) & Bluetooth" }]
+    }
+  },
+  {
+    "id": 702,
+    "name": "Razer Kraken V4 Pro",
+    "price": "19,399",
+    "mrp": "29,999",
+    "discountPercentage": 35,
+    "rating": 4.7,
+    "reviewCount": 1500,
+    "info": "Wireless gaming headset with Razer HyperSense Haptic Feedback (Vibration), THX Spatial Audio, and TriForce Titanium 50mm Drivers.",
+    "category": "audio",
+    "soldCount": "7K+",
+    "statusTags": ["HyperSense Haptics", "THX Spatial", "Wireless", "Chroma RGB"],
+    "media": [
+      { "type": "image", "src": "https://assets3.razerzone.com/7m_wEyh3waYl-IXMDXkLd0qfZwQ=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh74%2Fhc5%2F9820345303070%2F240928-kraken-v4-pro-1500x1000-1.jpg" },
+      { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/c86198b75cb6c5b4f45631c723f36db1/kraken-v4-pro_pp01.mp4" },
+      { "type": "image", "src": "https://assets3.razerzone.com/jch7by7ZOVPJAuzD1GRAZ36Hshc=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh45%2Fhcc%2F9820345106462%2F240928-kraken-v4-pro-1500x1000-2.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/I-sMos5SIIeqGyUNVc88E_YPoT4=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh0c%2Fhc2%2F9820345401374%2F240928-kraken-v4-pro-1500x1000-3.jpg" },
+      { "type": "image", "src": "https://assets3.razerzone.com/skRqsEX0nQMfbzomr_7Rv4Uz_pk=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh5e%2Fhc1%2F9820345466910%2F240928-kraken-v4-pro-1500x1000-5.jpg" }
+    ],
+    "heroVideo": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/b3f059b0f7c5273459e6941d0c1caa3e/razer-sensa-video-hd-haptics-1.mp4"
+    },
+    "featureIconGrid": [
+      { "name": "HyperSense Haptics", "icon": "DoNotDisturbIcon" },
+      { "name": "THX Spatial Audio", "icon": "SoftwareIcon" },
+      { "name": "HyperSpeed Wireless", "icon": "ConnectivityIcon" },
+      { "name": "Razer Chroma RGB", "icon": "RGBIcon" }
+    ],
+    "featureStats": [
+      { "label": "Haptics", "value": "HyperSense", "unit": "" },
+      { "label": "Battery (No Haptics)", "value": "44", "unit": "hrs" },
+      { "label": "Weight", "value": "372", "unit": "g" }
+    ],
+    "featureBannerImage": {
+      "src": "https://assets2.razerzone.com/images/pnx.assets/cd52851d1a462d600f820a0d18f2beb2/razer-kraken-v4-pro-hyperclear-mobile.webp",
+      "title": "RAZER BLACKSHARK V3 PRO"
+    },
+    "featureSections": [
+      { "title": "OLED CONTROL HUB Full Customizability and Multi-Platform Connectivity", "description": "Centralize the control of your battlestation with one powerful device featuring over 20 customization options. Personalize your experience by adjusting audio, haptics, power-saving, and home screen settings easily via an ergonomically angled interface.", "video": "https://assets2.razerzone.com/images/pnx.assets/8e23ec06df80a9ef41f0d383064e8e9f/razer-kraken-v4-pro-hub-video.mp4" },
+      { "title": "4 MODES OF CONNECTIVITY”", "description": "Whether you’re on PC, PlayStation, Nintendo Switch, or on your mobile device, enjoy full audio immersion no matter the scenario with Razer’s first gaming headset to offer 4 modes of connectivity. Go wireless with ultra-fast 2.4 GHz, Bluetooth connectivity, or stay plugged in for non-stop gaming via USB. Connect up to 3 systems or devices at the same time to the OLED Control Hub and switch between audio sources with seamless convenience.", "video": "https://assets2.razerzone.com/images/pnx.assets/d85a0a11fee7d807fe4098efdb85d430/razer-kraken-v4-pro-connectivity-video.mp4" },
+      { "title": "FLUSHED RETRACTABLE DESIGN", "description": "Simply pull out the mic and be ready to go. Get it into the perfect position thanks to a flexible gooseneck wire, and easily tuck it back into the earcup when not in use. Additionally, easily view your mic status with a conveniently-located mic mute indicator.", "video": "https://assets2.razerzone.com/images/pnx.assets/a1864e84bdb51c51b9ae217bc2cae873/razer-kraken-v4-pro-design-video.mp4" },
+      { "title": "RAZER™ TRIFORCE BIO-CELLULOSE 40 MM DRIVERS", "description": "Our upgraded Razer TriForce Driver design utilizes an ultra-thin bio-cellulose diaphragm, improving the soundstage and reducing distortion for distinct clarity and deep bass reproduction. Enjoy the rich environmental sounds of your in-game world with clear distinction between voices and audio cues.", "video": "https://assets2.razerzone.com/images/pnx.assets/ed26cf9dcd75d80c55a55bc1bb85a11f/razer-kraken-v4-pro-driver-video.mp4" },
+      { "title": "9-ZONE EARCUP LIGHTING", "description": "Enjoy new, stunning lighting effects made possible with 9-zone earcup lighting. With access to 16.8 million colors and a suite of lighting effects, apply your preferred settings and watch it work seamlessly with over 300 games and 500 devices across more than 50 partners.", "video": "https://assets2.razerzone.com/images/pnx.assets/86f9bedac526e44c5b9d753d25550671/kraken-v4-pro_pp02.mp4" },
+      { "title": "CUSTOMIZE INDIVIDUAL LIGHTING ZONES IN CHROMA STUDIO", "description": "Personalize and unlock additional Chroma effects", "video": "https://assets2.razerzone.com/images/pnx.assets/b5a8da009ed38f2d59c7fd247ffab789/razer-kraken-v4-pro-customize-video.mp4" }
+    ],
+    "galleryBanners": [
+      { "title": "SIMULTANEOUS 2.4GHz & BLUETOOTH AUDIO", "subtitle": "Listen in to two audio connections simultaneously when using Razer HyperSpeed wireless alongside a Bluetooth device. Stay on comms with your squad at all times via Discord on mobile whilst playing your favorite games on PC/Console.", "image": "https://assets2.razerzone.com/images/pnx.assets/7c1f5c6e19caef529bbd764f321c39c0/razer-kraken-v4-pro-simultaneous-bluetoothaudio-mobile.webp" },
+      { "title": "FEEL IT FOR YOURSELF AT RAZERSTORE", "subtitle": "Visit your nearest RazerStore and test out our latest gear powered by Razer Sensa HD Haptics. Have your mind blown by the most realistic and complex tactile sensations at the Sensa Experience Zone.", "image": "https://assets2.razerzone.com/images/pnx.assets/d08eb7068ab88e330824b190287fd9a8/sensa-razerstore-mobile.webp" },
+      { "title": "THX SPATIAL AUDIO", "subtitle": "Bring your games to life with a fully immersive 3D audio experience powered by advanced spatial algorithms. Get a true sense of audio depth and positioning that places you in the middle of all the action.", "image": "https://assets2.razerzone.com/images/pnx.assets/f6a4971a896cae53ab1582bc5280df5b/razer-kraken-v4-pro-thx-mobile.webp" },
+      { "title": "LASTING DURABILITY. ALL-DAY COMFORT.", "subtitle": "From the leatherette headband to swivel holders, the headset’s reinforced build is made to withstand and stay secure against any knocks and bumps when things heat up.", "image": "https://assets2.razerzone.com/images/pnx.assets/370183846d3f8cc2b584a998d4e8b591/razer-kraken-v4-pro-labelling-mobile-v2.webp" }
+    ],
+    "specsV2": {
+      "Audio": [
+        { "key": "Drivers", "value": "Razer™ TriForce Titanium 50mm" },
+        { "key": "Feature", "value": "Razer HyperSense Haptic Feedback" }
+      ],
+      "Connectivity": [{ "key": "Wireless", "value": "HyperSpeed (2.4GHz) & 3.5mm Analog" }],
+      "Compatibility": [{ "key": "Consoles", "value": "PC, PlayStation (Wireless)" }]
+    }
+  },
+  {
+    "id": 803,
+    "name": "Samsung Odyssey G95SC OLED 49\"",
+    "price": "99,999",
+    "mrp": "227,700",
+    "discountPercentage": 56,
+    "rating": 4.5,
+    "reviewCount": 1120,
+    "info": "49-inch Curved OLED DQHD (5120x1440) monitor with 240Hz refresh rate and 0.03ms response time. Immersive 1800R curve with Smart TV features.",
+    "category": "monitor",
+    "soldCount": "5K+",
+    "statusTags": ["Curved Ultrawide", "240Hz OLED", "DQHD 5K", "Smart TV"],
+    "media": [
+      { "type": "image", "src": "https://images.samsung.com/is/image/samsung/p6pim/in/ls49cg930swxxl/gallery/in-odyssey-oled-g9-g93sc-ls49cg930swxxl-538602146?$684_547_PNG$" },
+      { "type": "video", "src": "https://images.samsung.com/is/content/samsung/p6pim/in/feature/164846612/in-feature-the-definitive-oled-experience-538602197.mp4" },
+      { "type": "image", "src": "https://images.samsung.com/is/image/samsung/p6pim/in/ls49cg930swxxl/gallery/in-odyssey-oled-g9-g93sc-ls49cg930swxxl-538602113?$684_547_PNG$" },
+      { "type": "image", "src": "https://images.samsung.com/is/image/samsung/p6pim/in/ls49cg930swxxl/gallery/in-odyssey-oled-g9-g93sc-ls49cg930swxxl-538602115?$684_547_PNG$" },
+      { "type": "image", "src": "https://images.samsung.com/is/image/samsung/p6pim/in/ls49cg930swxxl/gallery/in-odyssey-oled-g9-g93sc-ls49cg930swxxl-538602122?$684_547_PNG$" }
+    ],
+    "heroVideo": {
+      "src": "https://images.samsung.com/is/content/samsung/p6pim/in/feature/164846612/in-feature-the-definitive-oled-experience-538602197.mp4"
+    },
+    "featureIconGrid": [
+      { "name": "Pixart 3327 Sensor", "icon": "DoNotDisturbIcon" },
+      { "name": "Software Support", "icon": "SoftwareIcon" },
+      { "name": ".5m Long Cable", "icon": "ConnectivityIcon" },
+      { "name": "Customizable RGB", "icon": "RGBIcon" }
+    ],
+    "featureStats": [
+      { "label": "Pixels", "value": "110", "unit": "PPI" },
+      { "label": "Refresh Rate", "value": "240", "unit": "Hz" },
+      { "label": "Programmable Buttons", "value": "8", "unit": "" }
+    ],
+    "featureBannerImage": {
+      "src": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164846598/in-feature-a-new-era-of-oled-gaming-538602154?$FB_TYPE_I_JPG$",
+      "title": "A new era of OLED gaming"
+    },
+    "featureSections": [
+      { "title": "Lose yourself in super ultrawide vistas", "description": "Immense worlds envelop you through a super ultrawide display. A screen as wide as two quad high definition monitors delivers maximum space to take in all the pin-sharp detail. It wraps around your field of vision with 1800R curvature to put you fully into your characters shoes.", "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164846611/in-feature-lose-yourself-in-super-ultrawide-vistas-538602192?$FB_TYPE_I_JPG$" },
+      { "title": "Sharper visuals with densely packed pixels”", "description": "Dont sacrifice detail, even with a larger screen. More pixels per inch gives you the level of clarity you need to pick up on the small, but significant, details across the 1.244 m Odyssey OLED G9 screen.", "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164846596/in-feature-sharper-visuals-with-densely-packed-pixels-538602150?$FB_TYPE_A_MO_JPG$" },
+      { "title": "See into the shadows with purer black levels", "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164846597/in-feature-see-into-the-shadows-with-purer-black-levels-538602152?$FB_TYPE_I_JPG$" },
+      { "title": "0.03ms Response time(GtG) & 240 Hz Refresh rate", "description": "Outmaneuver opponents with supreme speed", "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164846613/in-feature-outmaneuver-opponents-with-supreme-speed-538602201?$FB_TYPE_I_JPG$" },
+      { "title": "Your station your way", "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164846601/in-feature-connect-more-to-enjoy-more-538602156?$550_N_JPG$" }
+    ],
+    "specsV2": {
+      "Display Panel": [
+        { "key": "Screen Size", "value": "49-inch" },
+        { "key": "Panel Type", "value": "QD-OLED" },
+        { "key": "Resolution", "value": "5120x1440 (DQHD)" }
+      ],
+      "Performance": [
+        { "key": "Refresh Rate", "value": "240Hz" },
+        { "key": "Response Time", "value": "0.03ms (GtG)" },
+        { "key": "Curvature", "value": "1800R" }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "name": "Beluga V2 Gaming Headphones",
+    "price": "2,299",
+    "mrp": "4,500",
+    "discountPercentage": 48,
+    "rating": 4.7,
+    "reviewCount": 890,
+    "info": "Experience immersive audio with 53mm Graphene Drivers and Dual Chamber Technology for precise sound. Built for comfort during long sessions with a lightweight aluminum frame and a convenient flip-to-mute microphone.",
+    "category": "audio",
+    "media": [
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_4_7.png?v=1753673090&width=1000" },
+      { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/cf89a3a5496b4e52b755533b9dd94b9e/cf89a3a5496b4e52b755533b9dd94b9e.HD-1080p-3.3Mbps-56642058.mp4?v=0" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_3_8.png?v=1753673090&width=1000" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_2_8.png?v=1753673090&width=1000" }
+    ],
+    "statusTags": ["53mm Graphene Drivers", "Dual Chamber Tech", "Flip-to-Mute Mic"],
+    "colors": [{ "name": "Carbon Black", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_4_7.png?v=1753673090&width=100" }],
+    "specsV2": {
+      "Audio": [
+        { "key": "Driver Size", "value": "53mm Graphene Drivers" },
+        { "key": "Technology", "value": "Dual Chamber" },
+        { "key": "Surround Sound", "value": "7.1 Virtual" }
+      ],
+      "Microphone": [
+        { "key": "Type", "value": "Flip-to-Mute Boom Mic" },
+        { "key": "Feature", "value": "Noise Cancelling" }
+      ],
+      "Build & Connectivity": [
+        { "key": "Frame", "value": "Lightweight Aluminum" },
+        { "key": "Connection", "value": "3.5mm Universal Jack" },
+        { "key": "Compatibility", "value": "PC, Console, Mobile" }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Cirrus Ergonomic Chair",
+    "price": "15,999",
+    "mrp": "40,000",
+    "discountPercentage": 60,
+    "rating": 5.0,
+    "reviewCount": 8,
+    "info": "A race-car inspired design with ElastoFlex tech where split back wings flex to hug your spine. Features a FreeArch recline system and breathable fabric for ultimate comfort.",
+    "category": "chair",
+    "soldCount": "500+",
+    "statusTags": ["Race-Car Design", "ElastoFlex Spine Support", "Breathable Fabric"],
+    "media": [
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_6_441d41fc-2211-4d05-bc2c-be63d2528499.png?v=1759904766&width=1000" },
+      { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/72ae15c84fbc4709ae1d5c986dc6263e/72ae15c84fbc4709ae1d5c986dc6263e.HD-1080p-2.5Mbps-58652947.mp4?v=0" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard8.png?v=1759904766&width=1000" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard9.png?v=1759904766&width=1000" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard10.png?v=1759904766&width=1000" }
+    ],
+    "featureBannerImage": {
+      "src": "https://kreo-tech.com/cdn/shop/files/Artboard_6_441d41fc-2211-4d05-bc2c-be63d2528499.png?v=1759904766&width=1000",
+      "title": "Cirrus Ergonomic Chair",
+      "subtitle": "A race-car inspired design with ElastoFlex tech where split back wings flex to hug your spine. Features a FreeArch recline system and breathable fabric for ultimate comfort."
+    },
+    "heroVideo": {
+      "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/891273c98f3c45f0b60f40ead7b86693/891273c98f3c45f0b60f40ead7b86693.HD-1080p-7.2Mbps-58316305.mp4?v=0"
+    },
+    "featureSections": [
+      { "title": "Race Car Inspired Design", "description": "Unleash your inner champion with our race car-inspired design. Born from the track, built for warriors. This isnt just a chair—its your cockpit for conquering every challenge. Aggressive styling meets uncompromising performance, giving you the edge you need to dominate your day.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/4a23ea9594084a19b26d260ef8953684/4a23ea9594084a19b26d260ef8953684.HD-1080p-7.2Mbps-58316308.mp4?v=0" },
+      { "title": "BIFMA Certified Class 4 Gas Lift", "description": "With a BIFMA Certified Class 4 Gas Lift, the Noctus is rated for 150Kgs", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/fcb7f4d4808c4956ac54e58aa3ab1e08/fcb7f4d4808c4956ac54e58aa3ab1e08.HD-1080p-7.2Mbps-58316306.mp4?v=0" },
+      { "title": "135° Recline Support", "description": "Discover the perfect balance between work and relaxation with our 135-degree recline mechanism. Engineered for optimal comfort, the precisely calibrated angle promotes healthy blood circulation while reducing pressure on your spine, making it ideal for extended sitting sessions.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/f4784c9f73cf4f03b0f5c335ec46230e/f4784c9f73cf4f03b0f5c335ec46230e.HD-1080p-7.2Mbps-58316309.mp4?v=0" }
+    ],
+    "specsV2": {
+      "Core Features": [{ "key": "Back Design", "value": "ElastoFlex Split Back" }, { "key": "Recline System", "value": "FreeArch 90-135°" }, { "key": "Locking", "value": "Any-position NLock System" }],
+      "Adjustments": [{ "key": "Armrest", "value": "3D with NLock Tension" }, { "key": "Headrest", "value": "Adjustable" }, { "key": "Pillows", "value": "Padded Lumbar & Neck" }],
+      "Build": [{ "key": "Casters", "value": "60mm SMove Silent" }, { "key": "Gas Lift", "value": "BIFMA Certified Class 4 (150kg)" }]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hawk Gaming Mouse - Black",
+    "price": "1,199",
+    "mrp": "2,499",
+    "discountPercentage": 52,
+    "rating": 4.18,
+    "reviewCount": 40,
+    "info": "Wired gaming mouse with a Pixart 3327 Sensor, 12400 DPI, and 8 programmable buttons.",
+    "category": "mouse",
+    "statusTags": ["Wired", "Selling Fast", "RGB"],
+    "media": [
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1118.png?v=1759329619&width=600" },
+      { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/691e98b050da44998599407476d4bdb5/691e98b050da44998599407476d4bdb5.HD-1080p-7.2Mbps-44428078.mp4?v=0" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1118.png?v=1759329619&width=600" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1125.png?v=1759329628&width=600" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1127.png?v=1759329630&width=600" }
+    ],
+    "heroVideo": {
+      "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/691e98b050da44998599407476d4bdb5/691e98b050da44998599407476d4bdb5.HD-1080p-7.2Mbps-44428078.mp4?v=0"
+    },
+    "featureIconGrid": [
+      { "name": "Pixart 3327 Sensor", "icon": "DoNotDisturbIcon" },
+      { "name": "Software Support", "icon": "SoftwareIcon" },
+      { "name": ".5m Long Cable", "icon": "ConnectivityIcon" },
+      { "name": "Customizable RGB", "icon": "RGBIcon" }
+    ],
+    "featureStats": [
+      { "label": "Cable", "value": "150cm", "unit": "" },
+      { "label": "DPI", "value": "12400", "unit": "" },
+      { "label": "Programmable Buttons", "value": "8", "unit": "" }
+    ],
+    "featureBannerImage": {
+      "src": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_4_52465e1c-07ad-4c4d-8d72-581c6d2803bf.png?v=1742363293&width=800",
+      "title": "KREO HAWK Wired Gaming Mouse"
+    },
+    "featureSections": [
+      { "title": "Pixart 3327 Sensor", "description": "Experience flawless tracking and ultra-fast responsiveness", "image": "https://kreo-tech.com/cdn/shop/files/SENSOR_IMAGE_d3a2f7fb-c3ff-47b4-96a2-1d8fb8a3ae83.png?v=1738237122&width=800" },
+      { "title": "8 Programmable Buttons”", "description": "Customize the buttons to match your play style", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_c4abb7db-2085-4186-b4d2-360f0a72999c.png?v=1742365095&width=800" },
+      { "title": "Available in 2 variants", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_2.png?v=1742366785&width=800" },
+      { "title": "Ergonomic Design", "description": "Suits every hand size and grip", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_3.png?v=1742365771&width=800" },
+      { "title": "Customizable RGB", "description": "Your mouse, your game, your vibes", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy.png?v=1742365311&width=800" }
+    ],
+    "featureBannerText": [
+      { "label": "KREO ", "highlight": "HAWK" },
+      { "label": "8", "highlight": "Programmable Buttons" },
+      { "label": "12400", "highlight": "DPI" }
+    ],
+    "specsV2": {
+      "General": [{ "key": "Weight", "value": "110g" }, { "key": "Dimensions", "value": "125x80x46 mm" }],
+      "Sensor": [{ "key": "Model", "value": "Pixart PAW3327" }, { "key": "DPI", "value": "12400" }],
+      "Buttons": [{ "key": "Total", "value": "8 Programmable" }]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Kreo Mirage wireless Controller",
+    "price": "3,499",
+    "mrp": "4,999",
+    "discountPercentage": 30,
+    "rating": 4.8,
+    "info": "Wireless with haptic feedback",
+    "category": "controller",
+    "media": [
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Mirage_2.png?v=1760334547&width=600" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Mirage_d8d10f82-cfa2-483d-9fc8-cc14a317b124.png?v=1760334547&width=600" },
+      { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/ac61ad1bbec742319aecf92fc3b40928/ac61ad1bbec742319aecf92fc3b40928.HD-1080p-3.3Mbps-56747397.mp4?v=0" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Mirage_4.png?v=1756708176&width=1000" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Mirage_3.png?v=1756708176&width=1000" }
+    ],
+    "heroVideo": {
+      "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/ac61ad1bbec742319aecf92fc3b40928/ac61ad1bbec742319aecf92fc3b40928.HD-1080p-3.3Mbps-56747397.mp4?v=0"
+    },
+    "featureBannerImage": {
+      "src": "https://kreo-tech.com/cdn/shop/files/2_4_b7446d19-7e46-4e8e-91d7-4cee458f5dc7.png?v=1756657663&width=800",
+      "title": "Kreo Mirage",
+      "description": "Wireless Gaming Controller"
+    },
+    "featureSections": [
+      { "title": "Customizable RGB Lightings", "description": "upto 8 lighting modes supported", "image": "https://kreo-tech.com/cdn/shop/files/1_5.png?v=1756657662&width=800" },
+      { "title": "Hall Effect Triggers”", "description": "Enjoy smoother, more accurate trigger response every time you aim, brake, or accelerate.", "image": "https://kreo-tech.com/cdn/shop/files/4_a9b798c7-2e3d-494a-bae7-1846b673b570.png?v=1756664029&width=720" },
+      { "title": "Dual Asymmetric Motors", "description": "Feel every explosion, crash, and recoil with enhanced haptic feedback for deeper immersion.", "image": "https://kreo-tech.com/cdn/shop/files/3_7_0d96bd86-ce30-4644-9b28-80a3315060a1.png?v=1756657664&width=800" },
+      { "title": "Hall Effect Joystick", "description": "Joysticks that eliminates stick drift for reliable long-term performance.", "image": "https://kreo-tech.com/cdn/shop/files/3_5eecb0f8-9637-49a0-a5f8-43d6e948cc03.png?v=1756664030&width=720" },
+      { "title": "Battery LIfe", "description": "Upto 8 Hours in Single Charge", "image": "https://kreo-tech.com/cdn/shop/files/5_3_40a4decd-dc78-418d-af4d-75eedb00a14b.png?v=1756657661&width=800" }
+    ],
+    "featureBannerText": [
+      { "label": " Pro ", "highlight": "RGB Gamepad" },
+      { "label": "Compatibility ", "highlight": "PS4 / PS5" },
+      { "label": "", "highlight": "PC / Mac" }
+    ],
+    "specsV2": {
+      "General": [{ "key": "Battery", "value": "900 mAh battery" }, { "key": "RGB", "value": "6+ RGB Modes to choose from" }],
+      "Connectivity": [{ "key": "Connectivity", "value": "Bluetooth 5.0, Wired Mode" }, { "key": "Motors", "value": "Asymmetric double rumble motor vibration" }],
+      "Buttons": [{ "key": "Number of Buttons", "value": "21 buttons plus 1 reset button" }, { "key": "Triggers and Joysticks", "value": "Hall effect Triggers and Joysticks" }]
+    }
+  },
+  {
+    "id": 99,
+    "name": "Swarm X All Black Wireless Keyboard",
+    "price": "3,999",
+    "mrp": "10,000",
+    "discountPercentage": 60,
+    "rating": 4.7,
+    "reviewCount": 40,
+    "info": "The clean all-white version of the Swarm X. A 75% wireless keyboard with a metal volume knob, 270+ hours of battery life, and 4-layer sound dampening.",
+    "category": "keyboard",
+    "statusTags": ["Wireless", "270+ Hour Battery", "Volume Knob"],
+    "media": [
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Black1.png?v=1756907740&width=600" },
+      { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/d9cce939983e462f8f56363a697aeb59/d9cce939983e462f8f56363a697aeb59.HD-1080p-7.2Mbps-58637053.mp4?v=0" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Black5.png?v=1756907740&width=600" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Black4.png?v=1756907740&width=600" }
+    ],
+    "featureBannerImage": {
+      "src": "https://kreo-tech.com/cdn/shop/files/White_5.png?v=1757749143&width=600",
+      "title": "Swarm X",
+      "description": "MECHANICAL KEYBOARD"
+    },
+    "featureIconGrid": [
+      { "name": "75% Layout", "icon": "TKLIcon" },
+      { "name": "Metal Volume Knob", "icon": "VolumeKnobIcon" },
+      { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+      { "name": "270+ Hours Battery Life", "icon": "BatteryIcon" },
+      { "name": "Software Support", "icon": "SoftwareIcon" },
+      { "name": "Wired, Bluetooth & 2.4GHz", "icon": "ConnectivityIcon" }
+    ],
+    "featureBannerText": [
+      { "label": "Metal ", "highlight": "Volume Knob" },
+      { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+      { "label": "WIRELESS", "highlight": "MECHANICAL KEYBOARD" }
+    ],
+    "featureStats": [
+      { "label": "Battery", "value": "4000", "unit": "maH" },
+      { "label": "Layout", "value": "75", "unit": "%" },
+      { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+    ],
+    "heroVideo": {
+      "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/d9cce939983e462f8f56363a697aeb59/d9cce939983e462f8f56363a697aeb59.HD-1080p-7.2Mbps-58637053.mp4?v=0"
+    },
+    "featureSections": [
+      { "title": "4 Layer Sound Absorption", "description": "Designed for peak performance, Kreo's 4-layer sound absorption system enhances your typing experience by significantly reducing noise and vibrations. Each layer is meticulously engineered to deliver a smoother, quieter, and more satisfying keystroke—perfect for long gaming sessions and focused work environments.", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Desktop_copy_3_b0b2470b-712b-4915-be9e-09d140b86566.png?v=1756912155&width=800" },
+      { "title": "Metal Volume Knob", "description": "A sleek, integrated metal knob provides precise control over your volume, combining functionality with a premium feel.", "image": "https://kreo-tech.com/cdn/shop/files/White_2.png?v=1757749152&width=600" },
+      { "title": "Completely Hotswappable", "description": "Replace switches and keycaps with ease", "image": "https://kreo-tech.com/cdn/shop/files/Feet_Mobile_copy_2.png?v=1756911698&width=800" },
+      { "title": "Seamless Tri-Mode Switching", "description": "Stay connected your way—wired, wireless, or Bluetooth.", "image": "https://kreo-tech.com/cdn/shop/files/5_Pin_Mobile_copy_3_1.png?v=1756912655&width=800" },
+      { "title": "Gasket Mounted", "description": "Swarm is designed for an ultra-smooth and satisfying typing experience. By incorporating a flexible gasket between the plate and case, this innovative design effectively dampens vibrations and softens keystrokes, ensuring a quiet and comfortable feel.", "image": "https://kreo-tech.com/cdn/shop/files/Feet_Mobile_copy.png?v=1756911368&width=720" },
+      { "title": "Elevated Stand", "description": "Every component of the Swarm keyboard is engineered for flawless performance. From the durable PBT keycaps to the precise PCB layout, expect a consistent and reliable typing experience.", "image": "https://kreo-tech.com/cdn/shop/files/White_3.png?v=1757749150&width=600" }
+    ],
+    "specsV2": {
+      "General Info": [{ "key": "Layout", "value": "75%" }, { "key": "Dimensions", "value": "331 x 145 x 38.5 mm" }, { "key": "Weight", "value": "~780 g" }],
+      "Core Features": [{ "key": "Mounting", "value": "True Gasket Mount" }, { "key": "Sound Dampening", "value": "4 Layers" }, { "key": "PCB", "value": "5-pin Hot-swap" }],
+      "Connectivity": [{ "key": "Modes", "value": "Wired, Bluetooth, 2.4 GHz" }],
+      "Build": [{ "key": "Keycaps", "value": "Double-shot ABS (Cherry profile)" }, { "key": "Lighting", "value": "Per-key RGB" }]
+    }
+  },
+  {
+    "id": 26,
+    "name": "Swarm X All White Wireless Keyboard",
+    "price": "3,999",
+    "mrp": "10,000",
+    "discountPercentage": 60,
+    "rating": 4.7,
+    "reviewCount": 40,
+    "info": "The clean all-white version of the Swarm X. A 75% wireless keyboard with a metal volume knob, 270+ hours of battery life, and 4-layer sound dampening.",
+    "category": "keyboard",
+    "statusTags": ["Wireless", "270+ Hour Battery", "Volume Knob"],
+    "media": [
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/White_1-min.png?v=1757749143&width=600" },
+      { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/d9cce939983e462f8f56363a697aeb59/d9cce939983e462f8f56363a697aeb59.HD-1080p-7.2Mbps-58637053.mp4?v=0" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/White_5.png?v=1757749143&width=600" },
+      { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/White_4.png?v=1757749150&width=600" }
+    ],
+    "featureBannerImage": {
+      "src": "https://kreo-tech.com/cdn/shop/files/White_5.png?v=1757749143&width=600",
+      "title": "Swarm X",
+      "description": "MECHANICAL KEYBOARD"
+    },
+    "featureIconGrid": [
+      { "name": "75% Layout", "icon": "TKLIcon" },
+      { "name": "Metal Volume Knob", "icon": "VolumeKnobIcon" },
+      { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+      { "name": "270+ Hours Battery Life", "icon": "BatteryIcon" },
+      { "name": "Software Support", "icon": "SoftwareIcon" },
+      { "name": "Wired, Bluetooth & 2.4GHz", "icon": "ConnectivityIcon" }
+    ],
+    "featureBannerText": [
+      { "label": "Metal ", "highlight": "Volume Knob" },
+      { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+      { "label": "WIRELESS", "highlight": "MECHANICAL KEYBOARD" }
+    ],
+    "featureStats": [
+      { "label": "Battery", "value": "4000", "unit": "maH" },
+      { "label": "Layout", "value": "75", "unit": "%" },
+      { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+    ],
+    "heroVideo": {
+      "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/d9cce939983e462f8f56363a697aeb59/d9cce939983e462f8f56363a697aeb59.HD-1080p-7.2Mbps-58637053.mp4?v=0"
+    },
+    "featureSections": [
+      { "title": "4 Layer Sound Absorption", "description": "Designed for peak performance, Kreo's 4-layer sound absorption system enhances your typing experience by significantly reducing noise and vibrations. Each layer is meticulously engineered to deliver a smoother, quieter, and more satisfying keystroke—perfect for long gaming sessions and focused work environments.", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Desktop_copy_3_b0b2470b-712b-4915-be9e-09d140b86566.png?v=1756912155&width=800" },
+      { "title": "Metal Volume Knob", "description": "A sleek, integrated metal knob provides precise control over your volume, combining functionality with a premium feel.", "image": "https://kreo-tech.com/cdn/shop/files/White_2.png?v=1757749152&width=600" },
+      { "title": "Completely Hotswappable", "description": "Replace switches and keycaps with ease", "image": "https://kreo-tech.com/cdn/shop/files/Feet_Mobile_copy_2.png?v=1756911698&width=800" },
+      { "title": "Seamless Tri-Mode Switching", "description": "Stay connected your way—wired, wireless, or Bluetooth.", "image": "https://kreo-tech.com/cdn/shop/files/5_Pin_Mobile_copy_3_1.png?v=1756912655&width=800" },
+      { "title": "Gasket Mounted", "description": "Swarm is designed for an ultra-smooth and satisfying typing experience. By incorporating a flexible gasket between the plate and case, this innovative design effectively dampens vibrations and softens keystrokes, ensuring a quiet and comfortable feel.", "image": "https://kreo-tech.com/cdn/shop/files/Feet_Mobile_copy.png?v=1756911368&width=720" },
+      { "title": "Elevated Stand", "description": "Every component of the Swarm keyboard is engineered for flawless performance. From the durable PBT keycaps to the precise PCB layout, expect a consistent and reliable typing experience.", "image": "https://kreo-tech.com/cdn/shop/files/White_3.png?v=1757749150&width=600" }
+    ],
+    "specsV2": {
+      "General Info": [{ "key": "Layout", "value": "75%" }, { "key": "Dimensions", "value": "331 x 145 x 38.5 mm" }, { "key": "Weight", "value": "~780 g" }],
+      "Core Features": [{ "key": "Mounting", "value": "True Gasket Mount" }, { "key": "Sound Dampening", "value": "4 Layers" }, { "key": "PCB", "value": "5-pin Hot-swap" }],
+      "Connectivity": [{ "key": "Modes", "value": "Wired, Bluetooth, 2.4 GHz" }],
+      "Build": [{ "key": "Keycaps", "value": "Double-shot ABS (Cherry profile)" }, { "key": "Lighting", "value": "Per-key RGB" }]
+    }
+  },
+
+    {
+      "id": 9,
+      "name": "Swarm All White Wireless Gaming Keyboard",
+      "price": "4,999",
+      "mrp": "10,000",
+      "discountPercentage": 50,
+      "rating": 4.66,
+      "reviewCount": 36,
+      "info": "Premium 75% wireless keyboard with gasket mount, 5-layer sound dampening, and tri-mode connectivity for the ultimate typing and gaming experience.",
+      "category": "keyboard",
+      "soldCount": "5K+",
+      "statusTags": ["Wireless", "Gasket Mount", "Hot-Swappable", "PBT Keycaps"],
+      "media": [
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/1dfef62a25064540ad805bfbba3d5b48/1dfef62a25064540ad805bfbba3d5b48.HD-1080p-3.3Mbps-56747753.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1376.png?v=1760333936&width=800" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1374.png?v=1760333936&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1368.png?v=1760333936&width=600" }
+      ],
+      "switchOptions": [
+        { "name": "Kreo Starling", "type": "Linear", "force": "43±8gf", "image": "https://cdn.shopify.com/s/files/1/0619/4325/1121/files/purple-switch.webp" },
+        { "name": "GTMX Sense", "type": "Soft Tactile", "force": "45±10gf", "image": "https://cdn.shopify.com/s/files/1/0619/4325/1121/files/GTMX-Sense.jpg?v=1726682208", "description": "For a tactile typing experience with enhanced thoccs." }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "BT", "highlight": "2.4GHz or Wired" },
+        { "label": "270+ ", "highlight": "Hours battery life" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "75", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "75% Layout", "icon": "TKLIcon" },
+        { "name": "Metal Volume Knob", "icon": "VolumeKnobIcon" },
+        { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+        { "name": "4000mAh Battery", "icon": "BatteryIcon" },
+        { "name": "Software Support", "icon": "SoftwareIcon" },
+        { "name": "Wired, Bluetooth & 2.4GHz", "icon": "ConnectivityIcon" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/Swarm_1_90e8cb01-085c-4b85-858e-87b98c61e1dc.png?v=1739454310&width=800",
+        "title": "The Thockiest Thoccs",
+        "description": "The best typing experience you could've asked for"
+      },
+      "featureSections": [
+        { "title": "5 Layer Sound Absorption", "description": "Designed for peak performance, Kreo's 5-layer sound absorption system enhances your typing experience by significantly reducing noise and vibrations. Each layer is meticulously engineered to deliver a smoother, quieter, and more satisfying keystroke—perfect for long gaming sessions and focused work environments.", "image": "https://kreo-tech.com/cdn/shop/files/layers.png?v=1739439735&width=1000" },
+        { "title": "Completely Hotswappable", "description": "Replace switches and keycaps with ease.", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile.png?v=1742043321&width=800" },
+        { "title": "Pre-Lubed Switches", "description": "Feels smooth, lasts long", "image": "https://kreo-tech.com/cdn/shop/files/Pre_Luber_Mobile.png?v=1742043753&width=800" },
+        { "title": "Two Level Adjustment", "description": "Game longer tirelessly!", "image": "https://kreo-tech.com/cdn/shop/files/Feet_Mobile.png?v=1742044065&width=800" },
+        { "title": "Metal Volume Knob", "description": "Seamless Control, Premium Feel", "image": "https://kreo-tech.com/cdn/shop/files/5_Pin_Mobile_copy.png?v=1742045955&width=800" },
+        { "title": "Durashot PBT Keycaps", "description": "Unmatched Durability, Superior Feel", "image": "https://kreo-tech.com/cdn/shop/files/5_Pin_Mobile_copy_4.png?v=1742046686&width=800" },
+        { "title": "Gasket Mounted", "description": "Swarm is designed for an ultra-smooth and satisfying typing experience. By incorporating a flexible gasket between the plate and case, this innovative design effectively dampens vibrations and softens keystrokes, ensuring a quiet and comfortable feel.", "image": "https://kreo-tech.com/cdn/shop/files/Group_93.png?v=1739451461&width=1080" }
+      ],
+      "specsV2": {
+        "Core Features": [{ "key": "Layout", "value": "75%" }, { "key": "Mounting Style", "value": "Gasket Mount" }, { "key": "Sound Dampening", "value": "5 Layers" }],
+        "Connectivity": [{ "key": "Modes", "value": "Bluetooth, 2.4GHz, USB-C" }, { "key": "Polling Rate", "value": "1000 Hz (Wireless)" }],
+        "Build": [{ "key": "Keycaps", "value": "PBT" }, { "key": "Hot-Swappable", "value": "Yes" }, { "key": "Extra", "value": "Metal Volume Knob" }],
+        "Power": [{ "key": "Battery", "value": "4000 mAh" }]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Ikarus White 55g Wireless Gaming Mouse",
+      "price": "4,399",
+      "mrp": "12,999",
+      "discountPercentage": 66,
+      "rating": 4.27,
+      "reviewCount": 55,
+      "info": "Our flagship 55g wireless gaming mouse with a Pixart 3395 sensor, 4000Hz polling rate, and Motion Sync Technology for ultimate precision.",
+      "category": "mouse",
+      "soldCount": "2K+",
+      "statusTags": ["Wireless", "55g Ultra-Light", "Pixart 3395", "4000Hz Polling"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1137.png?v=1760333475&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/b2f5078d4f76438ab03c48ea105bee37/b2f5078d4f76438ab03c48ea105bee37.HD-1080p-3.3Mbps-56747226.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1140_ce1858f0-7857-4721-a56c-dd1eaed3410d.png?v=1760333475&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1138_a1950742-1562-4263-bed8-83314752cf48.png?v=1760333475&width=600" }
+      ],
+      "featureIconGrid": [
+        { "name": "55g", "icon": "LightweightIcon" },
+        { "name": "Pixart 3395 Sensor", "icon": "SensorIcon" },
+        { "name": "OMRON Optical switches", "icon": "OpticalSwitchIcon" },
+        { "name": "100+ Hours battery life", "icon": "BatteryIcon" },
+        { "name": "Software Support", "icon": "SoftwareSupportIcon" },
+        { "name": "BT, 2.4GHz or Wired", "icon": "TriModeIcon" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_9_0a511895-2a03-4711-87ba-b732468381e2.png?v=1742279748&width=800",
+        "title": "Kreo Ikarus",
+        "description": "Wireless Gaming Mouse"
+      },
+      "featureBannerText": [
+        { "label": "FLAGSHIP", "highlight": "PIXART 3395" },
+        { "label": "BT", "highlight": "2.4GHz or Wired" },
+        { "label": "OMRON ", "highlight": "Optical switches" }
+      ],
+      "featureStats": [
+        { "label": "Ultimate Precision", "value": "26000", "unit": "DPI" },
+        { "label": "Tracking Speed", "value": "650", "unit": "IPS" },
+        { "label": " Polling Rate", "value": "4000", "unit": "Hz" }
+      ],
+      "featureSections": [
+        { "title": "100+ Hours", "description": "Battery life for unmatched freedom.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_24_copy_2.png?v=1751633266&width=800" },
+        { "title": "PixArt Motion Sync Technology", "description": "This latest flagship sensor from Pixart has the highest specs in the market with extreme precision of 99.6% resolution accuracy. However, this does not mean the sensor is more accurate tracking. To make your sensor more accurate tracking, the Motion-Sync Technology is built into the sensor. Your PC extracts information from another sensor at a rate that does not perfectly match the signal the mouse sends out when it extracts information from another sensor. The Motion-Sync Technology synchronize its signals intelligently at the exact intervals your pc extracts information. This allows the tracking to be very accurate. However, this may cause some motion-delay (less than 1ms) that is not noticeable during in-game play", "image": "https://kreo-tech.com/cdn/shop/files/curve.png?v=1738226501&width=1000" },
+        { "title": "Online Software Support", "image": "https://kreo-tech.com/cdn/shop/files/Ikarus_Mobile.png?v=1757600497&width=800" },
+        { "title": "Ultralight-55g", "description": "For those super quick flick shots", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_6.png?v=1742279941&width=800" },
+        { "title": "100% PTFE Feet", "description": "Glide smoothly across surfaces", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_8.png?v=1742284811&width=800" }
+      ],
+      "galleryBanners": [
+        { "title": "TTC Gold Encoder", "subtitle": "Precision scrolls that would last long", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_4.png?v=1742280054&width=800" },
+        { "title": "4000Hz Polling Rate", "subtitle": "Equipped with a cutting-edge 4K dongle", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_10_f4844424-ffad-4888-a286-3ca11acd394d.png?v=1742284667&width=800" },
+        { "title": "Available in 2 variants", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_7.png?v=1742280667&width=800" },
+        { "title": "OMRON Optical", "subtitle": "D2FP Switches No Wear, No Tear", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_5.png?v=1742280406&width=800" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Product Name", "value": "Ikarus" }, { "key": "Dimensions", "value": "121x59x37" }, { "key": "Weight", "value": "55 g" }],
+        "Core Features": [{ "key": "Sensors", "value": "pixart PAW3395" }, { "key": "Battery Life", "value": "100hrs+" }, { "key": "PCB", "value": "5-pin Hot-swap" }],
+        "Connectivity": [{ "key": "Modes", "value": "Wireless, Bluetooth, 2.4 GHz" }],
+        "Build": [{ "key": "Keycaps", "value": "ABS Plastic" }, { "key": "Cable Type", "value": "Braided, Detachable" }]
+      }
+    },
+    {
+      "id": 14,
+      "name": "Razer Iskur V2",
+      "price": "20000",
+      "mrp": "25999",
+      "discountPercentage": 23,
+      "rating": 4.8,
+      "reviewCount": 345,
+      "info": "The ultimate gaming chair for hardcore gaming with adaptive lumbar support.",
+      "category": "chair",
+      "media": [
+        { "type": "image", "src": "https://assets3.razerzone.com/1ElWYgEgCKuRnhksio6LTQunIj0=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhad%2Fhc8%2F9952977190942%2F250825-iskur-v2-green-1500x1000-1.jpg" },
+        { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/ac62b51d20aa9495ace4236527ed866a/iskur-v2-hero.mp4" },
+        { "type": "image", "src": "https://assets3.razerzone.com/iEqhAGaeU-QDF8R16jcxoyQvul8=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh7c%2Fhd2%2F9952977453086%2F250825-iskur-v2-green-1500x1000-2.jpg" },
+        { "type": "image", "src": "https://assets3.razerzone.com/YI_Efkr6z6XRvZ0XUbwlrGY7ORY=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhd3%2Fhd2%2F9952977485854%2F250825-iskur-v2-green-1500x1000-4.jpg" }
+      ],
+      "featureBannerText": [
+        { "label": "6D", "highlight": " ADAPTIVE & ADJUSTABLE LUMBAR SUPPORT" },
+        { "label": "4D", "highlight": "ARMRESTS" },
+        { "label": "152° ", "highlight": "RECLINE" }
+      ],
+      "featureStats": [
+        { "label": "Weight Capacity", "value": "136", "unit": "kg" },
+        { "label": "Height", "value": "200", "unit": "cm" },
+        { "label": "Lumbar Support", "value": "6", "unit": "D" }
+      ],
+      "featureSections": [
+        { "title": "WORLD’S FIRST 6D ADAPTIVE & ADJUSTABLE LUMBAR SUPPORT", "description": "Enjoy full-range back support with our proprietary system, featuring a 360° swivel design that adjusts up, down, in, and out.", "video": "https://assets2.razerzone.com/images/pnx.assets/4b447ffee5424cac132c228782919832/lumbar-support.mp4" },
+        { "title": "DUAL-DENSITY, COLD-CURED FOAM SEAT CUSHION", "description": "Experience the perfect balance of support and comfort with an optimized cushion that relieves pressure during prolonged sitting.", "video": "https://assets2.razerzone.com/images/pnx.assets/4b447ffee5424cac132c228782919832/dual-density-foam.mp4" },
+        { "title": "4D ARMRESTS", "description": "Highly resistant to peeling and cracking, line them up perfectly to how you sit by adjusting their height, position, and angle.", "video": "https://assets2.razerzone.com/images/pnx.assets/4b447ffee5424cac132c228782919832/4d-armrest.mp4" },
+        { "title": "REACTIVE SEAT TILT & UP TO 152° RECLINE", "description": "Lean back and enjoy seamless support for a variety of positions with a fully adjustable backrest that instantly adapts to your weight.", "video": "https://assets2.razerzone.com/images/pnx.assets/4b447ffee5424cac132c228782919832/seat-tilt-recline.mp4" },
+        { "title": "PEEL-RESISTANT EPU LEATHER OR ULTRA-BREATHABLE FABRIC FINISH", "description": "Choose between a smooth leather option that’s peel and crack-resistant, or plush fabric upholstery for greater heat dissipation.", "video": "https://assets2.razerzone.com/images/pnx.assets/4b447ffee5424cac132c228782919832/colorway_h265.mp4" }
+      ],
+      "specsV2": {
+        "Armrests & Mechanism": [{ "key": "Armrests", "value": "3D with HiLock Tension Adjusting System" }, { "key": "Mechanism", "value": "Frog Tilt Mechanism" }],
+        "Support Systems": [{ "key": "Lumbar Support", "value": "Adaptive and Adjustable Lumbar" }, { "key": "Headrest", "value": "2D Adjustable" }, { "key": "Gas Lift", "value": "BIFMA Certified Class 4 (150kg)" }],
+        "Build & Dimensions": [{ "key": "Base", "value": "700mm Full Metal" }, { "key": "Casters", "value": "60mm SMove Silent" }, { "key": "Chair Height", "value": "120-126 cm" }, { "key": "Seat Height", "value": "40-46 cm" }],
+        "Functionality": [{ "key": "Recline Angle", "value": "152° degrees" }, { "key": "Fabric", "value": "Premium EPU-Grade Leather Plush and Spill-resistant Fabric" }]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Obsidian 27-inch Gaming Monitor",
+      "price": "15,499",
+      "mrp": "30,000",
+      "discountPercentage": 48,
+      "rating": 4.8,
+      "reviewCount": 250,
+      "info": "27-inch 2K QHD Gaming Monitor with a stunning IPS panel, 200Hz refresh rate, and 1ms response time for ultra-smooth and immersive gameplay.",
+      "category": "monitor",
+      "statusTags": ["200Hz Refresh Rate", "1ms Response Time", "2K QHD", "G-Sync Compatible"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/d2c2_8c2659f5-98eb-4df4-80e6-2f3a58a72376.png?v=1758716184&width=1000" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/5386fe4db7524049a568962db605067f/5386fe4db7524049a568962db605067f.HD-1080p-7.2Mbps-59729095.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/d2c1_f09e2467-ab5d-46f7-b6ac-ba7823b5e6a5.png?v=1758716197&width=1000" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/d2c4_5d27ea5d-ea08-42f7-b227-f414d79e31f0.png?v=1758716184&width=1000" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/d2c5_865ce8b4-8786-4a42-9447-6c2b1bf049f7.png?v=1758716184&width=1000" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/5386fe4db7524049a568962db605067f/5386fe4db7524049a568962db605067f.HD-1080p-7.2Mbps-59729095.mp4?v=0"
+      },
+      "featureSections": [
+        { "title": "2560x1440 (1440p) Resolution", "description": "77% more pixels than 1080p for crisp, detailed visuals that bring games to life", "image": "https://kreo-tech.com/cdn/shop/files/Group_19_1.png?v=1757253264&width=720" },
+        { "title": "200Hz Refresh Rate at 10-bit color depth", "description": "Upto 200 frames per second at 10-bit color depth for incredibly smooth & vibrant experience", "image": "https://kreo-tech.com/cdn/shop/files/Group_20_3.png?v=1757253247&width=720" },
+        { "title": "Ergonomic Stand", "description": "Height, tilt, and pivot adjustments", "image": "https://kreo-tech.com/cdn/shop/files/d2c3_93faef79-46f9-4c13-afa9-5c3be509c22d.png?v=1758716184&width=1000" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/ips_panel_desktop.png?v=1757254220&width=1800"
+      },
+      "galleryBanners": [
+        { "title": "FreeSync & G-Sync Compatible", "subtitle": "Eliminates screen tearing and stuttering by automatically matching your GPU's frame output for the smoothest experience.", "image": "https://kreo-tech.com/cdn/shop/files/Group_37.png?v=1757258360&width=1400" },
+        { "title": "Multiple Connection Options", "subtitle": "USB, HDMI ,3.5 mm Jack, Display port 1.4", "image": "https://kreo-tech.com/cdn/shop/files/Group_41_ca0fc61e-32c0-4b6a-9f64-4cd5562cb780.png?v=1760449812&width=2000" }
+      ],
+      "specsV2": {
+        "Display Panel": [{ "key": "Screen Size", "value": "27-inch" }, { "key": "Panel Type", "value": "IPS" }, { "key": "Max Resolution", "value": "2560x1440 (QHD)" }, { "key": "Aspect Ratio", "value": "16:9" }],
+        "Performance": [{ "key": "Refresh Rate", "value": "200Hz (DP), 144Hz (HDMI)" }, { "key": "Response Time", "value": "1ms (with OD)" }, { "key": "Adaptive Sync", "value": "FreeSync & G-Sync Compatible" }, { "key": "Contrast Ratio", "value": "1100:1" }],
+        "Color & Brightness": [{ "key": "Color Depth", "value": "10 Bit (8 Bit + FRC)" }, { "key": "Color Gamut", "value": "130% sRGB, 95% DCI-P3" }, { "key": "Peak Brightness", "value": "400 nits" }, { "key": "HDR Support", "value": "HDR10" }],
+        "Connectivity & Ergonomics": [{ "key": "Ports", "value": "2x HDMI 2.0, 2x DisplayPort 1.4" }, { "key": "Audio", "value": "3.5mm Jack" }, { "key": "Stand Adjustability", "value": "Height, Tilt, Pivot" }, { "key": "VESA Mount", "value": "100x100mm" }]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Razer Kiyo V2",
+      "price": "5,499",
+      "mrp": "8,999",
+      "discountPercentage": 38,
+      "rating": 5.0,
+      "reviewCount": 2,
+      "info": "Stream in stunning 4K with Phase Detection Autofocus (PDAF), dual stereo mics, and a wide 77° field of view. Includes a magnetic privacy cover.",
+      "category": "camera",
+      "soldCount": "150+",
+      "statusTags": ["4K UHD", "Autofocus", "Dual Mics", "Privacy Cover"],
+      "media": [
+        { "type": "image", "src": "https://assets3.razerzone.com/vM0aIuSh0m3viECRSBHTEBYx29g=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh73%2Fh86%2F9974722461726%2F251015-kiyo-v2-b-1500x1000-2.jpg" },
+        { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/84678991f544561178a7b57d3d0a62f4/kyio-v2-kv-mobile_768x500.mp4" },
+        { "type": "image", "src": "https://assets3.razerzone.com/BF7gWnZvVh_mXbuMZedAhDGzk0I=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhca%2Fh86%2F9974722494494%2F251015-kiyo-v2-b-1500x1000-4.jpg" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard1_copy_7_cb780262-9393-4468-9b8d-21dd42e484fc.png?v=1753673170" }
+      ],
+      "specsV2": {
+        "Video": [{ "key": "Max Resolution", "value": "4K @ 25FPS" }, { "key": "Other Resolutions", "value": "1080p @ 30FPS" }, { "key": "Focus", "value": "PDAF Autofocus" }],
+        "Lens": [{ "key": "Viewing Angle", "value": "77°" }, { "key": "Aperture", "value": "f/1.7" }],
+        "Features": [{ "key": "Microphones", "value": "Dual Stereo" }, { "key": "Connectivity", "value": "USB 2.0 Plug & Play" }]
+      }
+    },
+    {
+      "id": 18,
+      "name": "RAZER SEIREN V3 CHROMA",
+      "price": "5,499",
+      "mrp": "8,999",
+      "discountPercentage": 38,
+      "rating": 5.0,
+      "reviewCount": 2,
+      "info": "Be seen and heard on new level with the Razer Seiren V3 Chroma—a pro-grade USB mic with RGB lighting customization that outshines all others. Featuring stream reactive lighting and a multi-function tap-to-mute sensor, get the control, clarity, and flair you need for gaming, streaming, and chatting.",
+      "category": "camera",
+      "soldCount": "150+",
+      "statusTags": ["4K UHD", "Autofocus", "Dual Mics", "Privacy Cover"],
+      "media": [
+        { "type": "image", "src": "https://assets3.razerzone.com/EvUY_34Ob4P37OvAblDktbAk5Rg=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhdf%2Fh33%2F9743850602526%2F240229-seiren-v3-chroma-1500x1000-1.jpg" },
+        { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/1c4e90e2724ac690b17e60a8c565a9e7/seiren-v3-chroma-mic-turning.mp4" },
+        { "type": "image", "src": "https://assets3.razerzone.com/3CRrzZWCaj25aGuIkW8GMxM7XQs=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh31%2Fh33%2F9743850668062%2F240229-seiren-v3-chroma-1500x1000-3.jpg" },
+        { "type": "image", "src": "https://assets3.razerzone.com/UgbGIrwwCpuaVUt0afb59173lKc=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh99%2Fh36%2F9743850569758%2F240229-seiren-v3-chroma-1500x1000-4.jpg" }
+      ],
+      "heroVideo": {
+        "src": "https://assets2.razerzone.com/images/pnx.assets/1c4e90e2724ac690b17e60a8c565a9e7/seiren-v3-chroma-mic-turning.mp4"
+      },
+      "featureBannerImage": {
+        "src": "https://assets2.razerzone.com/images/pnx.assets/de05aec6add2153083f907bbed77616f/panel-548x532-game-stream-lighting.webp"
+      },
+      "featureSections": [
+        { "title": "SINGLE TAP", "description": "TO MUTE.", "video": "https://assets2.razerzone.com/images/pnx.assets/929088ed6a13987ce0cd366e0d69606e/240130-singletaptomute_2.mp4" },
+        { "title": "MULTI-TAP”", "description": "TO CYCLE CHROMA EFFECTS", "video": "https://assets2.razerzone.com/images/pnx.assets/929088ed6a13987ce0cd366e0d69606e/240130-doubletaptocyclethroughchromaeffect_breathingtofire.mp4" },
+        { "title": "One-stop Control", "description": "Create the perfect setting from one powerful platform.", "video": "https://assets2.razerzone.com/images/pnx.assets/d743488e115b2c42a8b33292c6a9162c/razer-seiren-v3-chroma_stream-mixer-video.mp4" }
+      ],
+      "featureBannerText": [
+        { "label": "RAZER", "highlight": " SEIREN V3 CHROMA" },
+        { "label": "Compatibility ", "highlight": "PS4 / PS5" },
+        { "label": "", "highlight": "PC / Mac" }
+      ],
+      "specsV2": {
+        "Video": [{ "key": "Max Resolution", "value": "4K @ 25FPS" }, { "key": "Other Resolutions", "value": "1080p @ 30FPS" }, { "key": "Focus", "value": "PDAF Autofocus" }],
+        "Lens": [{ "key": "Viewing Angle", "value": "77°" }, { "key": "Aperture", "value": "f/1.7" }],
+        "Features": [{ "key": "Microphones", "value": "Dual Stereo" }, { "key": "Connectivity", "value": "USB 2.0 Plug & Play" }]
+      }
+    },
+    {
+      "id": 95,
+      "name": "Razer Laptop Cooling Pad",
+      "price": "3,399",
+      "mrp": "6,499",
+      "discountPercentage": 47,
+      "rating": 5.0,
+      "reviewCount": 13,
+      "info": "Stay cool when things heat up with the Razer Laptop Cooling Pad – a smart stand that dynamically controls fan speeds based on your laptop’s temperature. Features full-spectrum color temperature control (3200K-6500K) and a heavy-duty 6.6 ft tripod.",
+      "category": "lighting",
+      "statusTags": ["18-inch", "Tripod Included", "Full Spectrum"],
+      "media": [
+        { "type": "image", "src": "https://assets3.razerzone.com/41nkM6L-rRTZmZU2Va2WFr8Blfo=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh8f%2Fhb7%2F9820345729054%2F240928-laptop-cooling-pad-1500-1000-1.jpg" },
+        { "type": "video", "src": "https://assets2.razerzone.com/images/pnx.assets/fb388b9eacb4593a5d7e7bd6d02b0682/razer-laptop-cooling-pad-kv.mp4" },
+        { "type": "image", "src": "https://assets3.razerzone.com/MU_9ScAcjMScZXzhiYKJQ4dUGDE=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhcf%2Fhb6%2F9820345794590%2F240928-laptop-cooling-pad-1500-1000-2.jpg" },
+        { "type": "image", "src": "https://assets3.razerzone.com/WAfgoGyOGxsLRfk1YWVRHICWyjI=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh68%2Fhb0%2F9820345958430%2F240928-laptop-cooling-pad-1500-1000-5.jpg" }
+      ],
+      "heroVideo": {
+        "src": "https://assets2.razerzone.com/images/pnx.assets/c4979f5ddd9db9242d1a1343539af523/razer-laptop-cooling-pad---smart-cooling---loop.mp4"
+      },
+      "featureBannerImage": {
+        "src": "https://assets2.razerzone.com/images/pnx.assets/1a11d8eb1af0685ed9432dfe58847924/laptop-cooling-pad-benchmark-mobile.webp"
+      },
+      "featureSections": [
+        { "title": "AIRTIGHT PRESSURE CHAMBER", "description": "Efficient Design For Maximum Circulation.", "video": "https://assets2.razerzone.com/images/pnx.assets/7bd18fe3389fc6421a560ff48e618e94/razer-laptop-cooling-pad---airtight-pressure-chamber---loop.mp4" },
+        { "title": "PRESET & CUSTOM FAN CURVES”", "description": "Automated Cooling Efficiency", "video": "https://assets2.razerzone.com/images/pnx.assets/786b2ae6fac49e1e24777dea9ff6f860/laptop-cooling-pad-presets-custom-fan-curves.mp4" },
+        { "title": "3-Port USB Type A Hub", "description": "Connect up to three peripherals to reduce clutter and create the ultimate laptop battlestation.", "image": "https://assets2.razerzone.com/images/pnx.assets/86a22b547323426cdf31db57a686e639/500x500-3portusb.webp" }
+      ],
+      "featureBannerText": [
+        { "label": "RAZER", "highlight": " Laptop Cooling Pad" }
+      ],
+      "specsV2": {
+        "Lighting": [{ "key": "Diameter", "value": "18 inches (46 cm)" }, { "key": "Color Temperature", "value": "3200K - 6500K" }, { "key": "Dimming", "value": "Stepless (1-100%)" }, { "key": "CRI", "value": "95+" }],
+        "Stand & Mount": [{ "key": "Tripod Height", "value": "3.3 ft to 6.6 ft" }, { "key": "Mounts", "value": "Universal Phone Holder, 1/4\" Thread" }],
+        "Controls": [{ "key": "Remote", "value": "Wireless Remote Included" }, { "key": "Power", "value": "AC Powered" }]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Actus V2 Ergonomic Chair",
+      "price": "13,999",
+      "mrp": "40,000",
+      "discountPercentage": 65,
+      "rating": 4.9,
+      "reviewCount": 215,
+      "info": "Experience personalized back comfort with our innovative 3-point adjustable lumbar support system and a 135-degree recline. Engineered for optimal comfort, the Actus V2 is ideal for both focused productivity and relaxation.",
+      "category": "chair",
+      "soldCount": "1000+ sold",
+      "statusTags": ["Ergonomic", "Mesh Material", "3D Armrests", "800-Day Warranty"],
+      "media": [
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/d0d80cd6b35848f887490cb1dd8c5dc8/d0d80cd6b35848f887490cb1dd8c5dc8.HD-1080p-2.5Mbps-58652878.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_2_14.png?v=1759904795" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/7_1_-min.png?v=1759904795" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/22x-min.webp?v=1759904795" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/actus.webp?v=1759904795" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/Artboard_2_14.png?v=1759904795",
+        "title": "Actus V2 Ergonomic Chair",
+        "subtitle": "Experience personalized back comfort with our innovative 3-point adjustable lumbar support system and a 135-degree recline. Engineered for optimal comfort, the Actus V2 is ideal for both focused productivity and relaxation."
+      },
+      "optionalProductGallery": [
+        { "title": "3D Armrests", "video": "https://kreo-tech.com/cdn/shop/files/7_1_-min.png?v=1760771085&width=1200" },
+        { "title": "Breathable Mesh Fabric", "video": "https://kreo-tech.com/cdn/shop/files/42x-min.webp?v=1760771085&width=700" },
+        { "title": "60mm SMove Castors", "video": "https://kreo-tech.com/cdn/shop/files/5_1_-min.png?v=1760771085&width=1200" }
+      ],
+      "featureSections": [
+        { "title": "Breathable Mesh Material", "description": "Enhanced Airflow keeps you cool, even during extended periods of sitting.\nErgonomic Support: Mesh contours naturally to your back, ensuring superior lumbar support.\nAll-Day Comfort: Feel the difference with our hybrid system, where you can adjust the cushion cover and lumbar pillows, even cross-legged, for ultimate comfort.\nEasy Maintenance: The mesh material is durable, easy to clean, and resistant to wear.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/94e604cdae684ee3aed309d13c052f19/94e604cdae684ee3aed309d13c052f19.HD-1080p-7.2Mbps-58314414.mp4?v=0" },
+        { "title": "2D Adjustable Headrest", "description": "Perfect support, perfectly positioned to cradle your neck and head, reducing strain during long hours.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/d0d80cd6b35848f887490cb1dd8c5dc8/d0d80cd6b35848f887490cb1dd8c5dc8.HD-1080p-2.5Mbps-58652878.mp4?v=0" },
+        { "title": "3-Point Adjustable Lumbar Support", "description": "Experience personalized back comfort with our innovative 3-point adjustable lumbar support system. Featuring independent pillows for precision adjustments to your spine's natural curve. Whether you're working at your desk or relaxing at home, find your perfect balance of support and comfort for all-day relief.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/dd43485cbb6c447d8bfec4eda91db078/dd43485cbb6c447d8bfec4eda91db078.HD-1080p-7.2Mbps-58314409.mp4?v=0" },
+        { "title": "135° Recline Support", "description": "Discover the perfect balance between work and relaxation with our 135-degree recline mechanism. Engineered for optimal comfort, the precisely calibrated angle promotes healthy blood circulation while reducing pressure on your spine, making it ideal for extended sitting sessions.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/b6bb9638296240a38fd0cb5c94da53e5/b6bb9638296240a38fd0cb5c94da53e5.HD-1080p-7.2Mbps-58314411.mp4?v=0" }
+      ],
+      "specsV2": {
+        "Armrests & Mechanism": [{ "key": "Armrests", "value": "3D with HiLock Tension Adjusting System" }, { "key": "Mechanism", "value": "Sliding Mechanism" }],
+        "Support Systems": [{ "key": "Lumbar Support", "value": "3-Point Adjustable" }, { "key": "Headrest", "value": "2D Adjustable" }, { "key": "Gas Lift", "value": "BIFMA Certified Class 4 (150kg)" }],
+        "Build & Dimensions": [{ "key": "Base", "value": "700mm Full Metal" }, { "key": "Casters", "value": "60mm SMove Silent" }, { "key": "Chair Height", "value": "120-126 cm" }, { "key": "Seat Height", "value": "40-46 cm" }],
+        "Functionality": [{ "key": "Recline Angle", "value": "90-135 degrees" }, { "key": "Fabric", "value": "Mesh" }]
+      }
+    },
+    {
+      "id": 20,
+      "name": "SurgeX8 Wireless PC Gaming Controller",
+      "price": "1,999",
+      "mrp": "4,999",
+      "discountPercentage": 60,
+      "rating": 4.8,
+      "reviewCount": 125,
+      "info": "Unleash precision gaming with the SurgeX8 controller, featuring Hall Effect joysticks and triggers to eliminate stick drift and ensure flawless response. Connect via Bluetooth, 2.4GHz dongle, or wired Type-C.",
+      "category": "controller",
+      "statusTags": ["Hall Effect", "Wireless & Wired", "RGB Lighting", "Customizable Buttons"],
+      "colors": [
+        { "name": "Black/Purple", "image": "https://i.imgur.com/lO3f1tW.png" },
+        { "name": "Black/White", "image": "https://i.imgur.com/Tj8v9kF.png" }
+      ],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard3_4.png?v=1758272261&width=800" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard7_3_ea5a575e-56cc-486b-9236-75f89fe81fd4.png?v=1758272261&width=800" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/44cc98b1362b450fba05c1f1e4c085c7/44cc98b1362b450fba05c1f1e4c085c7.HD-720p-2.1Mbps-58146956.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard5_5.png?v=1758272261&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard9_3.png?v=1758272261&width=600" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/44cc98b1362b450fba05c1f1e4c085c7/44cc98b1362b450fba05c1f1e4c085c7.HD-720p-2.1Mbps-58146956.mp4?v=0"
+      },
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/Artboard_1_copy_1_849d41ab-daaf-4986-a60e-894e4499a1e4.png?v=1758554092&width=1800",
+        "title": "SurgeXB",
+        "description": "Wireless Gaming Controller"
+      },
+      "featureSections": [
+        { "title": "High Precision Joystick", "description": "More accurate, smoother PC + PTE material effectively addresses friction induces wear and tear, ensuring joystick longevity and stick drift.", "image": "https://kreo-tech.com/cdn/shop/files/Untitled-1_8489d57f-becd-4a0b-9668-076dcfdc6c21.png?v=1758706947&width=1000" },
+        { "title": "Hall Effect Triggers”", "description": "Enjoy smoother, more accurate trigger response every time you aim, brake, or accelerate.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_22_2.png?v=1758706834&width=720" },
+        { "title": "Dual Asymmetric Motors", "description": "Feel every explosion, crash, and recoil with enhanced haptic feedback for deeper immersion.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard5_5.png?v=1758272261&width=600" },
+        { "title": "Hall Effect Joystick", "description": "Joysticks that eliminates stick drift for reliable long-term performance.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_23_2.png?v=1758706834&width=720" },
+        { "title": "Battery LIfe", "description": "Upto 8 Hours in Single Charge", "image": "https://kreo-tech.com/cdn/shop/files/5_3_40a4decd-dc78-418d-af4d-75eedb00a14b.png?v=1756657661&width=800" }
+      ],
+      "featureBannerText": [
+        { "label": "XBOX", "highlight": " Wireless Gaming Controller" },
+        { "label": "Compatibility ", "highlight": "PS4 / PS5" },
+        { "label": "", "highlight": "PC / Mac" }
+      ],
+      "specsV2": {
+        "Connectivity & Compatibility": [{ "key": "Connection", "value": "USB-C, Bluetooth, 2.4GHz RF" }, { "key": "Compatibility", "value": "Windows, macOS, Switch, Android, iOS" }],
+        "Controls": [{ "key": "Joysticks", "value": "Dual Analog Hall Effect (Drift-free)" }, { "key": "Triggers", "value": "L2/R2 Analog Hall Effect" }, { "key": "Rear Buttons", "value": "2 Customizable M1/M2 Buttons" }, { "key": "D-Pad", "value": "4-Way D-Pad" }],
+        "Features": [{ "key": "Haptics", "value": "Dual Asymmetrical Rumble Motors" }, { "key": "Lighting", "value": "RGB Lighting Bar" }, { "key": "Customization", "value": "Adjustable Stick Sensitivity" }, { "key": "Layout", "value": "Ergonomic XBOX Layout" }],
+        "Build & Power": [{ "key": "Weight", "value": "198g" }, { "key": "Dimensions", "value": "152 x 103 x 62mm" }, { "key": "Battery", "value": "800mAh Li-ion Battery" }, { "key": "Grip", "value": "Anti-slip Textured Grip" }]
+      }
+    },
+    {
+      "id": 21,
+      "name": "Swarm All Black Wireless Gaming Keyboard",
+      "price": "3,999",
+      "mrp": "10,000",
+      "discountPercentage": 60,
+      "rating": 4.7,
+      "reviewCount": 45,
+      "info": "A true gasket-mounted 75% wireless keyboard with a 5-pin hot-swap PCB and quad-layer sound dampening for a premium feel.",
+      "category": "keyboard",
+      "soldCount": "5K+",
+      "statusTags": ["Wireless", "True Gasket Mount", "4-Layer Dampening"],
+      "media": [
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/1dfef62a25064540ad805bfbba3d5b48/1dfef62a25064540ad805bfbba3d5b48.HD-1080p-3.3Mbps-56747753.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1409.png?v=1760333926&width=800" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1410.png?v=1760333926&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1405.png?v=1760333912&width=600" }
+      ],
+      "switchOptions": [
+        { "name": "Kreo Starling", "type": "Linear", "force": "43±8gf", "image": "https://cdn.shopify.com/s/files/1/0619/4325/1121/files/purple-switch.webp", "description": "For fast actuations and ultra-smooth typing.", "audioSrc": "https://kreo-tech.com/cdn/shop/files/Starling_linear.mp3?v=1726671049" },
+        { "name": "GTMX Sense", "type": "Soft Tactile", "force": "45±10gf", "image": "https://cdn.shopify.com/s/files/1/0619/4325/1121/files/GTMX-Sense.jpg?v=1726682208", "description": "For a tactile typing experience with enhanced thoccs.", "audioSrc": "https://kreo-tech.com/cdn/shop/files/GTMX_Sense.mp3?v=1726671049" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "BT", "highlight": "2.4GHz or Wired" },
+        { "label": "270+ ", "highlight": "Hours battery life" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "75", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "75% Layout", "icon": "TKLIcon" },
+        { "name": "Metal Volume Knob", "icon": "VolumeKnobIcon" },
+        { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+        { "name": "4000mAh Battery", "icon": "BatteryIcon" },
+        { "name": "Software Support", "icon": "SoftwareIcon" },
+        { "name": "Wired, Bluetooth & 2.4GHz", "icon": "ConnectivityIcon" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/Swarm_1_90e8cb01-085c-4b85-858e-87b98c61e1dc.png?v=1739454310&width=800",
+        "title": "The Thockiest Thoccs",
+        "description": "The best typing experience you could've asked for"
+      },
+      "featureSections": [
+        { "title": "5 Layer Sound Absorption", "description": "Designed for peak performance, Kreo's 5-layer sound absorption system enhances your typing experience by significantly reducing noise and vibrations. Each layer is meticulously engineered to deliver a smoother, quieter, and more satisfying keystroke—perfect for long gaming sessions and focused work environments.", "image": "https://kreo-tech.com/cdn/shop/files/layers.png?v=1739439735&width=1000" },
+        { "title": "Completely Hotswappable", "description": "Replace switches and keycaps with ease.", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile.png?v=1742043321&width=800" },
+        { "title": "Pre-Lubed Switches", "description": "Feels smooth, lasts long", "image": "https://kreo-tech.com/cdn/shop/files/Pre_Luber_Mobile.png?v=1742043753&width=800" },
+        { "title": "Two Level Adjustment", "description": "Game longer tirelessly!", "image": "https://kreo-tech.com/cdn/shop/files/Feet_Mobile.png?v=1742044065&width=800" },
+        { "title": "Metal Volume Knob", "description": "Seamless Control, Premium Feel", "image": "https://kreo-tech.com/cdn/shop/files/5_Pin_Mobile_copy.png?v=1742045955&width=800" },
+        { "title": "Durashot PBT Keycaps", "description": "Unmatched Durability, Superior Feel", "image": "https://kreo-tech.com/cdn/shop/files/5_Pin_Mobile_copy_4.png?v=1742046686&width=800" },
+        { "title": "Gasket Mounted", "description": "Swarm is designed for an ultra-smooth and satisfying typing experience. By incorporating a flexible gasket between the plate and case, this innovative design effectively dampens vibrations and softens keystrokes, ensuring a quiet and comfortable feel.", "image": "https://kreo-tech.com/cdn/shop/files/Group_93.png?v=1739451461&width=1080" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Layout", "value": "75%" }, { "key": "Dimensions", "value": "331 x 145 x 38.5 mm" }, { "key": "Weight", "value": "~780 g" }],
+        "Core Features": [{ "key": "Mounting", "value": "True Gasket Mount" }, { "key": "Sound Dampening", "value": "4 Layers" }, { "key": "PCB", "value": "5-pin Hot-swap" }],
+        "Connectivity": [{ "key": "Modes", "value": "Wired, Bluetooth, 2.4 GHz" }],
+        "Build": [{ "key": "Keycaps", "value": "Double-shot ABS (Cherry profile)" }, { "key": "Lighting", "value": "Per-key RGB" }]
+      }
+    },
+    {
+      "id": 22,
+      "name": "Hive98 Full-Size Black-Purple Wired Gaming Keyboard",
+      "price": "2,999",
+      "mrp": "6,000",
+      "discountPercentage": 50,
+      "rating": 4.6,
+      "reviewCount": 89,
+      "info": "A compact full-size (96%) wired mechanical keyboard featuring a metal volume knob, hot-swappable switches, and sound-dampening foam.",
+      "category": "keyboard",
+      "soldCount": "5K+",
+      "statusTags": ["96% Layout", "Wired", "Volume Knob", "Hot-Swappable"],
+      "switches": ["Outemu Red", "Outemu Brown"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1335.png?v=1759936083&width=1000" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1336.png?v=1759936092&width=1000" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1334.png?v=1759936094&width=1000" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/79f5acbc9cb5453b8a2c3c1dd85b19b6/79f5acbc9cb5453b8a2c3c1dd85b19b6.HD-1080p-7.2Mbps-44439897.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1332.png?v=1759936101&width=1000" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+        { "label": "12+ ", "highlight": "RGB Modes" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "96", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "96% Layout", "icon": "TKLIcon" },
+        { "name": "Metal Volume Knob", "icon": "VolumeKnobIcon" },
+        { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+        { "name": "Wired Only", "icon": "ConnectivityIcon" },
+        { "name": "Sound Dampening Foam", "icon": "BoxIcon" },
+        { "name": "Per-key RGB", "icon": "RGBIcon" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/79f5acbc9cb5453b8a2c3c1dd85b19b6/79f5acbc9cb5453b8a2c3c1dd85b19b6.HD-1080p-7.2Mbps-44439897.mp4?v=0"
+      },
+      "featureSections": [
+        { "title": "OUTEMU Switches", "description": "Choose between Blue, Red or Brown Switches", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_5_e95d1ded-b34a-413b-a080-4ca68cdf7a5d.png?v=1742378929&width=800" },
+        { "title": "All Key Anti-Ghosting", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_10_ee526e8f-4c4f-49cc-a146-bd400fc0f875.png?v=1742378838&width=800" },
+        { "title": "5 Pin Hot Swappable PCB", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_6_a7f8619a-0686-4b1e-8ecf-04d7ea479174.png?v=1742379315&width=800" },
+        { "title": "Case Foam for enhanced typing experience", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_8_667716fd-aca0-4f19-ac21-f3b18e617660.png?v=1742379533&width=800" },
+        { "title": "Easy Plug & Play Connectivity", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_11.png?v=1742379660&width=800" },
+        { "title": "Intuitive Volume Control", "description": "Easily adjust your audio levels with the integrated metal volume knob for seamless control during intense gaming sessions or while working.", "image": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1365.png?v=1759936108&width=1000" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Layout", "value": "98-key (96%)" }, { "key": "Dimensions", "value": "~392 x 142 x 28 mm" }, { "key": "Weight", "value": "~737 g" }],
+        "Features": [{ "key": "Volume Control", "value": "Metal Knob" }, { "key": "Sound Dampening", "value": "Case Foam" }, { "key": "Lighting", "value": "Per-key RGB" }],
+        "Connectivity": [{ "key": "Type", "value": "Wired only" }, { "key": "Cable", "value": "Detachable USB-C (1.8 m)" }],
+        "Build": [{ "key": "Frame", "value": "ABS Plastic" }, { "key": "Switches", "value": "Hot-swappable" }, { "key": "Ergonomics", "value": "2-level adjustable feet" }]
+      }
+    },
+    {
+      "id": 77,
+      "name": "Hive98 Full-Size Black Wired Gaming Keyboard",
+      "price": "2,999",
+      "mrp": "6,000",
+      "discountPercentage": 50,
+      "rating": 4.6,
+      "reviewCount": 89,
+      "info": "A compact full-size (96%) wired mechanical keyboard featuring a metal volume knob, hot-swappable switches, and sound-dampening foam.",
+      "category": "keyboard",
+      "soldCount": "5K+",
+      "statusTags": ["96% Layout", "Wired", "Volume Knob", "Hot-Swappable"],
+      "switches": ["Outemu Red", "Outemu Brown"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1328.png?v=1759936002&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/79f5acbc9cb5453b8a2c3c1dd85b19b6/79f5acbc9cb5453b8a2c3c1dd85b19b6.HD-1080p-7.2Mbps-44439897.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1329.png?v=1759936000&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1327.png?v=1759935994&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1331.png?v=1759936009&width=600" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+        { "label": "12+ ", "highlight": "RGB Modes" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "96", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "96% Layout", "icon": "TKLIcon" },
+        { "name": "Metal Volume Knob", "icon": "VolumeKnobIcon" },
+        { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+        { "name": "Wired Only", "icon": "ConnectivityIcon" },
+        { "name": "Sound Dampening Foam", "icon": "BoxIcon" },
+        { "name": "Per-key RGB", "icon": "RGBIcon" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/79f5acbc9cb5453b8a2c3c1dd85b19b6/79f5acbc9cb5453b8a2c3c1dd85b19b6.HD-1080p-7.2Mbps-44439897.mp4?v=0"
+      },
+      "featureSections": [
+        { "title": "OUTEMU Switches", "description": "Choose between Blue, Red or Brown Switches", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_5_e95d1ded-b34a-413b-a080-4ca68cdf7a5d.png?v=1742378929&width=800" },
+        { "title": "All Key Anti-Ghosting", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_10_ee526e8f-4c4f-49cc-a146-bd400fc0f875.png?v=1742378838&width=800" },
+        { "title": "5 Pin Hot Swappable PCB", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_6_a7f8619a-0686-4b1e-8ecf-04d7ea479174.png?v=1742379315&width=800" },
+        { "title": "Case Foam for enhanced typing experience", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_8_667716fd-aca0-4f19-ac21-f3b18e617660.png?v=1742379533&width=800" },
+        { "title": "Easy Plug & Play Connectivity", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_11.png?v=1742379660&width=800" },
+        { "title": "Intuitive Volume Control", "description": "Easily adjust your audio levels with the integrated metal volume knob for seamless control during intense gaming sessions or while working.", "image": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1365.png?v=1759936108&width=1000" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Layout", "value": "98-key (96%)" }, { "key": "Dimensions", "value": "~392 x 142 x 28 mm" }, { "key": "Weight", "value": "~737 g" }],
+        "Features": [{ "key": "Volume Control", "value": "Metal Knob" }, { "key": "Sound Dampening", "value": "Case Foam" }, { "key": "Lighting", "value": "Per-key RGB" }],
+        "Connectivity": [{ "key": "Type", "value": "Wired only" }, { "key": "Cable", "value": "Detachable USB-C (1.8 m)" }],
+        "Build": [{ "key": "Frame", "value": "ABS Plastic" }, { "key": "Switches", "value": "Hot-swappable" }, { "key": "Ergonomics", "value": "2-level adjustable feet" }]
+      }
+    },
+    {
+      "id": 78,
+      "name": "Hive98 Full-Size White-Purple Wired Gaming Keyboard",
+      "price": "2,999",
+      "mrp": "6,000",
+      "discountPercentage": 50,
+      "rating": 4.6,
+      "reviewCount": 89,
+      "info": "A compact full-size (96%) wired mechanical keyboard featuring a metal volume knob, hot-swappable switches, and sound-dampening foam.",
+      "category": "keyboard",
+      "soldCount": "5K+",
+      "statusTags": ["96% Layout", "Wired", "Volume Knob", "Hot-Swappable"],
+      "switches": ["Outemu Red", "Outemu Brown"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1342.png?v=1759936305&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/79f5acbc9cb5453b8a2c3c1dd85b19b6/79f5acbc9cb5453b8a2c3c1dd85b19b6.HD-1080p-7.2Mbps-44439897.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1338.png?v=1759936308&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1341.png?v=1759936311&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1339.png?v=1759936315&width=600" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+        { "label": "12+ ", "highlight": "RGB Modes" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "96", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "96% Layout", "icon": "TKLIcon" },
+        { "name": "Metal Volume Knob", "icon": "VolumeKnobIcon" },
+        { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+        { "name": "Wired Only", "icon": "ConnectivityIcon" },
+        { "name": "Sound Dampening Foam", "icon": "BoxIcon" },
+        { "name": "Per-key RGB", "icon": "RGBIcon" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/79f5acbc9cb5453b8a2c3c1dd85b19b6/79f5acbc9cb5453b8a2c3c1dd85b19b6.HD-1080p-7.2Mbps-44439897.mp4?v=0"
+      },
+      "featureSections": [
+        { "title": "OUTEMU Switches", "description": "Choose between Blue, Red or Brown Switches", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_5_e95d1ded-b34a-413b-a080-4ca68cdf7a5d.png?v=1742378929&width=800" },
+        { "title": "All Key Anti-Ghosting", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_10_ee526e8f-4c4f-49cc-a146-bd400fc0f875.png?v=1742378838&width=800" },
+        { "title": "5 Pin Hot Swappable PCB", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_6_a7f8619a-0686-4b1e-8ecf-04d7ea479174.png?v=1742379315&width=800" },
+        { "title": "Case Foam for enhanced typing experience", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_8_667716fd-aca0-4f19-ac21-f3b18e617660.png?v=1742379533&width=800" },
+        { "title": "Easy Plug & Play Connectivity", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_11.png?v=1742379660&width=800" },
+        { "title": "Intuitive Volume Control", "description": "Easily adjust your audio levels with the integrated metal volume knob for seamless control during intense gaming sessions or while working.", "image": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1365.png?v=1759936108&width=1000" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Layout", "value": "98-key (96%)" }, { "key": "Dimensions", "value": "~392 x 142 x 28 mm" }, { "key": "Weight", "value": "~737 g" }],
+        "Features": [{ "key": "Volume Control", "value": "Metal Knob" }, { "key": "Sound Dampening", "value": "Case Foam" }, { "key": "Lighting", "value": "Per-key RGB" }],
+        "Connectivity": [{ "key": "Type", "value": "Wired only" }, { "key": "Cable", "value": "Detachable USB-C (1.8 m)" }],
+        "Build": [{ "key": "Frame", "value": "ABS Plastic" }, { "key": "Switches", "value": "Hot-swappable" }, { "key": "Ergonomics", "value": "2-level adjustable feet" }]
+      }
+    },
+    {
+      "id": 23,
+      "name": "Hive65 White-Purple Mechanical Gaming Keyboard",
+      "price": "2,399",
+      "mrp": "4,999",
+      "discountPercentage": 52,
+      "rating": 4.8,
+      "reviewCount": 150,
+      "info": "A 65% compact gasket-mounted keyboard with pre-lubed linear switches, a metal volume knob, and dual-layer sound dampening for a premium typing feel.",
+      "category": "keyboard",
+      "soldCount": "3K+",
+      "statusTags": ["65% Layout", "Gasket Mount", "Pre-Lubed Switches", "Wired"],
+      "switches": ["Kreo Linear (Purple)"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1216.png?v=1760333415&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/b22aed2d3520439287a14d730b8570d1/b22aed2d3520439287a14d730b8570d1.HD-1080p-7.2Mbps-48301895.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1214.png?v=1760333415&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1213.png?v=1760333415&width=600" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+        { "label": "10+ ", "highlight": "RGB Modes" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "65", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "65% Layout", "icon": "TKLIcon" },
+        { "name": "Gasket Mount", "icon": "VolumeKnobIcon" },
+        { "name": "Pre-lubed Switches", "icon": "SwitchIcon" },
+        { "name": "Wired Only", "icon": "ConnectivityIcon" },
+        { "name": "Dual-layer Dampening", "icon": "BoxIcon" },
+        { "name": "Per-key RGB", "icon": "RGBIcon" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/b22aed2d3520439287a14d730b8570d1/b22aed2d3520439287a14d730b8570d1.HD-1080p-7.2Mbps-48301895.mp4?v=0"
+      },
+      "featureSections": [
+        { "title": "Dual-Layer Sound Dampening", "description": "With case foam and a silicone pad, this keyboard is engineered to deliver a deeper, richer sound profile with every keystroke, eliminating unwanted pings and hollowness.", "image": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1217.png?v=1760333415&width=600" },
+        { "title": "Kreo Purple Linear Switches", "description": "Pre Lubed Linear switch for smooth typing experience.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_9_2.png?v=1748339379&width=800" },
+        { "title": "All Key Anti-Ghosting", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_7_2.png?v=1748339379&width=800" },
+        { "title": "Dedicated shortcuts to change", "description": "Mac / Win", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_16_1.png?v=1748600554&width=800" },
+        { "title": "Easy Plug & Play Connectivity", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_11_2.png?v=1748339379&width=800" },
+        { "title": "Per Key RGB & Software Support", "image": "https://kreo-tech.com/cdn/shop/files/RGMB1.png?v=1748847137&width=800" },
+        { "title": "Metal Volume Knob", "description": "A sleek, integrated metal knob provides precise control over your volume, combining functionality with a premium feel.", "image": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1288.png?v=1760333415&width=600" }
+      ],
+      "specsV2": {
+        "Core Features": [{ "key": "Layout", "value": "65% Compact (64-key)" }, { "key": "Mounting", "value": "Gasket Mount" }, { "key": "Switches", "value": "Pre-Lubed Kreo Linear (Purple)" }],
+        "Build": [{ "key": "Keycaps", "value": "Double-shot ABS" }, { "key": "Sound Dampening", "value": "Dual-layer Foam" }, { "key": "Volume Control", "value": "Metal Knob" }],
+        "Connectivity": [{ "key": "Type", "value": "Wired via detachable USB-C" }]
+      }
+    },
+    {
+      "id": 81,
+      "name": "Hive65 Black-Purple Mechanical Gaming Keyboard",
+      "price": "2,399",
+      "mrp": "4,999",
+      "discountPercentage": 52,
+      "rating": 4.8,
+      "reviewCount": 150,
+      "info": "A 65% compact gasket-mounted keyboard with pre-lubed linear switches, a metal volume knob, and dual-layer sound dampening for a premium typing feel.",
+      "category": "keyboard",
+      "soldCount": "3K+",
+      "statusTags": ["65% Layout", "Gasket Mount", "Pre-Lubed Switches", "Wired"],
+      "switches": ["Kreo Linear (Purple)"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1285.png?v=1760333438&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/b22aed2d3520439287a14d730b8570d1/b22aed2d3520439287a14d730b8570d1.HD-1080p-7.2Mbps-48301895.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1284.png?v=1760333438&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1282.png?v=1760333438&width=600" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+        { "label": "10+ ", "highlight": "RGB Modes" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "65", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "65% Layout", "icon": "TKLIcon" },
+        { "name": "Gasket Mount", "icon": "VolumeKnobIcon" },
+        { "name": "Pre-lubed Switches", "icon": "SwitchIcon" },
+        { "name": "Wired Only", "icon": "ConnectivityIcon" },
+        { "name": "Dual-layer Dampening", "icon": "BoxIcon" },
+        { "name": "Per-key RGB", "icon": "RGBIcon" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/b22aed2d3520439287a14d730b8570d1/b22aed2d3520439287a14d730b8570d1.HD-1080p-7.2Mbps-48301895.mp4?v=0"
+      },
+      "featureSections": [
+        { "title": "Dual-Layer Sound Dampening", "description": "With case foam and a silicone pad, this keyboard is engineered to deliver a deeper, richer sound profile with every keystroke, eliminating unwanted pings and hollowness.", "image": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1217.png?v=1760333415&width=600" },
+        { "title": "Kreo Purple Linear Switches", "description": "Pre Lubed Linear switch for smooth typing experience.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_9_2.png?v=1748339379&width=800" },
+        { "title": "All Key Anti-Ghosting", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_7_2.png?v=1748339379&width=800" },
+        { "title": "Dedicated shortcuts to change", "description": "Mac / Win", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_16_1.png?v=1748600554&width=800" },
+        { "title": "Easy Plug & Play Connectivity", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_11_2.png?v=1748339379&width=800" },
+        { "title": "Per Key RGB & Software Support", "image": "https://kreo-tech.com/cdn/shop/files/RGMB1.png?v=1748847137&width=800" },
+        { "title": "Metal Volume Knob", "description": "A sleek, integrated metal knob provides precise control over your volume, combining functionality with a premium feel.", "image": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1288.png?v=1760333415&width=600" }
+      ],
+      "specsV2": {
+        "Core Features": [{ "key": "Layout", "value": "65% Compact (64-key)" }, { "key": "Mounting", "value": "Gasket Mount" }, { "key": "Switches", "value": "Pre-Lubed Kreo Linear (Purple)" }],
+        "Build": [{ "key": "Keycaps", "value": "Double-shot ABS" }, { "key": "Sound Dampening", "value": "Dual-layer Foam" }, { "key": "Volume Control", "value": "Metal Knob" }],
+        "Connectivity": [{ "key": "Type", "value": "Wired via detachable USB-C" }]
+      }
+    },
+    {
+      "id": 24,
+      "name": "Hive75 Black-Purple Mechanical Gaming Keyboard",
+      "price": "2,799",
+      "mrp": "5,999",
+      "discountPercentage": 52,
+      "rating": 4.8,
+      "reviewCount": 130,
+      "info": "The popular 65% Hive65 keyboard in a sleek black and purple colorway, featuring a gasket mount, pre-lubed linear switches, and a metal volume knob.",
+      "category": "keyboard",
+      "statusTags": ["75% Layout", "Gasket Mount", "Pre-Lubed Switches", "Wired"],
+      "switches": ["Kreo Linear (Purple)"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1315.png?v=1759936321&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/763d74a7dc9f4592bc6e976d5a22551c/763d74a7dc9f4592bc6e976d5a22551c.HD-1080p-7.2Mbps-44440681.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1312.png?v=1759936321&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1314.png?v=1759935884&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREO_HIVE_65_WHITE_PDP_-_OWN_MATERIALS.1317.png?v=1759936321&width=600" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+        { "label": "12+ ", "highlight": "RGB Modes" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "75", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/763d74a7dc9f4592bc6e976d5a22551c/763d74a7dc9f4592bc6e976d5a22551c.HD-1080p-7.2Mbps-44440681.mp4?v=0"
+      },
+      "featureIconGrid": [
+        { "name": "75% Layout", "icon": "TKLIcon" },
+        { "name": "Gasket Mount", "icon": "VolumeKnobIcon" },
+        { "name": "Pre-lubed Switches", "icon": "SwitchIcon" },
+        { "name": "Wired Only", "icon": "ConnectivityIcon" },
+        { "name": "Dual-layer Dampening", "icon": "BoxIcon" },
+        { "name": "Per-key RGB", "icon": "RGBIcon" }
+      ],
+      "featureSections": [
+        { "title": "Easy Plug & Play Connectivity", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_11.png?v=1742379660&width=800" },
+        { "title": "Metal Volume Knob", "description": "A sleek, integrated metal knob provides precise control over your volume, combining functionality with a premium feel.", "image": "https://kreo-tech.com/cdn/shop/files/White_2.png?v=1757749152&width=600" },
+        { "title": "All Key Anti-Ghosting", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_11_6d293ba4-e1d9-43da-ac15-1a83b9697b80.png?v=1742382517&width=800" },
+        { "title": "OUTEMU Switches", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_5_e95d1ded-b34a-413b-a080-4ca68cdf7a5d.png?v=1742378929&width=800" }
+      ],
+      "specsV2": {
+        "Core Features": [{ "key": "Layout", "value": "65% Compact (64-key)" }, { "key": "Mounting", "value": "Gasket Mount" }, { "key": "Switches", "value": "Pre-Lubed Kreo Linear (Purple)" }],
+        "Build": [{ "key": "Keycaps", "value": "Double-shot ABS" }, { "key": "Sound Dampening", "value": "Dual-layer Foam" }, { "key": "Volume Control", "value": "Metal Knob" }],
+        "Connectivity": [{ "key": "Type", "value": "Wired via detachable USB-C" }]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Hive75 White-Purple Wired Gaming Keyboard",
+      "price": "2,799",
+      "mrp": "4,000",
+      "discountPercentage": 30,
+      "rating": 4.6,
+      "reviewCount": 65,
+      "info": "The classic 75% TKL keyboard in a stunning white and purple theme. Features a hot-swappable 5-pin PCB, per-key RGB, and sound-dampening foam.",
+      "category": "keyboard",
+      "statusTags": ["75% Layout", "Wired", "Hot-Swappable"],
+      "switches": ["Outemu Red", "Outemu Brown"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1298.png?v=1759935383&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/763d74a7dc9f4592bc6e976d5a22551c/763d74a7dc9f4592bc6e976d5a22551c.HD-1080p-7.2Mbps-44440681.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1295.png?v=1759935388&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1297.png?v=1759935391&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/KREOHIVE65WHITEPDP-OWNMATERIALS.1293.png?v=1759935404&width=600" }
+      ],
+      "featureBannerText": [
+        { "label": "Metal ", "highlight": "Volume Knob" },
+        { "label": "HOT SWAPPABLE", "highlight": "SWITCHES" },
+        { "label": "12+ ", "highlight": "RGB Modes" }
+      ],
+      "featureStats": [
+        { "label": "Battery", "value": "4000", "unit": "maH" },
+        { "label": "Layout", "value": "75", "unit": "%" },
+        { "label": "Wireless Polling Rate", "value": "1000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "75% Layout", "icon": "TKLIcon" },
+        { "name": "Hot-Swapable Switches", "icon": "HotSwapIcon" },
+        { "name": "Wired Only", "icon": "ConnectivityIcon" },
+        { "name": "Sound Dampening Foam", "icon": "BoxIcon" },
+        { "name": "Per-key RGB", "icon": "RGBIcon" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/763d74a7dc9f4592bc6e976d5a22551c/763d74a7dc9f4592bc6e976d5a22551c.HD-1080p-7.2Mbps-44440681.mp4?v=0"
+      },
+      "featureSections": [
+        { "title": "Easy Plug & Play Connectivity", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_11.png?v=1742379660&width=800" },
+        { "title": "Metal Volume Knob", "description": "A sleek, integrated metal knob provides precise control over your volume, combining functionality with a premium feel.", "image": "https://kreo-tech.com/cdn/shop/files/White_2.png?v=1757749152&width=600" },
+        { "title": "All Key Anti-Ghosting", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_11_6d293ba4-e1d9-43da-ac15-1a83b9697b80.png?v=1742382517&width=800" },
+        { "title": "OUTEMU Switches", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_5_e95d1ded-b34a-413b-a080-4ca68cdf7a5d.png?v=1742378929&width=800" }
+      ],
+      "specsV2": {
+        "Core Features": [{ "key": "Layout", "value": "75-keys (Compact TKL)" }, { "key": "PCB", "value": "Hot-swappable 5-pin" }, { "key": "Switches", "value": "Outemu Red/Brown" }],
+        "Build": [{ "key": "Sound Dampening", "value": "Foam" }, { "key": "Lighting", "value": "Per-key RGB" }],
+        "Connectivity": [{ "key": "Type", "value": "Wired via detachable USB-C" }]
+      }
+    },
+    {
+      "id": 28,
+      "name": "Ikarus Black 55g Wireless Gaming Mouse",
+      "price": "4,399",
+      "mrp": "12,999",
+      "discountPercentage": 66,
+      "rating": 4.27,
+      "reviewCount": 55,
+      "info": "Our flagship 55g wireless gaming mouse in black, featuring a Pixart 3395 sensor, 4000Hz polling rate, and Motion Sync Technology.",
+      "category": "mouse",
+      "soldCount": "2K+",
+      "statusTags": ["Wireless", "55g Ultra-Light", "Pixart 3395"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1132.png?v=1760333485&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/b2f5078d4f76438ab03c48ea105bee37/b2f5078d4f76438ab03c48ea105bee37.HD-1080p-3.3Mbps-56747226.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1133.png?v=1760333485&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1130.png?v=1760333485&width=600" }
+      ],
+      "featureIconGrid": [
+        { "name": "55g", "icon": "LightweightIcon" },
+        { "name": "Pixart 3395 Sensor", "icon": "SensorIcon" },
+        { "name": "OMRON Optical switches", "icon": "OpticalSwitchIcon" },
+        { "name": "100+ Hours battery life", "icon": "BatteryIcon" },
+        { "name": "Software Support", "icon": "SoftwareSupportIcon" },
+        { "name": "BT, 2.4GHz or Wired", "icon": "TriModeIcon" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_9_0a511895-2a03-4711-87ba-b732468381e2.png?v=1742279748&width=800",
+        "title": "Kreo Ikarus",
+        "description": "Wireless Gaming Mouse"
+      },
+      "featureBannerText": [
+        { "label": "FLAGSHIP", "highlight": "PIXART 3395" },
+        { "label": "BT", "highlight": "2.4GHz or Wired" },
+        { "label": "OMRON ", "highlight": "Optical switches" }
+      ],
+      "featureStats": [
+        { "label": "Ultimate Precision", "value": "26000", "unit": "DPI" },
+        { "label": "Tracking Speed", "value": "650", "unit": "IPS" },
+        { "label": " Polling Rate", "value": "4000", "unit": "Hz" }
+      ],
+      "featureSections": [
+        { "title": "100+ Hours", "description": "Battery life for unmatched freedom.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_24_copy_2.png?v=1751633266&width=800" },
+        { "title": "PixArt Motion Sync Technology", "description": "This latest flagship sensor from Pixart has the highest specs in the market with extreme precision of 99.6% resolution accuracy. However, this does not mean the sensor is more accurate tracking. To make your sensor more accurate tracking, the Motion-Sync Technology is built into the sensor. Your PC extracts information from another sensor at a rate that does not perfectly match the signal the mouse sends out when it extracts information from another sensor. The Motion-Sync Technology synchronize its signals intelligently at the exact intervals your pc extracts information. This allows the tracking to be very accurate. However, this may cause some motion-delay (less than 1ms) that is not noticeable during in-game play", "image": "https://kreo-tech.com/cdn/shop/files/curve.png?v=1738226501&width=1000" },
+        { "title": "Online Software Support", "image": "https://kreo-tech.com/cdn/shop/files/Ikarus_Mobile.png?v=1757600497&width=800" },
+        { "title": "Ultralight-55g", "description": "For those super quick flick shots", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_6.png?v=1742279941&width=800" },
+        { "title": "100% PTFE Feet", "description": "Glide smoothly across surfaces", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_8.png?v=1742284811&width=800" }
+      ],
+      "galleryBanners": [
+        { "title": "TTC Gold Encoder", "subtitle": "Precision scrolls that would last long", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_4.png?v=1742280054&width=800" },
+        { "title": "4000Hz Polling Rate", "subtitle": "Equipped with a cutting-edge 4K dongle", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_10_f4844424-ffad-4888-a286-3ca11acd394d.png?v=1742284667&width=800" },
+        { "title": "Available in 2 variants", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_7.png?v=1742280667&width=800" },
+        { "title": "OMRON Optical", "subtitle": "D2FP Switches No Wear, No Tear", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_5.png?v=1742280406&width=800" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Product Name", "value": "Ikarus" }, { "key": "Dimensions", "value": "121x59x37" }, { "key": "Weight", "value": "55 g" }],
+        "Core Features": [{ "key": "Sensors", "value": "pixart PAW3395" }, { "key": "Battery Life", "value": "100hrs+" }, { "key": "PCB", "value": "5-pin Hot-swap" }],
+        "Connectivity": [{ "key": "Modes", "value": "Wireless, Bluetooth, 2.4 GHz" }],
+        "Build": [{ "key": "Keycaps", "value": "ABS Plastic" }, { "key": "Cable Type", "value": "Braided, Detachable" }]
+      }
+    },
+    {
+      "id": 29,
+      "name": "Anzu White 52g Wireless Gaming Mouse",
+      "price": "1,999",
+      "mrp": "5,499",
+      "discountPercentage": 63,
+      "rating": 4.5,
+      "reviewCount": 70,
+      "info": "An ultra-light 52g wireless gaming mouse with an ergonomic build, Pixart 3311 sensor, and long-lasting Huano 80M switches.",
+      "category": "mouse",
+      "soldCount": "3K+",
+      "statusTags": ["Wireless", "52g Ultra-Light", "Ergonomic"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1145.png?v=1759329884&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/76510b7c830a4d2e985b5f7eb378d606/76510b7c830a4d2e985b5f7eb378d606.HD-1080p-4.8Mbps-44224597.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1147.png?v=1759329885&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1146.png?v=1759329886&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1148.png?v=1759329889&width=600" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/76510b7c830a4d2e985b5f7eb378d606/76510b7c830a4d2e985b5f7eb378d606.HD-1080p-4.8Mbps-44224597.mp4?v=0"
+      },
+      "featureBannerText": [
+        { "label": "KREO", "highlight": "ANZU" },
+        { "label": "30g", "highlight": "Acceleration" },
+        { "label": "1000Hz ", "highlight": "Polling Rate" }
+      ],
+      "featureStats": [
+        { "label": "Ultimate Precision", "value": "26000", "unit": "DPI" },
+        { "label": "Tracking Speed", "value": "650", "unit": "IPS" },
+        { "label": " Polling Rate", "value": "4000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "52g", "icon": "LightweightIcon" },
+        { "name": "Pixart 3311 Sensor", "icon": "SensorIcon" },
+        { "name": "OMRON Optical switches", "icon": "OpticalSwitchIcon" },
+        { "name": "50+ Hours battery life", "icon": "BatteryIcon" },
+        { "name": "Software Support", "icon": "SoftwareSupportIcon" },
+        { "name": "BT, 2.4GHz or Wired", "icon": "TriModeIcon" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1146.png?v=1759329886&width=600",
+        "title": "Kreo Anzu",
+        "description": "Wireless Gaming Mouse"
+      },
+      "featureSections": [
+        { "title": "50+ Hours", "description": "Battery life for unmatched freedom.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_24_copy_2.png?v=1751633266&width=800" },
+        { "title": "Supports all grips", "image": "https://kreo-tech.com/cdn/shop/files/shape.png?v=1741790904&width=800" },
+        { "title": "Online Software Support", "image": "https://kreo-tech.com/cdn/shop/files/Anzu_Mobile.png?v=1757943966&width=800" },
+        { "title": "Ultralight-52g", "description": "For those super quick flick shots", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_1_copy_2.webp?v=1759329918&width=600" },
+        { "title": "100% PTFE Feet", "description": "Glide smoothly across surfaces", "image": "https://kreo-tech.com/cdn/shop/files/PTFE-2.png?v=1741793422&width=800" }
+      ],
+      "galleryBanners": [
+        { "title": "TTC Gold Encoder", "subtitle": "Precision scrolls that would last long", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_4.png?v=1742280054&width=800" },
+        { "title": "4000Hz Polling Rate", "subtitle": "Equipped with a cutting-edge 4K dongle", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_10_f4844424-ffad-4888-a286-3ca11acd394d.png?v=1742284667&width=800" },
+        { "title": "Huano Switches", "subtitle": "80M Clicks guaranteed", "image": "https://kreo-tech.com/cdn/shop/files/switches_4a65d55f-ee66-4b04-aee8-3e96cc954ffd.png?v=1741795188&width=800" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Product Name", "value": "Anzu" }, { "key": "Dimensions", "value": "122x63x39.5" }, { "key": "Weight", "value": "52 g" }],
+        "Core Features": [{ "key": "Sensors", "value": "pixart PAW3311" }, { "key": "Battery Life", "value": "50hrs+" }, { "key": "PCB", "value": "5-pin Hot-swap" }],
+        "Connectivity": [{ "key": "Modes", "value": "Wireless, Bluetooth, 2.4 GHz" }],
+        "Build": [{ "key": "Keycaps", "value": "ABS Plastic" }, { "key": "Cable Type", "value": "Braided, Detachable" }]
+      }
+    },
+    {
+      "id": 30,
+      "name": "Anzu Black 52g Wireless Gaming Mouse",
+      "price": "1,999",
+      "mrp": "5,499",
+      "discountPercentage": 63,
+      "rating": 4.5,
+      "reviewCount": 70,
+      "info": "An ultra-light 52g wireless gaming mouse in black with an ergonomic build, Pixart 3311 sensor, and long-lasting Huano 80M switches.",
+      "category": "mouse",
+      "soldCount": "3K+",
+      "statusTags": ["Wireless", "52g Ultra-Light", "Ergonomic"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1154.png?v=1759329932&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/76510b7c830a4d2e985b5f7eb378d606/76510b7c830a4d2e985b5f7eb378d606.HD-1080p-4.8Mbps-44224597.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1153.png?v=1759329933&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1152.png?v=1759329935&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1150.png?v=1759329935&width=600" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/76510b7c830a4d2e985b5f7eb378d606/76510b7c830a4d2e985b5f7eb378d606.HD-1080p-4.8Mbps-44224597.mp4?v=0"
+      },
+      "featureBannerText": [
+        { "label": "KREO", "highlight": "ANZU" },
+        { "label": "30g", "highlight": "Acceleration" },
+        { "label": "1000Hz ", "highlight": "Polling Rate" }
+      ],
+      "featureStats": [
+        { "label": "Ultimate Precision", "value": "26000", "unit": "DPI" },
+        { "label": "Tracking Speed", "value": "650", "unit": "IPS" },
+        { "label": " Polling Rate", "value": "4000", "unit": "Hz" }
+      ],
+      "featureIconGrid": [
+        { "name": "52g", "icon": "LightweightIcon" },
+        { "name": "Pixart 3311 Sensor", "icon": "SensorIcon" },
+        { "name": "OMRON Optical switches", "icon": "OpticalSwitchIcon" },
+        { "name": "50+ Hours battery life", "icon": "BatteryIcon" },
+        { "name": "Software Support", "icon": "SoftwareSupportIcon" },
+        { "name": "BT, 2.4GHz or Wired", "icon": "TriModeIcon" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1146.png?v=1759329886&width=600",
+        "title": "Kreo Anzu",
+        "description": "Wireless Gaming Mouse"
+      },
+      "featureSections": [
+        { "title": "50+ Hours", "description": "Battery life for unmatched freedom.", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_24_copy_2.png?v=1751633266&width=800" },
+        { "title": "Supports all grips", "image": "https://kreo-tech.com/cdn/shop/files/shape.png?v=1741790904&width=800" },
+        { "title": "Online Software Support", "image": "https://kreo-tech.com/cdn/shop/files/Anzu_Mobile.png?v=1757943966&width=800" },
+        { "title": "Ultralight-52g", "description": "For those super quick flick shots", "image": "https://kreo-tech.com/cdn/shop/files/Artboard_1_copy_2.webp?v=1759329918&width=600" },
+        { "title": "100% PTFE Feet", "description": "Glide smoothly across surfaces", "image": "https://kreo-tech.com/cdn/shop/files/PTFE-2.png?v=1741793422&width=800" }
+      ],
+      "galleryBanners": [
+        { "title": "TTC Gold Encoder", "subtitle": "Precision scrolls that would last long", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_4.png?v=1742280054&width=800" },
+        { "title": "4000Hz Polling Rate", "subtitle": "Equipped with a cutting-edge 4K dongle", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_10_f4844424-ffad-4888-a286-3ca11acd394d.png?v=1742284667&width=800" },
+        { "title": "Huano Switches", "subtitle": "80M Clicks guaranteed", "image": "https://kreo-tech.com/cdn/shop/files/switches_4a65d55f-ee66-4b04-aee8-3e96cc954ffd.png?v=1741795188&width=800" }
+      ],
+      "specsV2": {
+        "General Info": [{ "key": "Product Name", "value": "Anzu" }, { "key": "Dimensions", "value": "122x63x39.5" }, { "key": "Weight", "value": "52 g" }],
+        "Core Features": [{ "key": "Sensors", "value": "pixart PAW3311" }, { "key": "Battery Life", "value": "50hrs+" }, { "key": "PCB", "value": "5-pin Hot-swap" }],
+        "Connectivity": [{ "key": "Modes", "value": "Wireless, Bluetooth, 2.4 GHz" }],
+        "Build": [{ "key": "Keycaps", "value": "ABS Plastic" }, { "key": "Cable Type", "value": "Braided, Detachable" }]
+      }
+    },
+    {
+      "id": 31,
+      "name": "Hawk White Gaming Mouse",
+      "price": "1,199",
+      "mrp": "2,499",
+      "discountPercentage": 52,
+      "rating": 4.18,
+      "reviewCount": 40,
+      "info": "The white version of the popular wired gaming mouse with a Pixart 3327 Sensor, 12400 DPI, and 8 programmable buttons.",
+      "category": "mouse",
+      "statusTags": ["Wired", "RGB"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1186.png?v=1759329974&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/691e98b050da44998599407476d4bdb5/691e98b050da44998599407476d4bdb5.HD-1080p-7.2Mbps-44428078.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1183.png?v=1759329975&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1182.png?v=1759329976&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/HawkPDPwebsite.1185.png?v=1759329977&width=600" }
+      ],
+      "heroVideo": {
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/691e98b050da44998599407476d4bdb5/691e98b050da44998599407476d4bdb5.HD-1080p-7.2Mbps-44428078.mp4?v=0"
+      },
+      "featureIconGrid": [
+        { "name": "Pixart 3327 Sensor", "icon": "DoNotDisturbIcon" },
+        { "name": "Software Support", "icon": "SoftwareIcon" },
+        { "name": ".5m Long Cable", "icon": "ConnectivityIcon" },
+        { "name": "Customizable RGB", "icon": "RGBIcon" }
+      ],
+      "featureStats": [
+        { "label": "Cable", "value": "150cm", "unit": "" },
+        { "label": "DPI", "value": "12400", "unit": "" },
+        { "label": "Programmable Buttons", "value": "8", "unit": "" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_4_52465e1c-07ad-4c4d-8d72-581c6d2803bf.png?v=1742363293&width=800",
+        "title": "KREO HAWK Wired Gaming Mouse"
+      },
+      "featureSections": [
+        { "title": "Pixart 3327 Sensor", "description": "Experience flawless tracking and ultra-fast responsiveness", "image": "https://kreo-tech.com/cdn/shop/files/SENSOR_IMAGE_d3a2f7fb-c3ff-47b4-96a2-1d8fb8a3ae83.png?v=1738237122&width=800" },
+        { "title": "8 Programmable Buttons”", "description": "Customize the buttons to match your play style", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_c4abb7db-2085-4186-b4d2-360f0a72999c.png?v=1742365095&width=800" },
+        { "title": "Available in 2 variants", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_2.png?v=1742366785&width=800" },
+        { "title": "Ergonomic Design", "description": "Suits every hand size and grip", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy_3.png?v=1742365771&width=800" },
+        { "title": "Customizable RGB", "description": "Your mouse, your game, your vibes", "image": "https://kreo-tech.com/cdn/shop/files/Hot_Swappable_Mobile_copy.png?v=1742365311&width=800" }
+      ],
+      "featureBannerText": [
+        { "label": "KREO ", "highlight": "HAWK" },
+        { "label": "8", "highlight": "Programmable Buttons" },
+        { "label": "12400", "highlight": "DPI" }
+      ],
+      "specsV2": {
+        "General": [{ "key": "Weight", "value": "110g" }, { "key": "Dimensions", "value": "125x80x46 mm" }],
+        "Sensor": [{ "key": "Model", "value": "Pixart PAW3327" }, { "key": "DPI", "value": "12400" }],
+        "Buttons": [{ "key": "Total", "value": "8 Programmable" }]
+      }
+    },
+    {
+      "id": 34,
+      "name": "Hidden Leaf Mousepad",
+      "price": "999",
+      "mrp": "2,499",
+      "discountPercentage": 60,
+      "category": "mouse",
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle_2_c6abdd92-e2a0-436d-9ff8-a41fb425399e.png?v=1760333711&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/4e1099361803491d859636f0fbeabcfb/4e1099361803491d859636f0fbeabcfb.HD-1080p-4.8Mbps-56650079.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle_1_ed3a2aae-6194-4b69-91ea-1cadb631cca4.png?v=1760333711&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle_3_e56886fd-995f-4b1e-b8b7-325fa9eda388.png?v=1760333711&width=600" }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Naruto Mousepad",
+      "price": "999",
+      "mrp": "2,499",
+      "discountPercentage": 60,
+      "category": "mouse",
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle2.png?v=1760333752&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/4e1099361803491d859636f0fbeabcfb/4e1099361803491d859636f0fbeabcfb.HD-1080p-4.8Mbps-56650079.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle3.png?v=1760333752&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle4.png?v=1760333752&width=600" }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Uchiha Mousepad",
+      "price": "999",
+      "mrp": "2,499",
+      "discountPercentage": 60,
+      "category": "mouse",
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle_2_2f451866-4696-4cfc-bac3-5b8ec74a49a8.png?v=1760333629&width=600" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/4e1099361803491d859636f0fbeabcfb/4e1099361803491d859636f0fbeabcfb.HD-1080p-4.8Mbps-56650079.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle_4_a61b9568-8425-4775-ab13-e33caa9f2640.png?v=1760333629&width=600" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Angle_3_0560e922-1c06-46dc-aab4-f7aaf6c5fac2.png?v=1760333629&width=600" }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Altus Ergonomic Chair",
+      "price": "13,999",
+      "mrp": "30,000",
+      "discountPercentage": 53,
+      "rating": 4.8,
+      "reviewCount": 95,
+      "info": "Designed for champions and long sessions, the Altus features engineered lumbar support to keep your back happy for 10+ hours, combined with a comfortable foam fabric.",
+      "category": "chair",
+      "statusTags": ["Ergonomic", "Foam Fabric", "Engineered Lumbar"],
+      "media": [
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_3_copy_1.png?v=1759338540&width=1000" },
+        { "type": "video", "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/e2c06dff905d4099995dca7fbf5f9062/e2c06dff905d4099995dca7fbf5f9062.HD-1080p-2.5Mbps-58664557.mp4?v=0" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_2_17.png?v=1759338540&width=1000" },
+        { "type": "image", "src": "https://kreo-tech.com/cdn/shop/files/Artboard_3_19.png?v=1759338540&width=1000" }
+      ],
+      "featureBannerImage": {
+        "src": "https://kreo-tech.com/cdn/shop/files/First_Image_Desktop_1.png?v=1756402471&width=2000"
+      },
+      "optionalProductGallery": [
+        { "title": "360° Adjustable Armrests", "video": "https://kreo-tech.com/cdn/shop/files/1_58f4b83c-a233-4445-b9a8-ec303c53c590.png?v=1756402842&width=720" },
+        { "title": "Spacious Adjustable Seat", "video": "https://kreo-tech.com/cdn/shop/files/2_4c3cc69e-b7ae-4b51-9f9b-871dceab8d68.png?v=1756402848&width=720" },
+        { "title": "60mm SMove Castors", "video": "https://kreo-tech.com/cdn/shop/files/Artboard_10_12.png?v=1756387622&width=900" }
+      ],
+      "featureSections": [
+        { "title": "Breathable Mesh Material", "description": "Enhanced Airflow keeps you cool, even during extended periods of sitting.\nErgonomic Support: Mesh contours naturally to your back, ensuring superior lumbar support.\nAll-Day Comfort: Feel the difference with our hybrid system, where you can adjust the cushion cover and lumbar pillows, even cross-legged, for ultimate comfort.\nEasy Maintenance: The mesh material is durable, easy to clean, and resistant to wear.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/94e604cdae684ee3aed309d13c052f19/94e604cdae684ee3aed309d13c052f19.HD-1080p-7.2Mbps-58314414.mp4?v=0" },
+        { "title": "2D Adjustable Headrest", "description": "Perfect support, perfectly positioned to cradle your neck and head, reducing strain during long hours.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/d0d80cd6b35848f887490cb1dd8c5dc8/d0d80cd6b35848f887490cb1dd8c5dc8.HD-1080p-2.5Mbps-58652878.mp4?v=0" },
+        { "title": "3-Point Adjustable Lumbar Support", "description": "Experience personalized back comfort with our innovative 3-point adjustable lumbar support system. Featuring independent pillows for precision adjustments to your spine's natural curve. Whether you're working at your desk or relaxing at home, find your perfect balance of support and comfort for all-day relief.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/dd43485cbb6c447d8bfec4eda91db078/dd43485cbb6c447d8bfec4eda91db078.HD-1080p-7.2Mbps-58314409.mp4?v=0" },
+        { "title": "135° Recline Support", "description": "Discover the perfect balance between work and relaxation with our 135-degree recline mechanism. Engineered for optimal comfort, the precisely calibrated angle promotes healthy blood circulation while reducing pressure on your spine, making it ideal for extended sitting sessions.", "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/b6bb9638296240a38fd0cb5c94da53e5/b6bb9638296240a38fd0cb5c94da53e5.HD-1080p-7.2Mbps-58314411.mp4?v=0" }
+      ],
+      "specsV2": {
+        "Armrests & Mechanism": [{ "key": "Armrests", "value": "3D with HiLock Tension Adjusting System" }, { "key": "Mechanism", "value": "Sliding Mechanism" }],
+        "Support Systems": [{ "key": "Lumbar Support", "value": "3-Point Adjustable" }, { "key": "Headrest", "value": "2D Adjustable" }, { "key": "Gas Lift", "value": "BIFMA Certified Class 4 (150kg)" }],
+        "Build & Dimensions": [{ "key": "Base", "value": "700mm Full Metal" }, { "key": "Casters", "value": "60mm SMove Silent" }, { "key": "Chair Height", "value": "120-126 cm" }, { "key": "Seat Height", "value": "40-46 cm" }],
+        "Functionality": [{ "key": "Recline Angle", "value": "90-135 degrees" }, { "key": "Fabric", "value": "Mesh" }]
+      }
+    },
+  {
+    "id": 43,
+    "name": "Noctus Ergonomic Chair",
+    "price": "13,999",
+    "mrp": "30,000",
+    "discountPercentage": 53,
+    "rating": 4.7,
+    "reviewCount": 112,
+    "info": "A hybrid mesh chair with a versatile SnapVent design. Switch between a plush cushion or airy mesh. Features a flat, wide seat ideal for cross-legged sitting and a full 180° recline.",
+    "category": "chair",
+    "soldCount": "100+",
+    "statusTags": [
+      "Hybrid Mesh",
+      "180° Recline",
+      "Flat Seat"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://kreo-tech.com/cdn/shop/files/Artboard7_10.png?v=1759338597&width=1000"
+      },
+      {
+        "type": "video",
+        "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/47cb4fc41a6c45a8aadc0cc72fa44701/47cb4fc41a6c45a8aadc0cc72fa44701.HD-1080p-2.5Mbps-58664593.mp4?v=0"
+      },
+      {
+        "type": "image",
+        "src": "https://kreo-tech.com/cdn/shop/files/Artboard6_10.png?v=1759338597&width=1000"
+      },
+      {
+        "type": "image",
+        "src": "https://kreo-tech.com/cdn/shop/files/Artboard9_9.png?v=1759338597&width=1000"
+      }
+    ],
+    "heroVideo": {
+      "src": "https://kreo-tech.com/cdn/shop/videos/c/vp/cc72bb541fbc4806a4b08db23520f967/cc72bb541fbc4806a4b08db23520f967.HD-1080p-7.2Mbps-58636853.mp4?v=0"
+    },
+    "optionalProductGallery": [
+      {
+        "title": "360° Adjustable Armrests",
+        "video": "https://kreo-tech.com/cdn/shop/files/1_58f4b83c-a233-4445-b9a8-ec303c53c590.png?v=1756402842&width=720"
+      },
+      {
+        "title": "Spacious Adjustable Seat",
+        "video": "https://kreo-tech.com/cdn/shop/files/2_4c3cc69e-b7ae-4b51-9f9b-871dceab8d68.png?v=1756402848&width=720"
+      },
+      {
+        "title": "60mm SMove Castors",
+        "video": "https://kreo-tech.com/cdn/shop/files/Artboard_10_12.png?v=1756387622&width=900"
+      }
+    ],
+    "featureSections": [
+      {
+        "title": "Hybrid SnapVent Design",
+        "description": "A 2 in 1 Hybrid system - A removable cushion cover with built in lumbar support which can be removed for accessing the mesh backrest. User can choose ultimate comfort or high breathability",
+        "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/aa6f707754074604a9d296c27170ec5d/aa6f707754074604a9d296c27170ec5d.HD-1080p-4.8Mbps-57572333.mp4?v=0"
+      },
+      {
+        "title": "180° Recline",
+        "description": "For the love of comfort and memes, the Noctus comes with a butterfly seating mechanism with 180 Degrees Backrest Locking system",
+        "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/4b217871dca34918a8765be8d7fe8ce8/4b217871dca34918a8765be8d7fe8ce8.HD-1080p-4.8Mbps-57573649.mp4?v=0"
+      },
+      {
+        "title": "3-Point Adjustable Lumbar Support",
+        "description": "Experience personalized back comfort with our innovative 3-point adjustable lumbar support system. Featuring independent pillows for precision adjustments to your spine's natural curve. Whether you're working at your desk or relaxing at home, find your perfect balance of support and comfort for all-day relief.",
+        "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/dd43485cbb6c447d8bfec4eda91db078/dd43485cbb6c447d8bfec4eda91db078.HD-1080p-7.2Mbps-58314409.mp4?v=0"
+      },
+      {
+        "title": "135° Recline Support",
+        "description": "Discover the perfect balance between work and relaxation with our 135-degree recline mechanism. Engineered for optimal comfort, the precisely calibrated angle promotes healthy blood circulation while reducing pressure on your spine, making it ideal for extended sitting sessions.",
+        "video": "https://kreo-tech.com/cdn/shop/videos/c/vp/b6bb9638296240a38fd0cb5c94da53e5/b6bb9638296240a38fd0cb5c94da53e5.HD-1080p-7.2Mbps-58314411.mp4?v=0"
+      }
+    ],
+    "specsV2": {
+      "Core Features": [
+        {
+          "key": "Design",
+          "value": "Hybrid SnapVent (Mesh/Cushion)"
+        },
+        {
+          "key": "Recline",
+          "value": "180° Butterfly Mechanism"
+        }
+      ],
+      "Build": [
+        {
+          "key": "Fabric",
+          "value": "Engineered Fabric/Mesh"
+        },
+        {
+          "key": "Seat",
+          "value": "Extra-wide Flat Cushion"
+        },
+        {
+          "key": "Base",
+          "value": "700mm Full Metal"
+        }
+      ],
+      "Adjustments": [
+        {
+          "key": "Armrest",
+          "value": "3D Armrests"
+        },
+        {
+          "key": "Gas Lift",
+          "value": "BIFMA Certified (150kg)"
+        }
+      ]
+    }
+  }
+
+]
+
