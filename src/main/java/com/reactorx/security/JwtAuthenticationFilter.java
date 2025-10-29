@@ -7,10 +7,10 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import org.springframework.security.core.userdetails.UserDetails;
 import com.reactorx.service.CustomUserDetailsService;
 
 import java.io.IOException;
@@ -27,47 +27,41 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                                     HttpServletResponse response,
                                     FilterChain filterChain) throws ServletException, IOException {
 
-        String path = request.getServletPath();
+        String header = request.getHeader("Authorization");
 
-        // 🔓 Skip token validation for public endpoints
-        if (path.startsWith("/api/health") ||
-                path.startsWith("/api/auth") ||
-                path.startsWith("/api/products") ||
-                path.startsWith("/api/categories") ||
-                path.startsWith("/actuator")) {
+        if (header != null && header.startsWith("Bearer ")) {
+            String token = header.substring(7);
+            try {
+                String username = jwtTokenProvider.getUsernameFromJWT(token);
 
-            filterChain.doFilter(request, response);
-            return;
-        }
+                if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+                    UserDetails userDetails = userDetailsService.loadUserByUsername(username);
 
-        // 🔐 Continue with JWT authentication for protected endpoints
-        final String header = request.getHeader("Authorization");
-        if (header == null || !header.startsWith("Bearer ")) {
-            filterChain.doFilter(request, response);
-            return;
-        }
+                    if (jwtTokenProvider.validateToken(token)) {
+                        UsernamePasswordAuthenticationToken authToken =
+                                new UsernamePasswordAuthenticationToken(
+                                        userDetails, null, userDetails.getAuthorities());
 
-        String token = header.substring(7);
-        String username = null;
-
-        try {
-            username = jwtTokenProvider.getUsernameFromJWT(token);
-        } catch (Exception e) {
-            logger.debug("Failed to parse JWT: " + e.getMessage());
-        }
-
-        if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-            UserDetails userDetails = userDetailsService.loadUserByUsername(username);
-
-            if (jwtTokenProvider.validateToken(token)) {
-                UsernamePasswordAuthenticationToken authToken =
-                        new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
-
-                authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-                SecurityContextHolder.getContext().setAuthentication(authToken);
+                        authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                        SecurityContextHolder.getContext().setAuthentication(authToken);
+                    }
+                }
+            } catch (Exception e) {
+                logger.warn("⚠️ JWT validation failed: " + e.getMessage());
             }
         }
 
         filterChain.doFilter(request, response);
+    }
+
+    // ✅ Skip JWT validation for public endpoints
+    @Override
+    protected boolean shouldNotFilter(HttpServletRequest request) {
+        String path = request.getServletPath();
+        return path.startsWith("/api/auth")
+                || path.startsWith("/api/health")
+                || path.startsWith("/api/products")
+                || path.startsWith("/api/categories")
+                || path.startsWith("/actuator");
     }
 }
