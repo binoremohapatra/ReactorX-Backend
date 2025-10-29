@@ -35,8 +35,7 @@ public class CartController {
     public ResponseEntity<List<CartItemDTO>> addToCart(@Valid @RequestBody AddCartRequestDTO request,
                                                        Principal principal) {
         logger.info("Adding to cart. User: {}, Product: {}", principal.getName(), request.getProductId());
-        List<CartItemDTO> updatedCart = cartService.addToCartForUser(principal.getName(), request);
-        return ResponseEntity.ok(updatedCart);
+        return ResponseEntity.ok(cartService.addToCartForUser(principal.getName(), request));
     }
 
     @PutMapping("/{productId}")
@@ -45,8 +44,7 @@ public class CartController {
                                                             @Valid @RequestBody UpdateCartRequestDTO request,
                                                             Principal principal) {
         logger.info("Updating cart item. User: {}, ProductId: {}, Quantity: {}", principal.getName(), productId, request.getQuantity());
-        List<CartItemDTO> updatedCart = cartService.updateCartItemForUser(principal.getName(), productId, request.getQuantity());
-        return ResponseEntity.ok(updatedCart);
+        return ResponseEntity.ok(cartService.updateCartItemForUser(principal.getName(), productId, request.getQuantity()));
     }
 
     @DeleteMapping("/{productId}")
@@ -54,7 +52,6 @@ public class CartController {
     public ResponseEntity<List<CartItemDTO>> removeFromCart(@PathVariable Long productId,
                                                             Principal principal) {
         logger.info("Removing from cart. User: {}, ProductId: {}", principal.getName(), productId);
-        List<CartItemDTO> updatedCart = cartService.removeFromCartForUser(principal.getName(), productId);
-        return ResponseEntity.ok(updatedCart);
+        return ResponseEntity.ok(cartService.removeFromCartForUser(principal.getName(), productId));
     }
 }

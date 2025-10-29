@@ -15,6 +15,7 @@ com\reactorx\dto\OrderSummaryDTO.class
 com\reactorx\entity\Media.class
 com\reactorx\repository\ProductRepository.class
 com\reactorx\entity\OrderItem.class
+com\reactorx\repository\CartRepository.class
 com\reactorx\dto\CategoryDTO.class
 com\reactorx\service\ProductService$8.class
 com\reactorx\dto\MediaDTO.class
@@ -33,6 +34,7 @@ com\reactorx\service\OrderService.class
 com\reactorx\entity\Order.class
 com\reactorx\ReactorXApplication.class
 com\reactorx\service\ProductService$1.class
+com\reactorx\entity\CartItem.class
 com\reactorx\service\ProductService$7.class
 com\reactorx\dto\UpdateCartRequestDTO.class
 com\reactorx\config\DataInitializer.class
@@ -57,6 +59,7 @@ com\reactorx\controller\AddressController.class
 com\reactorx\service\ProductService$6.class
 com\reactorx\service\ProductService$12.class
 com\reactorx\dto\ProductDetailDTO$8.class
+com\reactorx\entity\CartItem$CartItemBuilder.class
 com\reactorx\exception\GlobalExceptionHandler.class
 com\reactorx\entity\User.class
 com\reactorx\dto\ProductDetailDTO.class
