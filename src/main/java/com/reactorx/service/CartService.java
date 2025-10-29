@@ -45,6 +45,14 @@ public class CartService {
                 .map(this::convertToDTO)
                 .collect(Collectors.toList());
     }
+    @Transactional
+    public void removeAllItemsForUser(String email) {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new ResourceNotFoundException("User not found with email: " + email));
+        cartRepository.deleteByUser(user);
+        logger.info("Cleared all cart items for user {}", email);
+    }
+
 
     /**
      * Add a product to the user’s cart or increase its quantity.
