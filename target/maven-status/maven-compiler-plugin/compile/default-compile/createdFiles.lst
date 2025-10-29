@@ -43,6 +43,7 @@ com\reactorx\dto\ProductDetailDTO$9.class
 com\reactorx\entity\Category.class
 com\reactorx\security\JwtTokenProvider.class
 com\reactorx\service\CartService.class
+com\reactorx\controller\HealthController.class
 com\reactorx\service\CategoryService.class
 com\reactorx\dto\AddressDTO.class
 com\reactorx\service\CartService$1.class
@@ -60,7 +61,6 @@ com\reactorx\exception\GlobalExceptionHandler.class
 com\reactorx\entity\User.class
 com\reactorx\dto\ProductDetailDTO.class
 com\reactorx\controller\OrderController.class
-com\reactorx\dto\PaymentVerificationRequest.class
 com\reactorx\dto\ProductDetailDTO$5.class
 com\reactorx\service\ProductService$2.class
 com\reactorx\config\SecurityConfig.class
