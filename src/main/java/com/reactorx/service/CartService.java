@@ -1,126 +1,103 @@
 package com.reactorx.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.reactorx.dto.AddCartRequestDTO;
 import com.reactorx.dto.CartItemDTO;
-import com.reactorx.dto.MediaDTO; // Import MediaDTO
+import com.reactorx.dto.MediaDTO;
 import com.reactorx.entity.Product;
 import com.reactorx.exception.ResourceNotFoundException;
 import com.reactorx.repository.ProductRepository;
-import org.slf4j.Logger; // Import Logger
-import org.slf4j.LoggerFactory; // Import LoggerFactory
+import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 @Service
+@RequiredArgsConstructor
 public class CartService {
 
-    // Add ObjectMapper and Logger
+    private final ProductRepository productRepository;
     private final ObjectMapper objectMapper = new ObjectMapper();
     private static final Logger logger = LoggerFactory.getLogger(CartService.class);
 
-    // --- REVISED METHOD ---
-    public List<CartItemDTO> addToCart(List<CartItemDTO> currentCart, AddCartRequestDTO request, ProductRepository productRepository) {
+    // 🧠 In-memory map of username -> cart items
+    private final Map<String, List<CartItemDTO>> userCarts = new ConcurrentHashMap<>();
+
+    public List<CartItemDTO> getCartForUser(String username) {
+        return new ArrayList<>(userCarts.getOrDefault(username, new ArrayList<>()));
+    }
+
+    public List<CartItemDTO> addToCartForUser(String username, AddCartRequestDTO request) {
+        List<CartItemDTO> currentCart = getCartForUser(username);
+
         Product product = productRepository.findById(request.getProductId())
                 .orElseThrow(() -> new ResourceNotFoundException("Product not found with ID: " + request.getProductId()));
 
-        // Find if item exists in the original list first
-        Optional<CartItemDTO> existingItemOptional = currentCart.stream()
-                .filter(item -> item.getProductId().equals(request.getProductId()))
+        Optional<CartItemDTO> existingItem = currentCart.stream()
+                .filter(i -> i.getProductId().equals(request.getProductId()))
                 .findFirst();
 
-        List<CartItemDTO> updatedCart; // Declare the list to be returned
-
-        if (existingItemOptional.isPresent()) {
-            // Item exists: Create a NEW list by mapping, updating the quantity of the matched item.
-            updatedCart = currentCart.stream()
-                    .map(item -> {
-                        if (item.getProductId().equals(request.getProductId())) {
-                            // Create a NEW DTO instance with the incremented quantity
-                            CartItemDTO updatedItem = new CartItemDTO();
-                            updatedItem.setProductId(item.getProductId());
-                            updatedItem.setProductName(item.getProductName());
-                            updatedItem.setProductPrice(item.getProductPrice());
-                            updatedItem.setProductImage(item.getProductImage());
-                            updatedItem.setQuantity(item.getQuantity() + request.getQuantity()); // Increment quantity
-                            return updatedItem;
-                        }
-                        return item; // Keep other items as they are
-                    })
-                    .collect(Collectors.toList());
+        if (existingItem.isPresent()) {
+            existingItem.get().setQuantity(existingItem.get().getQuantity() + request.getQuantity());
         } else {
-            // Item doesn't exist: Create a NEW list copy and add the new item to it.
-            updatedCart = new ArrayList<>(currentCart); // Make a mutable copy
-
             CartItemDTO newItem = new CartItemDTO();
             newItem.setProductId(product.getId());
             newItem.setProductName(product.getName());
+            newItem.setProductPrice(product.getPrice() != null ? product.getPrice().toString() : "0.00");
+            newItem.setQuantity(request.getQuantity());
 
-            BigDecimal price = product.getPrice();
-            newItem.setProductPrice(price != null ? price.toString() : "0.00");
-
-            // --- Get Primary Image URL from mediaJson ---
-            String imageUrl = "placeholder.jpg"; // Default placeholder
-            String mediaJsonString = product.getMediaJson();
-
-            if (mediaJsonString != null && !mediaJsonString.isEmpty()) {
+            String imageUrl = "placeholder.jpg";
+            String mediaJson = product.getMediaJson();
+            if (mediaJson != null && !mediaJson.isEmpty()) {
                 try {
-                    List<MediaDTO> mediaList = objectMapper.readValue(mediaJsonString, new TypeReference<List<MediaDTO>>() {});
+                    List<MediaDTO> mediaList = objectMapper.readValue(mediaJson, new TypeReference<List<MediaDTO>>() {});
                     imageUrl = mediaList.stream()
                             .filter(m -> m != null && "image".equalsIgnoreCase(m.getType()))
                             .map(MediaDTO::getSrc)
                             .findFirst()
                             .orElse(imageUrl);
-                } catch (JsonProcessingException e) {
-                    logger.error("Error parsing mediaJson for product ID {}: {}", product.getId(), e.getMessage());
+                } catch (Exception e) {
+                    logger.warn("Failed to parse mediaJson for product {}: {}", product.getId(), e.getMessage());
                 }
             }
             newItem.setProductImage(imageUrl);
-            // --- End Image URL Logic ---
-
-            newItem.setQuantity(request.getQuantity());
-            updatedCart.add(newItem); // Add the new item to the copy
+            currentCart.add(newItem);
         }
-        // Return the newly created/modified list
-        return updatedCart;
+
+        userCarts.put(username, currentCart);
+        return currentCart;
     }
 
-    // --- updateCartItem method ---
-    // (Remains the same - already returns a new list)
-    public List<CartItemDTO> updateCartItem(List<CartItemDTO> currentCart, Long productId, int quantity) {
-        if (quantity <= 0) {
-            return removeFromCart(currentCart, productId);
-        }
-        return currentCart.stream()
+    public List<CartItemDTO> updateCartItemForUser(String username, Long productId, int quantity) {
+        List<CartItemDTO> currentCart = getCartForUser(username);
+        if (quantity <= 0) return removeFromCartForUser(username, productId);
+
+        List<CartItemDTO> updatedCart = currentCart.stream()
                 .map(item -> {
                     if (item.getProductId().equals(productId)) {
-                        CartItemDTO updatedItem = new CartItemDTO();
-                        updatedItem.setProductId(item.getProductId());
-                        updatedItem.setProductName(item.getProductName());
-                        updatedItem.setProductPrice(item.getProductPrice());
-                        updatedItem.setProductImage(item.getProductImage());
-                        updatedItem.setQuantity(quantity);
-                        return updatedItem;
+                        item.setQuantity(quantity);
                     }
                     return item;
                 })
                 .collect(Collectors.toList());
+
+        userCarts.put(username, updatedCart);
+        return updatedCart;
     }
 
-    // --- removeFromCart method ---
-    // (Remains the same - already returns a new list)
-    public List<CartItemDTO> removeFromCart(List<CartItemDTO> currentCart, Long productId) {
-        return currentCart.stream()
+    public List<CartItemDTO> removeFromCartForUser(String username, Long productId) {
+        List<CartItemDTO> currentCart = getCartForUser(username);
+        List<CartItemDTO> updatedCart = currentCart.stream()
                 .filter(item -> !item.getProductId().equals(productId))
                 .collect(Collectors.toList());
+
+        userCarts.put(username, updatedCart);
+        return updatedCart;
     }
 }
-
