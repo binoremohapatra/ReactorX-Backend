@@ -14,6 +14,11 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
+
+import java.util.List;
 
 @Configuration
 @RequiredArgsConstructor
@@ -40,11 +45,25 @@ public class SecurityConfig {
         return config.getAuthenticationManager();
     }
 
+    // ✅ Attach custom CORS configuration directly to SecurityFilterChain
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        CorsConfiguration corsConfig = new CorsConfiguration();
+        corsConfig.setAllowCredentials(true);
+        corsConfig.setAllowedOrigins(List.of(
+                "http://localhost:5173",
+                "https://reactorx-frontend.onrender.com",
+                "https://reactorx-frontend.vercel.app"
+        ));
+        corsConfig.setAllowedHeaders(List.of("*"));
+        corsConfig.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", corsConfig);
+
         http
                 .csrf(csrf -> csrf.disable())
-                .cors(cors -> {}) // ✅ ENABLE CORS
+                .cors(cors -> cors.configurationSource(source)) // ✅ properly wire custom CORS
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/", "/api/health", "/actuator/**").permitAll()
                         .requestMatchers("/api/auth/**").permitAll()
