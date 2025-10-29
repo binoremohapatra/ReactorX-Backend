@@ -46,26 +46,36 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        // --- CORS CONFIGURATION ---
         CorsConfiguration corsConfig = new CorsConfiguration();
         corsConfig.setAllowCredentials(true);
         corsConfig.setAllowedOrigins(List.of(
                 "http://localhost:5173",
                 "https://reactorx-frontend.onrender.com",
-                "https://reactorx-frontend.vercel.app"
+                "https://reactorx-frontend.vercel.app",
+                "https://www.postman.com" // ✅ allows Postman web client
         ));
-        corsConfig.setAllowedHeaders(List.of("*"));
+        corsConfig.setAllowedHeaders(List.of("Authorization", "Cache-Control", "Content-Type", "X-Requested-With"));
         corsConfig.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        corsConfig.setExposedHeaders(List.of("Authorization")); // expose JWT token if needed
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", corsConfig);
 
+        // --- SECURITY RULES ---
         http
-                .csrf(csrf -> csrf.disable())
+                .csrf(csrf -> csrf.disable()) // ✅ disable CSRF for stateless JWT
                 .cors(cors -> cors.configurationSource(source))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/", "/api/health", "/actuator/**").permitAll()
-                        .requestMatchers("/api/auth/**").permitAll()
-                        .requestMatchers("/api/products/**", "/api/categories/**").permitAll()
+                        .requestMatchers(
+                                "/",
+                                "/api/health",
+                                "/actuator/**",
+                                "/api/auth/**",       // ✅ login & register allowed
+                                "/api/products/**",
+                                "/api/categories/**"
+                        ).permitAll()
+                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, "/**").permitAll() // ✅ handle preflight
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
