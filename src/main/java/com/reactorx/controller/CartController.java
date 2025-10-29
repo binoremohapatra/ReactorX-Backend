@@ -1,57 +1,75 @@
 package com.reactorx.controller;
 
-import com.reactorx.dto.AddCartRequestDTO;
 import com.reactorx.dto.CartItemDTO;
-import com.reactorx.dto.UpdateCartRequestDTO;
-import com.reactorx.service.CartService;
-import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.reactorx.dto.ProductSummaryDTO;
+import com.reactorx.entity.Product;
+import jakarta.servlet.http.HttpSession;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.Principal;
+import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/cart")
-@RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
 public class CartController {
 
-    private final CartService cartService;
-    private static final Logger logger = LoggerFactory.getLogger(CartController.class);
+    private final HttpSession session;
+
+    public CartController(HttpSession session) {
+        this.session = session;
+    }
 
     @GetMapping
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<CartItemDTO>> getCart(Principal principal) {
-        logger.info("Fetching cart for user: {}", principal.getName());
-        return ResponseEntity.ok(cartService.getCartForUser(principal.getName()));
+    public ResponseEntity<List<CartItemDTO>> getCartItems() {
+        try {
+            List<CartItemDTO> cart = (List<CartItemDTO>) session.getAttribute("userCart");
+            if (cart == null) cart = new ArrayList<>();
+            return ResponseEntity.ok(cart);
+        } catch (Exception e) {
+            log.error("Failed to fetch cart", e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(null);
+        }
     }
 
     @PostMapping
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<CartItemDTO>> addToCart(@Valid @RequestBody AddCartRequestDTO request,
-                                                       Principal principal) {
-        logger.info("Adding to cart. User: {}, Product: {}", principal.getName(), request.getProductId());
-        return ResponseEntity.ok(cartService.addToCartForUser(principal.getName(), request));
+    public ResponseEntity<?> addToCart(@RequestBody CartItemDTO item) {
+        try {
+            List<CartItemDTO> cart = (List<CartItemDTO>) session.getAttribute("userCart");
+            if (cart == null) cart = new ArrayList<>();
+
+            boolean exists = false;
+            for (CartItemDTO cartItem : cart) {
+                if (cartItem.getProductId().equals(item.getProductId())) {
+                    cartItem.setQuantity(cartItem.getQuantity() + item.getQuantity());
+                    exists = true;
+                    break;
+                }
+            }
+
+            if (!exists) {
+                cart.add(item);
+            }
+
+            session.setAttribute("userCart", cart);
+            log.info("Added product {} to cart", item.getProductId());
+            return ResponseEntity.ok(cart);
+
+        } catch (Exception e) {
+            log.error("Error adding item to cart", e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("An internal error occurred: " + e.getMessage());
+        }
     }
 
-    @PutMapping("/{productId}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<CartItemDTO>> updateCartItem(@PathVariable Long productId,
-                                                            @Valid @RequestBody UpdateCartRequestDTO request,
-                                                            Principal principal) {
-        logger.info("Updating cart item. User: {}, ProductId: {}, Quantity: {}", principal.getName(), productId, request.getQuantity());
-        return ResponseEntity.ok(cartService.updateCartItemForUser(principal.getName(), productId, request.getQuantity()));
-    }
-
-    @DeleteMapping("/{productId}")
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<List<CartItemDTO>> removeFromCart(@PathVariable Long productId,
-                                                            Principal principal) {
-        logger.info("Removing from cart. User: {}, ProductId: {}", principal.getName(), productId);
-        return ResponseEntity.ok(cartService.removeFromCartForUser(principal.getName(), productId));
+    @DeleteMapping("/clear")
+    public ResponseEntity<?> clearCart() {
+        session.removeAttribute("userCart");
+        return ResponseEntity.ok("Cart cleared");
     }
 }
