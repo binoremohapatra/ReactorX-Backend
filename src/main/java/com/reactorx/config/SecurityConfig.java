@@ -53,29 +53,30 @@ public class SecurityConfig {
                 "http://localhost:5173",
                 "https://reactorx-frontend.onrender.com",
                 "https://reactorx-frontend.vercel.app",
-                "https://www.postman.com" // ✅ allows Postman web client
+                "https://www.postman.com"
         ));
         corsConfig.setAllowedHeaders(List.of("Authorization", "Cache-Control", "Content-Type", "X-Requested-With"));
         corsConfig.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
-        corsConfig.setExposedHeaders(List.of("Authorization")); // expose JWT token if needed
+        corsConfig.setExposedHeaders(List.of("Authorization"));
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", corsConfig);
 
         // --- SECURITY RULES ---
         http
-                .csrf(csrf -> csrf.disable()) // ✅ disable CSRF for stateless JWT
+                .csrf(csrf -> csrf.disable())
                 .cors(cors -> cors.configurationSource(source))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
                                 "/",
                                 "/api/health",
                                 "/actuator/**",
-                                "/api/auth/**",       // ✅ login & register allowed
+                                "/api/auth/**",
                                 "/api/products/**",
-                                "/api/categories/**"
+                                "/api/categories/**",
+                                "/api/cart/**",        // ✅ Allow guest cart
+                                "/api/checkout/**"     // ✅ Allow guest checkout
                         ).permitAll()
-                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, "/**").permitAll() // ✅ handle preflight
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

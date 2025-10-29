@@ -49,6 +49,7 @@ com\reactorx\controller\HealthController.class
 com\reactorx\service\CategoryService.class
 com\reactorx\dto\AddressDTO.class
 com\reactorx\service\CartService$1.class
+com\reactorx\controller\CheckoutController.class
 com\reactorx\dto\StaticPageDTO.class
 com\reactorx\service\ProductService$3.class
 com\reactorx\dto\ProductDetailDTO$6.class
