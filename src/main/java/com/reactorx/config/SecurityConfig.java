@@ -51,24 +51,25 @@ public class SecurityConfig {
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        // --- IMPORTANT FIX: Allow access to the new health endpoint publicly ---
+                        // Allow actuator health checks publicly
+                        .requestMatchers("/actuator/**").permitAll()
+
+                        // Allow your custom API health endpoint
                         .requestMatchers("/api/health").permitAll()
 
                         // Authentication and registration endpoints are public
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/api/auth/register").permitAll()
                         .requestMatchers("/api/auth/login").permitAll()
-                        // Product browsing is generally public
+
+                        // Public browsing
                         .requestMatchers("/api/products/**").permitAll()
                         .requestMatchers("/api/categories/**").permitAll()
 
-                        // All other requests require authentication
+                        // Everything else requires authentication
                         .anyRequest().authenticated()
                 )
-                .sessionManagement(session -> session
-                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-                )
-                // --- FIX: Correctly call the defined bean method
+                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authenticationProvider(daoAuthenticationProvider())
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
