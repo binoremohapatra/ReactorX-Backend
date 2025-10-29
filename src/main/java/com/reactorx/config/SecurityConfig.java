@@ -16,7 +16,6 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.filter.CorsFilter;
 
 import java.util.List;
 
@@ -34,10 +33,10 @@ public class SecurityConfig {
 
     @Bean
     public DaoAuthenticationProvider daoAuthenticationProvider() {
-        DaoAuthenticationProvider prov = new DaoAuthenticationProvider();
-        prov.setUserDetailsService(customUserDetailsService);
-        prov.setPasswordEncoder(passwordEncoder());
-        return prov;
+        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+        provider.setUserDetailsService(customUserDetailsService);
+        provider.setPasswordEncoder(passwordEncoder());
+        return provider;
     }
 
     @Bean
@@ -45,7 +44,6 @@ public class SecurityConfig {
         return config.getAuthenticationManager();
     }
 
-    // ✅ Attach custom CORS configuration directly to SecurityFilterChain
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         CorsConfiguration corsConfig = new CorsConfiguration();
@@ -63,7 +61,7 @@ public class SecurityConfig {
 
         http
                 .csrf(csrf -> csrf.disable())
-                .cors(cors -> cors.configurationSource(source)) // ✅ properly wire custom CORS
+                .cors(cors -> cors.configurationSource(source))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/", "/api/health", "/actuator/**").permitAll()
                         .requestMatchers("/api/auth/**").permitAll()
