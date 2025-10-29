@@ -9,9 +9,14 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/api/**") // Apply to your API path
-                // FIX: Update to allowedOrigins to your React frontend URL (5173 is common for Vite/React)
-                .allowedOrigins("http://localhost:5173")
+        registry.addMapping("/api/**")
+                // 👇 Add all your allowed frontend origins here
+                .allowedOrigins(
+                        "http://localhost:5173",            // local React (Vite)
+                        "http://localhost:3000",            // alternate local React port
+                        "https://reactorx.vercel.app",      // deployed frontend
+                        "https://www.reactorx.vercel.app"   // optional www version
+                )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
