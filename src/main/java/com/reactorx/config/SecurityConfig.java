@@ -27,9 +27,6 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-    /**
-     * Use DaoAuthenticationProvider wired to our custom user details service and password encoder.
-     */
     @Bean
     public DaoAuthenticationProvider daoAuthenticationProvider() {
         DaoAuthenticationProvider prov = new DaoAuthenticationProvider();
@@ -38,9 +35,6 @@ public class SecurityConfig {
         return prov;
     }
 
-    /**
-     * Makes AuthenticationManager available for use in Service layer (e.g., AuthService).
-     */
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();
@@ -50,23 +44,11 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .csrf(csrf -> csrf.disable())
+                .cors(cors -> {}) // ✅ ENABLE CORS
                 .authorizeHttpRequests(auth -> auth
-                        // Allow actuator health checks publicly
-                        .requestMatchers("/actuator/**").permitAll()
-
-                        // Allow your custom API health endpoint
-                        .requestMatchers("/api/health").permitAll()
-
-                        // Authentication and registration endpoints are public
+                        .requestMatchers("/", "/api/health", "/actuator/**").permitAll()
                         .requestMatchers("/api/auth/**").permitAll()
-                        .requestMatchers("/api/auth/register").permitAll()
-                        .requestMatchers("/api/auth/login").permitAll()
-
-                        // Public browsing
-                        .requestMatchers("/api/products/**").permitAll()
-                        .requestMatchers("/api/categories/**").permitAll()
-
-                        // Everything else requires authentication
+                        .requestMatchers("/api/products/**", "/api/categories/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

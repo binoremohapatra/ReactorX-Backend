@@ -41,6 +41,7 @@ com\reactorx\dto\ProductDetailDTO$10.class
 com\reactorx\exception\ResourceNotFoundException.class
 com\reactorx\dto\ProductDetailDTO$9.class
 com\reactorx\entity\Category.class
+com\reactorx\config\CorsConfig.class
 com\reactorx\security\JwtTokenProvider.class
 com\reactorx\service\CartService.class
 com\reactorx\controller\HealthController.class

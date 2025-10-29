@@ -23,6 +23,7 @@ C:\reactorx\src\main\java\com\reactorx\exception\ResourceNotFoundException.java
 C:\reactorx\src\main\java\com\reactorx\ReactorXApplication.java
 C:\reactorx\src\main\java\com\reactorx\controller\ProductController.java
 C:\reactorx\src\main\java\com\reactorx\dto\MediaDTO.java
+C:\reactorx\src\main\java\com\reactorx\config\CorsConfig.java
 C:\reactorx\src\main\java\com\reactorx\service\CategoryService.java
 C:\reactorx\src\main\java\com\reactorx\controller\StaticPageController.java
 C:\reactorx\src\main\java\com\reactorx\dto\AddressDTO.java
