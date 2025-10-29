@@ -27,6 +27,20 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                                     HttpServletResponse response,
                                     FilterChain filterChain) throws ServletException, IOException {
 
+        String path = request.getServletPath();
+
+        // 🔓 Skip token validation for public endpoints
+        if (path.startsWith("/api/health") ||
+                path.startsWith("/api/auth") ||
+                path.startsWith("/api/products") ||
+                path.startsWith("/api/categories") ||
+                path.startsWith("/actuator")) {
+
+            filterChain.doFilter(request, response);
+            return;
+        }
+
+        // 🔐 Continue with JWT authentication for protected endpoints
         final String header = request.getHeader("Authorization");
         if (header == null || !header.startsWith("Bearer ")) {
             filterChain.doFilter(request, response);
@@ -35,10 +49,10 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
         String token = header.substring(7);
         String username = null;
+
         try {
             username = jwtTokenProvider.getUsernameFromJWT(token);
         } catch (Exception e) {
-            // invalid token parsing -> continue chain (request will be rejected if endpoint requires auth)
             logger.debug("Failed to parse JWT: " + e.getMessage());
         }
 
