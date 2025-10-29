@@ -6,8 +6,8 @@ import com.reactorx.dto.OrderSummaryDTO;
 import com.reactorx.entity.User;
 import com.reactorx.exception.ResourceNotFoundException;
 import com.reactorx.repository.UserRepository;
-import com.reactorx.service.CartService;
 import com.reactorx.service.OrderService;
+import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/orders")
 @RequiredArgsConstructor
@@ -27,68 +27,56 @@ public class OrderController {
 
     private final OrderService orderService;
     private final UserRepository userRepository;
-    private final CartService cartService; // ✅ added to fetch DB-based cart
-
+    private final HttpSession httpSession;
     private static final Logger logger = LoggerFactory.getLogger(OrderController.class);
 
-    /**
-     * GET /api/orders - fetch user’s past orders
-     */
     @GetMapping
     @PreAuthorize("isAuthenticated()")
     public ResponseEntity<List<OrderSummaryDTO>> getOrders(Authentication authentication) {
-        logger.info("Fetching orders for user: {}", authentication.getName());
         try {
             List<OrderSummaryDTO> orders = orderService.getOrdersForCurrentUser();
             return ResponseEntity.ok(orders);
         } catch (Exception e) {
-            logger.error("Error fetching orders for user: {}", authentication.getName(), e);
+            logger.error("Error fetching orders: {}", e.getMessage(), e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }
 
-    /**
-     * POST /api/orders - create order from DB cart
-     */
     @PostMapping
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<?> createOrder(@RequestBody(required = false) AddressDTO address,
-                                         Authentication authentication) {
+    public ResponseEntity<?> createOrder(Authentication authentication) {
         try {
             String email = authentication.getName();
-            logger.info("Order creation request from user: {}", email);
-
             User currentUser = userRepository.findByEmail(email)
                     .orElseThrow(() -> new ResourceNotFoundException("User not found: " + email));
 
-            // ✅ Fetch user's cart directly from database
-            List<CartItemDTO> userCart = cartService.getCartForUser(email);
+            List<CartItemDTO> userCart = (List<CartItemDTO>) httpSession.getAttribute("userCart");
+            AddressDTO shippingAddress = (AddressDTO) httpSession.getAttribute("shippingAddress");
 
             if (userCart == null || userCart.isEmpty()) {
-                logger.warn("Cart is empty for user: {}", email);
+                logger.warn("Order creation failed: cart is empty for user {}", email);
                 return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Cart is empty.");
             }
 
-            if (address == null) {
-                logger.warn("Shipping address is missing for user: {}", email);
-                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Shipping address is missing.");
+            if (shippingAddress == null) {
+                logger.warn("Order creation failed: shipping address missing for user {}", email);
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Shipping address missing.");
             }
 
-            // ✅ Create the order using the service
-            OrderSummaryDTO newOrder = orderService.createOrderFromCart(userCart, address, currentUser);
+            // Create order from cart
+            OrderSummaryDTO newOrder = orderService.createOrderFromCart(userCart, shippingAddress, currentUser);
 
-            logger.info("✅ Order successfully created for user {}", email);
+            // Clear session cart + address
+            httpSession.removeAttribute("userCart");
+            httpSession.removeAttribute("shippingAddress");
 
-            // Optionally clear the user's cart in DB after successful order
-            cartService.removeAllItemsForUser(email);
-
+            logger.info("Order created successfully for user {}", email);
             return ResponseEntity.status(HttpStatus.CREATED).body(newOrder);
 
-        } catch (ResourceNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         } catch (Exception e) {
-            logger.error("Internal error during order creation", e);
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Internal server error.");
+            logger.error("Error creating order: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Internal server error occurred during order creation.");
         }
     }
 }

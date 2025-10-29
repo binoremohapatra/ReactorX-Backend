@@ -16,7 +16,6 @@ import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -29,35 +28,23 @@ public class CartService {
     private final CartRepository cartRepository;
     private final UserRepository userRepository;
     private final ObjectMapper objectMapper = new ObjectMapper();
-
     private static final Logger logger = LoggerFactory.getLogger(CartService.class);
 
     /**
      * Get all cart items for the given user.
      */
-    @Transactional(readOnly = true)
     public List<CartItemDTO> getCartForUser(String email) {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found with email: " + email));
 
-        List<CartItem> cartItems = cartRepository.findByUser(user);
-        return cartItems.stream()
+        return cartRepository.findByUser(user).stream()
                 .map(this::convertToDTO)
                 .collect(Collectors.toList());
     }
-    @Transactional
-    public void removeAllItemsForUser(String email) {
-        User user = userRepository.findByEmail(email)
-                .orElseThrow(() -> new ResourceNotFoundException("User not found with email: " + email));
-        cartRepository.deleteByUser(user);
-        logger.info("Cleared all cart items for user {}", email);
-    }
-
 
     /**
      * Add a product to the user’s cart or increase its quantity.
      */
-    @Transactional
     public List<CartItemDTO> addToCartForUser(String email, AddCartRequestDTO request) {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found with email: " + email));
@@ -70,14 +57,12 @@ public class CartService {
         if (existingItem != null) {
             existingItem.setQuantity(existingItem.getQuantity() + request.getQuantity());
             cartRepository.save(existingItem);
-            logger.info("Updated cart item quantity for product {} -> {}", product.getId(), existingItem.getQuantity());
         } else {
             CartItem newItem = new CartItem();
             newItem.setUser(user);
             newItem.setProduct(product);
             newItem.setQuantity(request.getQuantity());
             cartRepository.save(newItem);
-            logger.info("Added new item to cart for product {}", product.getId());
         }
 
         return getCartForUser(email);
@@ -86,7 +71,6 @@ public class CartService {
     /**
      * Update the quantity of a cart item.
      */
-    @Transactional
     public List<CartItemDTO> updateCartItemForUser(String email, Long productId, int quantity) {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found with email: " + email));
@@ -96,11 +80,9 @@ public class CartService {
 
         if (quantity <= 0) {
             cartRepository.delete(existingItem);
-            logger.info("Removed product {} from cart (quantity set to 0)", productId);
         } else {
             existingItem.setQuantity(quantity);
             cartRepository.save(existingItem);
-            logger.info("Updated product {} quantity to {}", productId, quantity);
         }
 
         return getCartForUser(email);
@@ -109,39 +91,31 @@ public class CartService {
     /**
      * Remove a product from the user’s cart.
      */
-    @Transactional
     public List<CartItemDTO> removeFromCartForUser(String email, Long productId) {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found with email: " + email));
 
         cartRepository.findByUserAndProductId(user, productId)
-                .ifPresent(cartItem -> {
-                    cartRepository.delete(cartItem);
-                    logger.info("Deleted cart item for product {} from user {}", productId, email);
-                });
+                .ifPresent(cartRepository::delete);
 
         return getCartForUser(email);
     }
 
     /**
-     * Convert CartItem entity to DTO safely.
+     * Convert CartItem entity to DTO.
      */
     private CartItemDTO convertToDTO(CartItem cartItem) {
         Product product = cartItem.getProduct();
         CartItemDTO dto = new CartItemDTO();
-
         dto.setProductId(product.getId());
         dto.setProductName(product.getName());
         dto.setProductPrice(product.getPrice() != null ? product.getPrice().toString() : "0.00");
         dto.setQuantity(cartItem.getQuantity());
 
-        // Default image placeholder
-        String imageUrl = "https://reactorx.s3.amazonaws.com/placeholder.png";
-
+        String imageUrl = "placeholder.jpg";
         try {
-            String mediaJson = product.getMediaJson();
-            if (mediaJson != null && !mediaJson.isBlank()) {
-                List<MediaDTO> mediaList = objectMapper.readValue(mediaJson, new TypeReference<>() {});
+            if (product.getMediaJson() != null && !product.getMediaJson().isEmpty()) {
+                List<MediaDTO> mediaList = objectMapper.readValue(product.getMediaJson(), new TypeReference<>() {});
                 imageUrl = mediaList.stream()
                         .filter(m -> m != null && "image".equalsIgnoreCase(m.getType()))
                         .map(MediaDTO::getSrc)
@@ -149,9 +123,8 @@ public class CartService {
                         .orElse(imageUrl);
             }
         } catch (Exception e) {
-            logger.warn("Skipping invalid mediaJson for product {}: {}", product.getId(), e.getMessage());
+            logger.warn("Failed to parse mediaJson for product {}: {}", product.getId(), e.getMessage());
         }
-
         dto.setProductImage(imageUrl);
         return dto;
     }
