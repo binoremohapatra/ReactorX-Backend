@@ -1,75 +1,40 @@
 package com.reactorx.controller;
 
-import com.reactorx.dto.CartItemDTO;
-import com.reactorx.dto.ProductSummaryDTO;
-import com.reactorx.entity.Product;
-import jakarta.servlet.http.HttpSession;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
+import com.reactorx.entity.CartItem;
+import com.reactorx.service.CartService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
-@Slf4j
 @RestController
 @RequestMapping("/api/cart")
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
+@RequiredArgsConstructor
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://reactorx-frontend.vercel.app",
+        "https://reactorx-frontend.onrender.com"
+}, allowCredentials = "true")
 public class CartController {
 
-    private final HttpSession session;
-
-    public CartController(HttpSession session) {
-        this.session = session;
-    }
+    private final CartService cartService;
 
     @GetMapping
-    public ResponseEntity<List<CartItemDTO>> getCartItems() {
-        try {
-            List<CartItemDTO> cart = (List<CartItemDTO>) session.getAttribute("userCart");
-            if (cart == null) cart = new ArrayList<>();
-            return ResponseEntity.ok(cart);
-        } catch (Exception e) {
-            log.error("Failed to fetch cart", e);
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body(null);
-        }
+    public ResponseEntity<List<CartItem>> getCart(@RequestHeader("X-User-Email") String email) {
+        return ResponseEntity.ok(cartService.getCartItems(email));
     }
 
-    @PostMapping
-    public ResponseEntity<?> addToCart(@RequestBody CartItemDTO item) {
-        try {
-            List<CartItemDTO> cart = (List<CartItemDTO>) session.getAttribute("userCart");
-            if (cart == null) cart = new ArrayList<>();
-
-            boolean exists = false;
-            for (CartItemDTO cartItem : cart) {
-                if (cartItem.getProductId().equals(item.getProductId())) {
-                    cartItem.setQuantity(cartItem.getQuantity() + item.getQuantity());
-                    exists = true;
-                    break;
-                }
-            }
-
-            if (!exists) {
-                cart.add(item);
-            }
-
-            session.setAttribute("userCart", cart);
-            log.info("Added product {} to cart", item.getProductId());
-            return ResponseEntity.ok(cart);
-
-        } catch (Exception e) {
-            log.error("Error adding item to cart", e);
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body("An internal error occurred: " + e.getMessage());
-        }
+    @PostMapping("/add")
+    public ResponseEntity<String> addToCart(@RequestHeader("X-User-Email") String email,
+                                            @RequestParam Long productId,
+                                            @RequestParam(defaultValue = "1") int quantity) {
+        return ResponseEntity.ok(cartService.addToCart(email, productId, quantity));
     }
 
-    @DeleteMapping("/clear")
-    public ResponseEntity<?> clearCart() {
-        session.removeAttribute("userCart");
-        return ResponseEntity.ok("Cart cleared");
+    @DeleteMapping("/remove")
+    public ResponseEntity<String> removeFromCart(@RequestHeader("X-User-Email") String email,
+                                                 @RequestParam Long productId) {
+        return ResponseEntity.ok(cartService.removeFromCart(email, productId));
     }
 }
