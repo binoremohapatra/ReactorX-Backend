@@ -1,7 +1,10 @@
 package com.reactorx.controller;
 
 import com.reactorx.entity.CartItem;
-import com.reactorx.service.CartService;
+import com.reactorx.entity.User;
+import com.reactorx.repository.CartRepository;
+import com.reactorx.repository.ProductRepository;
+import com.reactorx.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,30 +14,64 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/cart")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {
-        "http://localhost:5173",
-        "https://reactorx-frontend.vercel.app",
-        "https://reactorx-frontend.onrender.com"
-}, allowCredentials = "true")
 public class CartController {
 
-    private final CartService cartService;
+    private final CartRepository cartRepository;
+    private final UserRepository userRepository;
+    private final ProductRepository productRepository;
 
+    // ✅ GET - Get all items in user cart
     @GetMapping
-    public ResponseEntity<List<CartItem>> getCart(@RequestHeader("X-User-Email") String email) {
-        return ResponseEntity.ok(cartService.getCartItems(email));
+    public ResponseEntity<List<CartItem>> getCart(@RequestParam String email) {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        return ResponseEntity.ok(cartRepository.findByUser(user));
     }
 
-    @PostMapping("/add")
-    public ResponseEntity<String> addToCart(@RequestHeader("X-User-Email") String email,
-                                            @RequestParam Long productId,
-                                            @RequestParam(defaultValue = "1") int quantity) {
-        return ResponseEntity.ok(cartService.addToCart(email, productId, quantity));
+    // ✅ POST - Add product to cart
+    @PostMapping
+    public ResponseEntity<?> addToCart(@RequestBody CartRequest request) {
+        User user = userRepository.findByEmail(request.getUserEmail())
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        var product = productRepository.findById(request.getProductId())
+                .orElseThrow(() -> new RuntimeException("Product not found"));
+
+        // Check if already in cart
+        var existing = cartRepository.findByUserAndProduct(user, product);
+        if (existing.isPresent()) {
+            CartItem item = existing.get();
+            item.setQuantity(item.getQuantity() + request.getQuantity());
+            cartRepository.save(item);
+            return ResponseEntity.ok(item);
+        }
+
+        CartItem item = CartItem.builder()
+                .user(user)
+                .product(product)
+                .quantity(request.getQuantity())
+                .build();
+        cartRepository.save(item);
+        return ResponseEntity.ok(item);
     }
 
-    @DeleteMapping("/remove")
-    public ResponseEntity<String> removeFromCart(@RequestHeader("X-User-Email") String email,
-                                                 @RequestParam Long productId) {
-        return ResponseEntity.ok(cartService.removeFromCart(email, productId));
+    // ✅ DELETE - Remove item from cart
+    @DeleteMapping("/{productId}")
+    public ResponseEntity<?> removeFromCart(@PathVariable Long productId, @RequestParam String email) {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        var product = productRepository.findById(productId)
+                .orElseThrow(() -> new RuntimeException("Product not found"));
+
+        cartRepository.deleteByUserAndProduct(user, product);
+        return ResponseEntity.ok("Removed from cart");
+    }
+
+    // DTO
+    @lombok.Data
+    public static class CartRequest {
+        private String userEmail;
+        private Long productId;
+        private int quantity;
     }
 }
