@@ -47,10 +47,10 @@ com\reactorx\entity\Category.class
 com\reactorx\security\JwtTokenProvider.class
 com\reactorx\controller\CartController$CartRequest.class
 com\reactorx\service\CartService.class
+com\reactorx\entity\OrderItem$OrderItemBuilder.class
 com\reactorx\controller\HealthController.class
 com\reactorx\service\CategoryService.class
 com\reactorx\dto\AddressDTO.class
-com\reactorx\controller\CheckoutController.class
 com\reactorx\dto\StaticPageDTO.class
 com\reactorx\service\ProductService$3.class
 com\reactorx\dto\ProductDetailDTO$6.class

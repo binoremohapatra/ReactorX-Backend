@@ -4,33 +4,34 @@ import jakarta.persistence.*;
 import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Data
-@Builder
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Order {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String trackingId;
-
-    private String status;
-
-    @Column(precision = 10, scale = 2)
-    private BigDecimal totalAmount; // ✅ Changed from double → BigDecimal
+    @ManyToOne
+    private User user;
 
     private LocalDateTime orderDate;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+    private String status;
 
-    @OneToMany
-    @JoinColumn(name = "order_id")
-    private List<CartItem> items;
+    private BigDecimal totalAmount;
+
+    @Column(unique = true)
+    private String trackingId;
+
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
+    @Builder.Default
+    private List<OrderItem> orderItems = new ArrayList<>();
 }

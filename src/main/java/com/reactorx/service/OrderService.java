@@ -26,7 +26,7 @@ public class OrderService {
             throw new RuntimeException("Cart is empty!");
         }
 
-        // Calculate total using BigDecimal for precision
+        // ✅ Calculate total using BigDecimal for precision
         BigDecimal total = cartItems.stream()
                 .map(item -> item.getProduct().getPrice()
                         .multiply(BigDecimal.valueOf(item.getQuantity())))
@@ -34,18 +34,30 @@ public class OrderService {
 
         String trackingId = generateTrackingId();
 
+        // ✅ Create Order
         Order order = Order.builder()
                 .trackingId(trackingId)
                 .status("PENDING")
                 .totalAmount(total)
                 .orderDate(LocalDateTime.now())
                 .user(user)
-                .items(new ArrayList<>(cartItems))
+                .orderItems(new ArrayList<>()) // ✅ FIXED (was .items())
                 .build();
+
+        // ✅ Convert CartItems → OrderItems
+        for (CartItem cartItem : cartItems) {
+            OrderItem orderItem = OrderItem.builder()
+                    .order(order)
+                    .product(cartItem.getProduct())
+                    .quantity(cartItem.getQuantity())
+                    .priceAtPurchase(cartItem.getProduct().getPrice())
+                    .build();
+            order.getOrderItems().add(orderItem);
+        }
 
         orderRepository.save(order);
 
-        // Clear cart after successful order
+        // ✅ Clear cart
         cartRepository.deleteByUser(user);
 
         return order;
