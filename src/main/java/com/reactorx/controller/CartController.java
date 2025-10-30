@@ -2,9 +2,8 @@ package com.reactorx.controller;
 
 import com.reactorx.entity.CartItem;
 import com.reactorx.entity.User;
-import com.reactorx.repository.CartRepository;
-import com.reactorx.repository.ProductRepository;
 import com.reactorx.repository.UserRepository;
+import com.reactorx.service.CartService; // Import the service
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,62 +15,42 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CartController {
 
-    private final CartRepository cartRepository;
+    // Inject Service instead of Repositories
+    private final CartService cartService;
     private final UserRepository userRepository;
-    private final ProductRepository productRepository;
 
     // ✅ GET - Get all items in user cart
+    // The frontend calls: /api/cart?email=harsh@gmail.com
     @GetMapping
     public ResponseEntity<List<CartItem>> getCart(@RequestParam String email) {
-        User user = userRepository.findByEmail(email)
-                .orElseThrow(() -> new RuntimeException("User not found"));
-        return ResponseEntity.ok(cartRepository.findByUser(user));
+        List<CartItem> cartItems = cartService.getCartItems(email);
+        return ResponseEntity.ok(cartItems);
     }
 
-    // ✅ POST - Add product to cart
-    @PostMapping
-    public ResponseEntity<?> addToCart(@RequestBody CartRequest request) {
-        User user = userRepository.findByEmail(request.getUserEmail())
-                .orElseThrow(() -> new RuntimeException("User not found"));
+    // ✅ POST - Add product to cart - MATCHES FRONTEND CALL
+    // The frontend calls: /api/cart/add?email=...&productId=...&quantity=...
+    @PostMapping("/add")
+    public ResponseEntity<String> addItemToCart( // Renamed to match client logic
+                                                 @RequestParam String email,
+                                                 @RequestParam Long productId,
+                                                 @RequestParam int quantity) {
 
-        var product = productRepository.findById(request.getProductId())
-                .orElseThrow(() -> new RuntimeException("Product not found"));
-
-        // Check if already in cart
-        var existing = cartRepository.findByUserAndProduct(user, product);
-        if (existing.isPresent()) {
-            CartItem item = existing.get();
-            item.setQuantity(item.getQuantity() + request.getQuantity());
-            cartRepository.save(item);
-            return ResponseEntity.ok(item);
-        }
-
-        CartItem item = CartItem.builder()
-                .user(user)
-                .product(product)
-                .quantity(request.getQuantity())
-                .build();
-        cartRepository.save(item);
-        return ResponseEntity.ok(item);
+        // Pass to service layer for validation and save
+        String response = cartService.addToCart(email, productId, quantity);
+        return ResponseEntity.ok(response);
     }
 
-    // ✅ DELETE - Remove item from cart
+    // ✅ DELETE - Remove item from cart - MATCHES FRONTEND CALL
+    // The frontend calls: /api/cart/{productId}?email=...
     @DeleteMapping("/{productId}")
-    public ResponseEntity<?> removeFromCart(@PathVariable Long productId, @RequestParam String email) {
-        User user = userRepository.findByEmail(email)
-                .orElseThrow(() -> new RuntimeException("User not found"));
-        var product = productRepository.findById(productId)
-                .orElseThrow(() -> new RuntimeException("Product not found"));
+    public ResponseEntity<String> removeFromCart(
+            @PathVariable Long productId,
+            @RequestParam String email) {
 
-        cartRepository.deleteByUserAndProduct(user, product);
-        return ResponseEntity.ok("Removed from cart");
+        String response = cartService.removeFromCart(email, productId);
+        return ResponseEntity.ok(response);
     }
 
-    // DTO
-    @lombok.Data
-    public static class CartRequest {
-        private String userEmail;
-        private Long productId;
-        private int quantity;
-    }
+    // NOTE: The CartRequest DTO is no longer needed in the controller if you use @RequestParam
+    // You can delete the inner CartRequest class definition.
 }
