@@ -26,29 +26,11 @@ public class OrderController {
         return SecurityContextHolder.getContext().getAuthentication().getName();
     }
 
-    // 🧾 Checkout and create order
-    // Endpoint: POST /api/checkout
-    @PostMapping
-    @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<?> checkout() {
-        try {
-            String userEmail = getAuthenticatedUserEmail();
-            String trackingId = orderService.placeOrder(userEmail); // Logic moved to Service
 
-            // Return 200 OK with success message and Tracking ID
-            return ResponseEntity.ok("✅ Order placed successfully! Tracking ID: " + trackingId);
-
-        } catch (ResourceNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-        } catch (IllegalStateException e) {
-            // Catches "Cart is empty"
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
-        }
-    }
-
-    // 🧭 Get all orders for the authenticated user
-    // Endpoint: GET /api/checkout/orders
-    // ❌ FIX: The insecure path variable {userId} has been REMOVED.
+    /**
+     * Retrieves all order summaries for the currently authenticated user.
+     * Endpoint: GET /api/checkout/orders
+     */
     @GetMapping("/orders")
     @PreAuthorize("isAuthenticated()")
     public ResponseEntity<List<OrderSummaryDTO>> getOrdersByUser() {
