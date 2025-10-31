@@ -8,7 +8,6 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.context.request.WebRequest;
 
 import java.util.HashMap;
@@ -19,12 +18,19 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<?> handleResourceNotFoundException(ResourceNotFoundException ex, WebRequest request) {
-        // Create error details object
+        // HTTP 404
         return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
     }
 
-     @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<?> handleIllegalArgumentException(IllegalArgumentException ex, WebRequest request) {
+        // HTTP 400 (Used for business logic errors like "Cart is empty")
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<?> handleValidationExceptions(MethodArgumentNotValidException ex) {
+        // HTTP 400 (For DTO validation errors)
         Map<String, String> errors = new HashMap<>();
         ex.getBindingResult().getAllErrors().forEach((error) -> {
             String fieldName = ((FieldError) error).getField();
@@ -34,23 +40,27 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
     }
 
-    // Handle authentication/authorization exceptions
-     @ExceptionHandler({ AuthenticationException.class })
-     public ResponseEntity<?> handleAuthenticationException(AuthenticationException ex, WebRequest request) {
-         return new ResponseEntity<>("Authentication Failed: " + ex.getMessage(), HttpStatus.UNAUTHORIZED);
-     }
+    // Handle authentication failures (e.g., bad credentials)
+    @ExceptionHandler({ AuthenticationException.class })
+    public ResponseEntity<?> handleAuthenticationException(AuthenticationException ex, WebRequest request) {
+        // HTTP 401
+        return new ResponseEntity<>("Authentication Failed: " + ex.getMessage(), HttpStatus.UNAUTHORIZED);
+    }
 
-      @ExceptionHandler({ AccessDeniedException.class })
-     public ResponseEntity<?> handleAccessDeniedException(AccessDeniedException ex, WebRequest request) {
-         return new ResponseEntity<>("Access Denied: " + ex.getMessage(), HttpStatus.FORBIDDEN);
-     }
+    // CRITICAL: Handle authorization failures (403 Forbidden)
+    @ExceptionHandler({ AccessDeniedException.class })
+    public ResponseEntity<?> handleAccessDeniedException(AccessDeniedException ex, WebRequest request) {
+        // HTTP 403 (This catches the error thrown by OrderService when a user views another's order)
+        return new ResponseEntity<>("Access Denied: " + ex.getMessage(), HttpStatus.FORBIDDEN);
+    }
 
 
     // Generic Exception Handler
     @ExceptionHandler(Exception.class)
     public ResponseEntity<?> handleGlobalException(Exception ex, WebRequest request) {
-        // Log the exception details
+        System.err.println("Internal Server Error: " + ex.getMessage());
+        ex.printStackTrace(); // Log full stack trace for debugging
+        // HTTP 500
         return new ResponseEntity<>("An internal error occurred: " + ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
-
