@@ -6,14 +6,14 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
-import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity; // 💡 Import for PreAuthorize
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity; // Added
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
-import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.config.http.SessionCreationPolicy; // Added
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter; // Added
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -21,31 +21,29 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import java.util.List;
 
 @Configuration
+@EnableMethodSecurity(prePostEnabled = true) // Enables @PreAuthorize on controllers/services
 @RequiredArgsConstructor
-@EnableMethodSecurity // 💡 Enable @PreAuthorize annotations
 public class SecurityConfig {
 
-    private final JwtAuthenticationFilter jwtAuthenticationFilter;
+    private final JwtAuthenticationFilter jwtAuthenticationFilter; // Inject the filter
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
                 .csrf(AbstractHttpConfigurer::disable)
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
-                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // 💡 Stateless for JWT
+                .sessionManagement(session -> session
+                        // CRITICAL FIX 1: Enforce stateless session management for JWT
+                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        // Public Endpoints: Accessible without authentication/token
-                        .requestMatchers("/api/auth/**", "/api/products/**", "/api/categories/**", "/api/static/**", "/api/health").permitAll()
-
-                        // SECURED Endpoints: Requires authentication
-                        // Checkout, Cart, and Address are now protected
-                        .requestMatchers("/api/checkout/**", "/api/address/**", "/api/cart/**").authenticated()
-
-                        // Any other request needs to be authenticated by default
+                        // Public endpoints (Auth, Health, Products, Categories, Static)
+                        .requestMatchers("/api/auth/**", "/api/health", "/api/products/**", "/api/categories/**", "/api/static/**").permitAll()
+                        // Protected endpoints (Cart, Checkout, Address) - require authentication
+                        .requestMatchers("/api/cart/**", "/api/checkout/**", "/api/address/**").authenticated()
                         .anyRequest().authenticated()
                 );
 
-        // 💡 Add the JWT filter before the standard Spring Security filter
+        // CRITICAL FIX 2: Ensure JWT filter runs first to establish authentication context
         http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
@@ -79,12 +77,10 @@ public class SecurityConfig {
         source.registerCorsConfiguration("/**", config);
         return source;
     }
-
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();
     }
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
