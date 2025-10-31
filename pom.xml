@@ -20,6 +20,7 @@
 
     <properties>
         <java.version>17</java.version>
+        <jjwt.version>0.11.5</jjwt.version>
     </properties>
 
     <dependencies>
@@ -49,12 +50,6 @@
         </dependency>
 
 
-        <!-- Security Utils -->
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-crypto</artifactId>
-        </dependency>
-
         <!-- PostgreSQL Driver -->
         <dependency>
             <groupId>org.postgresql</groupId>
@@ -66,18 +61,18 @@
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
-            <version>0.11.5</version>
+            <version>${jjwt.version}</version>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-impl</artifactId>
-            <version>0.11.5</version>
+            <version>${jjwt.version}</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-jackson</artifactId>
-            <version>0.11.5</version>
+            <version>${jjwt.version}</version>
             <scope>runtime</scope>
         </dependency>
 
@@ -101,17 +96,23 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- Spring Security Crypto (Dependency Fix) -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <!-- 1. Spring Boot Maven Plugin (Keeps standard behavior) -->
+            <!-- 1. Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
-            <!-- 2. Frontend Resource Copy Plugin (CRITICAL FIX for deployed HTML/JS) -->
+            <!-- 2. CRITICAL FIX: Frontend Resource Copy Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -119,19 +120,17 @@
                 <executions>
                     <execution>
                         <id>copy-resources</id>
-                        <!-- Phase ensures copying happens before packaging -->
                         <phase>process-classes</phase>
                         <goals>
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <!-- Target: The final static resource folder inside the JAR -->
                             <outputDirectory>${basedir}/target/classes/static</outputDirectory>
                             <resources>
                                 <resource>
-                                    <!-- ⚠️ CRITICAL SOURCE PATH: ADJUST THIS PATH ⚠️ -->
-                                    <!-- Assuming your React project (containing /dist) is one level up -->
-                                    <directory>${basedir}/../frontend-app/dist</directory>
+                                    <!-- 🛑 FINAL ATTEMPT AT ABSOLUTE PATH FIX 🛑 -->
+                                    <!-- This targets the D: drive location based on your local log: -->
+                                    <directory>D:/ReactorX/my-project/dist</directory>
                                     <filtering>true</filtering>
                                 </resource>
                             </resources>
@@ -140,7 +139,7 @@
                 </executions>
             </plugin>
 
-            <!-- 3. Compiler Plugin (Keeps Java settings) -->
+            <!-- 3. Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
