@@ -7,9 +7,9 @@ import com.reactorx.exception.ResourceNotFoundException;
 import com.reactorx.repository.CartRepository;
 import com.reactorx.repository.ProductRepository;
 import com.reactorx.repository.UserRepository;
-import jakarta.transaction.Transactional; // Import needed for @Transactional
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional; // Use Spring's Transactional annotation
 
 import java.util.List;
 
@@ -22,14 +22,18 @@ public class CartService {
     private final UserRepository userRepository;
 
     // 1. GET CART
+    // 🛑 CRITICAL FIX: Add @Transactional to enable list retrieval outside of session
+    @Transactional(readOnly = true)
     public List<CartItem> getCartItems(String userEmail) {
         User user = userRepository.findByEmail(userEmail)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found: " + userEmail));
+        // This is where a crash often occurred due to lazy loading or session closure:
         return cartRepository.findByUser(user);
     }
 
     // 2. ADD TO CART
-    // This is called by the new CartController endpoint
+    // 🛑 CRITICAL FIX: Add @Transactional for write operations
+    @Transactional
     public String addToCart(String userEmail, Long productId, int quantity) {
         // Validation: User and Product exist
         User user = userRepository.findByEmail(userEmail)
@@ -57,7 +61,7 @@ public class CartService {
     }
 
     // 3. REMOVE FROM CART
-    // @Transactional is often necessary for DELETE operations to run fully
+    // @Transactional is required for deleteBy... methods
     @Transactional
     public String removeFromCart(String userEmail, Long productId) {
         User user = userRepository.findByEmail(userEmail)
@@ -68,7 +72,6 @@ public class CartService {
         // Use the repository method to delete by User and Product, which is cleaner
         cartRepository.deleteByUserAndProduct(user, product);
 
-        // Since deletion by User and Product is executed, we just return success.
         return "Removed from cart!";
     }
 
@@ -77,4 +80,5 @@ public class CartService {
     public void clearCart(User user) {
         cartRepository.deleteByUser(user);
     }
+
 }
