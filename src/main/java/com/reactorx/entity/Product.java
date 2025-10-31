@@ -18,6 +18,8 @@ public class Product {
     private Integer discountPercentage;
     private Double rating;
     private Integer reviewCount;
+    @Column(name = "image_url")
+    private String imageUrl;
 
     @Lob
     @Basic(fetch = FetchType.EAGER)

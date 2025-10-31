@@ -50,6 +50,7 @@ com\reactorx\entity\OrderItem$OrderItemBuilder.class
 com\reactorx\controller\HealthController.class
 com\reactorx\service\CategoryService.class
 com\reactorx\dto\AddressDTO.class
+com\reactorx\controller\CheckoutController.class
 com\reactorx\dto\StaticPageDTO.class
 com\reactorx\service\ProductService$3.class
 com\reactorx\dto\ProductDetailDTO$6.class
@@ -62,6 +63,7 @@ com\reactorx\service\ProductService$12.class
 com\reactorx\dto\ProductDetailDTO$8.class
 com\reactorx\entity\CartItem$CartItemBuilder.class
 com\reactorx\exception\GlobalExceptionHandler.class
+com\reactorx\dto\CartItemDTO$CartItemDTOBuilder.class
 com\reactorx\entity\User.class
 com\reactorx\dto\ProductDetailDTO.class
 com\reactorx\controller\OrderController.class
