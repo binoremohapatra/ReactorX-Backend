@@ -1,6 +1,6 @@
 package com.reactorx.service;
 
-import com.reactorx.dto.CartItemDTO; // IMPORTANT: Ensure this is imported
+import com.reactorx.dto.CartItemDTO;
 import com.reactorx.entity.CartItem;
 import com.reactorx.entity.Product;
 import com.reactorx.entity.User;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.stream.Collectors; // IMPORTANT: Import Collectors
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
