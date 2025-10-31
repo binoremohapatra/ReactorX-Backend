@@ -82,7 +82,6 @@
         </dependency>
 
 
-
         <!-- Lombok (code simplification) -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -106,11 +105,42 @@
 
     <build>
         <plugins>
+            <!-- 1. Spring Boot Maven Plugin (Keeps standard behavior) -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
+            <!-- 2. Frontend Resource Copy Plugin (CRITICAL FIX for deployed HTML/JS) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <!-- Phase ensures copying happens before packaging -->
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <!-- Target: The final static resource folder inside the JAR -->
+                            <outputDirectory>${basedir}/target/classes/static</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <!-- ⚠️ CRITICAL SOURCE PATH: ADJUST THIS PATH ⚠️ -->
+                                    <!-- Assuming your React project (containing /dist) is one level up -->
+                                    <directory>${basedir}/../frontend-app/dist</directory>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- 3. Compiler Plugin (Keeps Java settings) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
