@@ -9,12 +9,13 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/api/**")
-                // 🟢 CRITICAL FIX: Add the Vercel Domain to WebMvcConfigurer
-                .allowedOrigins("http://localhost:5173",
-                        "http://localhost:5172", // Frontend running on 5172
-                        "http://localhost:5174", // Added for local development
-                        "https://reactor-x-frontend-fhsz.vercel.app") // <=== NEW VERCEL DOMAIN
+        registry.addMapping("/**")
+                // 🟢 CRITICAL FIX: Allow all Vercel domains and localhost
+                .allowedOriginPatterns(
+                        "http://localhost:*",
+                        "https://*.vercel.app",
+                        "https://*.onrender.com"
+                )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 // ✅ Ensure X-User-Email is allowed here as well
                 .allowedHeaders("Authorization", "Content-Type", "X-User-Email")

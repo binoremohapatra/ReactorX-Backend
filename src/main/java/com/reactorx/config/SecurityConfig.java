@@ -50,18 +50,17 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
 
-        // 🟢 CRITICAL FIX: Add the// Set allowed origins
-        config.setAllowedOrigins(List.of(
-                "http://localhost:5173",
-                "http://localhost:5174", // Frontend running on 5174
-                "https://reactor-x-frontend-fhsz.vercel.app", // <=== NEW VERCEL DOMAIN
-                "https://reactorx-frontend.onrender.com"
+        // CRITICAL FIX: Allow all Vercel domains and localhost
+        config.setAllowedOriginPatterns(List.of(
+                "http://localhost:*",
+                "https://*.vercel.app",
+                "https://*.onrender.com"
         ));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowCredentials(true);
 
-        // ✅ Good practice to include X-User-Email header in allowed headers
+        // Good practice to include X-User-Email header in allowed headers
         config.setAllowedHeaders(List.of(
                 "Content-Type",
                 "Authorization",
