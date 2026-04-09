@@ -1,0 +1,45 @@
+services:
+  # ReactorX Backend Service
+  - type: web
+    name: reactorx-backend
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    dockerContext: ./
+    autoDeploy: true
+    
+    # Environment Variables
+    envVars:
+      - key: PORT
+        value: 8080
+      # Neon Database Configuration (add these manually in Render dashboard)
+      - key: DATABASE_URL
+        sync: false # Set this manually with your Neon connection string
+      - key: DATABASE_USERNAME
+        sync: false # Set this manually with your Neon username
+      - key: DATABASE_PASSWORD
+        sync: false # Set this manually with your Neon password
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRATION_MS
+        value: 86400000
+      - key: ALLOW_REGISTRATION
+        value: true
+      - key: JPA_DDL_AUTO
+        value: update
+      - key: SHOW_SQL
+        value: false
+      - key: SPRING_PROFILES_ACTIVE
+        value: neon
+      - key: SECURITY_LOG_LEVEL
+        value: WARN
+      - key: APP_LOG_LEVEL
+        value: INFO
+      - key: MANAGEMENT_ENDPOINTS
+        value: health,info
+
+    # Health Check
+    healthCheckPath: /api/health
+    
+    # Build Context
+    buildContext: ./

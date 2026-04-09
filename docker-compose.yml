@@ -1,0 +1,39 @@
+services:
+  backend:
+    build: .
+    container_name: reactorx-backend
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      # Neon Database Configuration (set these in your environment or .env file)
+      DATABASE_URL: ${DATABASE_URL}
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      
+      # JWT Configuration
+      JWT_SECRET: ${JWT_SECRET:-zL9zqFDpPHyqC-9_r8ZyxsrKkXiPYb6HvYz-IBBf2TrbXnFwJwf0pn_YbKmKxZQDxY5-h3JpL8X8QBh1q-8-Rg==}
+      JWT_EXPIRATION_MS: ${JWT_EXPIRATION_MS:-86400000}
+      
+      # Application Configuration
+      ALLOW_REGISTRATION: ${ALLOW_REGISTRATION:-true}
+      JPA_DDL_AUTO: ${JPA_DDL_AUTO:-update}
+      SHOW_SQL: ${SHOW_SQL:-false}
+      
+      # Spring Profile - Use Neon profile
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-neon}
+      
+      # Performance Settings
+      JAVA_OPTS: "-Xms512m -Xmx2048m -XX:+UseG1GC -XX:+UseStringDeduplication"
+
+    networks:
+      - reactorx-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  reactorx-network:
+    driver: bridge
