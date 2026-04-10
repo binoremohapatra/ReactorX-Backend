@@ -50,7 +50,7 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
 
-        // CRITICAL FIX: Allow all Vercel domains and localhost
+        // CRITICAL FIX: Allow all Vercel domains and localhost - Updated: 2025-04-10
         config.setAllowedOriginPatterns(List.of(
                 "http://localhost:*",
                 "https://*.vercel.app",
