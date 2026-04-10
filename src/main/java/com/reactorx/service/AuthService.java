@@ -42,7 +42,10 @@ public class AuthService {
         }
 
         User user = new User();
-        user.setName(registerRequest.getName());
+        // Use username if provided, otherwise fallback to name, then email
+        String displayName = registerRequest.getUsername() != null ? registerRequest.getUsername() : 
+                           (registerRequest.getName() != null ? registerRequest.getName() : registerRequest.getEmail());
+        user.setName(displayName);
         user.setEmail(registerRequest.getEmail());
         user.setPassword(passwordEncoder.encode(registerRequest.getPassword()));
 

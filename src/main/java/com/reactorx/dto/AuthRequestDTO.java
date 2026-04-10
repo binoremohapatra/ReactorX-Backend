@@ -9,6 +9,7 @@ public class AuthRequestDTO {
     private String email;
     @NotBlank
     private String password;
-     private String name; // Optional for registration
+    private String name; // Optional for registration
+    private String username; // Optional for registration (alternative to name)
 }
 
